@@ -1297,9 +1297,14 @@
         "extension": [
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
-            "valueReference": {
-              "reference": "Condition/Problem-A-Anxiety-With-Depression"
-            }
+            "extension" : [
+              {
+                "url": "target",
+                "valueReference": {
+                    "reference": "Condition/Problem-A-Anxiety-With-Depression"
+                }
+              }
+            ]
           }
         ]
       }
@@ -2326,9 +2331,14 @@
         "extension": [
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
-            "valueReference": {
-              "reference": "Condition/Problem-B-Swollen-Legs"
-            }
+            "extension" : [
+              {
+                "url": "target",
+                "valueReference": {
+                   "reference": "Condition/Problem-B-Swollen-Legs"
+                }
+              }
+            ]
           }
         ]
       }
@@ -2673,9 +2683,14 @@
         "extension": [
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
-            "valueReference": {
-              "reference": "Condition/Problem-D-URTI"
-            }
+            "extension" : [
+              {
+                "url": "target",
+                "valueReference": {
+                   "reference": "Condition/Problem-D-URTI"
+                }
+              }
+            ]
           }
         ]
       }
@@ -2758,9 +2773,14 @@
         "extension": [
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
-            "valueReference": {
-              "reference": "Condition/Problem-D-URTI"
-            }
+            "extension" : [
+              {
+                "url": "target",
+                "valueReference": {
+                  "reference": "Condition/Problem-D-URTI"
+                }
+              }
+            ]
           }
         ]
       }
@@ -5533,9 +5553,14 @@
         "extension": [
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
-            "valueReference": {
-              "reference": "Condition/Problem-A-Anxiety-With-Depression"
-            }
+            "extension" : [
+              {
+                "url": "target",
+                "valueReference": {
+                  "reference": "Condition/Problem-A-Anxiety-With-Depression"
+                }
+              }
+            ]
           }
         ]
       }
@@ -5603,9 +5628,14 @@
         "extension": [
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
-            "valueReference": {
-              "reference": "Condition/Problem-E-Post-viral-cough"
-            }
+            "extension" : [
+              {
+                "url": "target",
+                "valueReference": {
+                  "reference": "Condition/Problem-E-Post-viral-cough"
+                }
+              }
+            ]
           }
         ]
       }
@@ -6703,9 +6733,14 @@
         "extension": [
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
-            "valueReference": {
-              "reference": "Condition/Problem-A-Anxiety-With-Depression"
-            }
+            "extension" : [
+              {
+                "url": "target",
+                "valueReference": {
+                  "reference": "Condition/Problem-A-Anxiety-With-Depression"
+                }
+              }
+            ]
           }
         ]
       }
@@ -6778,9 +6813,14 @@
         "extension": [
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
-            "valueReference": {
+            "extension" : [
+              {
+                "url": "target",
+                "valueReference": {
               "reference": "Condition/Problem-B-Swollen-Legs"
-            }
+                }
+              }
+            ]
           }
         ]
       }
