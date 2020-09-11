@@ -1003,7 +1003,7 @@
 			},
 			{
 				"url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProblemSignificance-1",
-				"valueCode": "major"
+				"valueCode": "minor"
 			},
           {
 			"url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
@@ -1036,7 +1036,7 @@
         },
         "status": "current",
         "mode": "snapshot",
-        "title": "Consultation",
+        "title": "List of consultations",
         "code": {
           "coding": [
             {
@@ -1124,7 +1124,7 @@
                 "coding": [
                   {
                     "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                    "code": "AUT",
+                    "code": "AUTH",
                     "display": "Author"
                   }
                 ]
