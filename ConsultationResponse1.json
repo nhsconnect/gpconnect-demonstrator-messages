@@ -456,7 +456,7 @@
               "display": "Mixed anxiety and depressive disorder",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -492,121 +492,121 @@
             }
 		  },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic1-Category-History-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic1-Category-Examination-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic1-Category-Social-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic1-Category-Social-Observation-2"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "MedicationRequest/Consultation1-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "MedicationRequest/Consultation1-Topic1-Category-Plan-Medication-Order"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Referral items are not supported by the provider system"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic1-Category-Plan-Observation-2"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation2-Topic1-Category-History-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation2-Topic1-Category-Examination-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation2-Topic1-Category-Social-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "MedicationRequest/Consultation2-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "MedicationRequest/Consultation2-Topic1-Category-Plan-Medication-Order"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation2-Topic1-Category-Plan-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic1-Category-History-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic1-Category-Examination-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic1-Category-Social-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "MedicationRequest/Consultation3-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "MedicationRequest/Consultation3-Topic1-Category-Plan-Medication-Order"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic1-Category-Plan-Observation-1"
             }
@@ -649,7 +649,7 @@
               "display": "Swelling of lower limb",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -690,97 +690,97 @@
            }
 		  },
 		  {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic2-Category-History-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic2-Category-Examination-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic2-Category-Examination-Observation-2"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic2-Category-Examination-Observation-3"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic2-Category-Examination-Observation-4"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic2-Category-Examination-Observation-5"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic2-Category-Plan-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic2-Category-Plan-Observation-2"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Test Request items are not supported by the provider system"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic2-Category-History-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic2-Category-Examination-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic2-Category-Examination-Observation-2"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic2-Category-Examination-Observation-3"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic2-Category-Examination-Observation-4"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic2-Category-Examination-Observation-5"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation3-Topic2-Category-Plan-Observation-1"
             }
@@ -823,7 +823,7 @@
               "display": "Upper respiratory infection",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -867,7 +867,7 @@
                   ]
                 },
 		  {
-				"url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1",
+				"url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProblemSignificance-1",
 				"valueCode": "major"
 		  },
           {
@@ -877,49 +877,49 @@
            }
 		  },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic4-Category-History-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic4-Category-History-Observation-2"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic4-Category-History-Observation-3"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation1-Topic4-Category-History-Observation-4"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "MedicationRequest/Consultation1-Topic4-Category-Plan-Medication-Plan-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "MedicationRequest/Consultation1-Topic4-Category-Plan-Medication-Order-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation2-Topic2-Category-History-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation2-Topic2-Category-Plan-Observation-1"
             }
@@ -1012,13 +1012,13 @@
            }
 		  },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation2-Topic1-Category-History-Observation-1"
             }
           },
           {
-            "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
               "reference": "Observation/Consultation2-Topic1-Category-Plan-Observation-2"
             }
@@ -1979,7 +1979,7 @@
                   "extension": [
                     {
                       "url": "DescriptionID",
-                      "valueId": "826501000000100"
+                      "valueId": "2149851000000119"
                     }
                   ]
                 }
@@ -3165,7 +3165,7 @@
               "display": "Mixed anxiety and depressive disorder",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -3270,7 +3270,7 @@
               "display": "Never smoked tobacco",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -3319,7 +3319,7 @@
               "display": "Alcohol units consumed per week",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -3372,7 +3372,7 @@
               "display": "Walking practice",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -3703,7 +3703,7 @@
               "display": "Swelling of lower limb",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -3756,7 +3756,7 @@
               "display": "Temperature",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -3812,7 +3812,7 @@
               "display": "Arterial oxygen saturation breathing room air at rest",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -3867,7 +3867,7 @@
               "display": "Respiratory rate",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -3923,7 +3923,7 @@
               "display": "Pulse irregularly irregular",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -4072,7 +4072,7 @@
               "display": "Electrocardiographic monitoring",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -4122,7 +4122,7 @@
               "display": "Blood pressure recorded by patient at home",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -4560,7 +4560,7 @@
               "display": "Cough",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -4609,7 +4609,7 @@
               "display": "Common cold",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -4662,7 +4662,7 @@
               "display": "Pain in throat",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -4715,7 +4715,7 @@
               "display": "Upper respiratory infection",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -4842,7 +4842,7 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "7bff710a-0bdc-4c9b-b98b-40db0a107edc",
+        "id": "d806d0aa-a2c7-4a4b-9121-e80e04c20693",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
@@ -5001,7 +5001,7 @@
               "display": "Knee pain",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -5253,7 +5253,7 @@
               "display": "Tenderness on medial joint line of knee",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -6086,7 +6086,7 @@
               "display": "Alcohol units consumed per week",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -6213,7 +6213,7 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "6bff710a-0bdc-4c9b-b98b-40db0a107edc",
+        "id": "5a437365-7aa0-4c4f-b79e-75879bc8e14e",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
@@ -7353,7 +7353,7 @@
               "display": "Alcohol units consumed per week",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -7480,7 +7480,7 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "6bff710a-0bdc-4c9b-b98b-40db0a107edc",
+        "id": "8f78cb68-7f02-4f8c-9b85-05abc743ec7a",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
@@ -7739,7 +7739,7 @@
               "display": "Temperature",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -7794,7 +7794,7 @@
               "display": "Arterial oxygen saturation breathing room air at rest",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -7849,7 +7849,7 @@
               "display": "Respiratory rate",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
@@ -7904,7 +7904,7 @@
               "display": "Pulse irregularly irregular",
               "extension": [
                 {
-                  "url": "http://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
                   "extension": [
                     {
                       "url": "DescriptionID",
