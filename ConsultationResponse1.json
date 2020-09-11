@@ -1578,7 +1578,7 @@
             "item": {
               "reference": "MedicationRequest/Consultation3-Topic1-Category-Plan-Medication-Order"
             }
-          },
+          }
         ]
       }
     },
