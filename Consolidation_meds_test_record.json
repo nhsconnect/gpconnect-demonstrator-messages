@@ -363,6 +363,70 @@
     },
     {
       "resource": {
+        "resourceType": "Practitioner",
+        "id": "2DB481A3-306A-4133-9491-1558161D6A2B",
+        "meta": {
+          "versionId": "4333436790463129417",
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Practitioner-1"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://fhir.nhs.uk/Id/sds-user-id",
+            "value": "555079033108"
+          },
+          {
+            "system": "https://fhir.nhs.uk/Id/sds-role-profile-id",
+            "value": "555079046103"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "TEMPLE SOWERBY",
+            "given": [
+              "GPONE"
+            ],
+            "prefix": [
+              "Mr"
+            ]
+          }
+        ],
+        "gender": "male"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "2DB481A3306A413394911558161D6A2B5E496953065B41F29577BE8F2FBD0757",
+        "meta": {
+          "versionId": "2896411073564168692",
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-PractitionerRole-1"
+          ]
+        },
+        "practitioner": {
+          "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
+        },
+        "organization": {
+          "reference": "Organization/0100000000000000_0b00000000000000"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1",
+                "code": "R0260",
+                "display": "General Medical Practitioner"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
         "resourceType": "MedicationStatement",
         "id": "9000000000000000_54bd000000000000",
         "meta": {
@@ -390,8 +454,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "8e1077e5-43c8-41fb-a595-1f7aaa6e3f09"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_54bd000000000000"
           }
         ],
         "basedOn": [
@@ -459,8 +523,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "1c50e981-8cb9-4f4a-bf7d-edd4a44480f4"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_54bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -533,8 +597,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "677ce173-5c0f-4aa2-88eb-8277867ea337"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_cacff60000000000_order"
           }
         ],
         "basedOn": [
@@ -635,14 +699,14 @@
             }
           },
           {
-            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extensioncoding-CareConnect-GPC-DosageLastChanged-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationDosageLastChanged-1",
             "valueDateTime": "2020-01-28"
           }
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "7d037f5b-62bd-416d-83c4-9b653690aeb2"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_07bd000000000000"
           }
         ],
         "basedOn": [
@@ -716,8 +780,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "c0a2f58a-c6f7-4507-837e-80302ae86141"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_07bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -796,8 +860,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "1af4a3f6-1588-47e7-9376-d06c64efcb34"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_51aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -880,17 +944,13 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "2E61869F-D0DB-4532-B694-DB6511DB7A7D",
+        "id": "2E61869F-D0DB-4532-B694-DB6511DB7A7D-MS",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
           ]
         },
         "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2019-09-30T00:00:00+01:00"
-          },
           {
             "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
             "valueCodeableConcept": {
@@ -906,8 +966,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "799e79c1-c099-0fea-ae80-b46b3d735f61"
+            "system": "https://EMISWeb/A82038",
+            "value": "799E79C1-C099-0FEA-AE80-B46B3D735F61"
           }
         ],
         "basedOn": [
@@ -917,12 +977,12 @@
         ],
         "status": "active",
         "medicationReference": {
-          "reference": "Medication/BAC177A5-B7D5-4C7B-A347-71A02AF38233"
+          "reference": "Medication/DAE92442-09FC-42BA-8CBD-62E46E9F13B1"
         },
         "effectivePeriod": {
           "start": "2019-09-30"
         },
-        "dateAsserted": "2020-03-02T12:49:02.21+00:00",
+        "dateAsserted": "2020-03-02T12:49:35.397+00:00",
         "subject": {
           "reference": "Patient/42c6100000000000"
         },
@@ -948,17 +1008,13 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "2E61869F-D0DB-4532-B694-DB6511DB7A7D-FD-1",
+        "id": "2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1-MS",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
           ]
         },
         "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2019-09-30T12:38:00+01:00"
-          },
           {
             "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
             "valueCodeableConcept": {
@@ -970,28 +1026,32 @@
                 }
               ]
             }
+          },
+          {
+            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
+            "valueDateTime": "2019-09-30T00:00:00+01:00"
           }
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "9920e13f-964d-ae7d-935f-103c7e7b354f"
+            "system": "https://EMISWeb/A82038",
+            "value": "A63B48A8-9A25-A527-02BE-DBBCDB32D6C0"
           }
         ],
         "basedOn": [
           {
-            "reference": "MedicationRequest/2E61869F-D0DB-4532-B694-DB6511DB7A7D-FD-1"
+            "reference": "MedicationRequest/2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1"
           }
         ],
         "status": "completed",
         "medicationReference": {
-          "reference": "Medication/BAC177A5-B7D5-4C7B-A347-71A02AF38233"
+          "reference": "Medication/DAE92442-09FC-42BA-8CBD-62E46E9F13B1"
         },
         "effectivePeriod": {
           "start": "2019-09-30",
-          "end": "2019-10-28"
+          "end": "2019-09-30"
         },
-        "dateAsserted": "2020-03-02T12:49:35.397+00:00",
+        "dateAsserted": "2020-03-02T12:49:02.21+00:00",
         "subject": {
           "reference": "Patient/42c6100000000000"
         },
@@ -999,11 +1059,11 @@
         "note": [
           {
             "authorString": "Prescriber Notes",
-            "text": "Issue number 1 Administrative note\r\n"
+            "text": "Issue number 1 Administrative note"
           },
           {
             "authorString": "Patient Notes",
-            "text": "Issue number 1 Script note\r\n"
+            "text": "Issue number 1 Script note"
           }
         ],
         "dosage": [
@@ -1016,7 +1076,7 @@
     {
       "resource": {
         "resourceType": "MedicationRequest",
-        "id": "2E61869F-D0DB-4532-B694-DB6511DB7A7D-FD-1",
+        "id": "2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
@@ -1028,11 +1088,11 @@
             "extension": [
               {
                 "url": "numberOfRepeatPrescriptionsAllowed",
-                "valuePositiveInt": 1
+                "valueUnsignedInt": 12
               },
               {
                 "url": "numberOfRepeatPrescriptionsIssued",
-                "valuePositiveInt": 1
+                "valueUnsignedInt": 1
               }
             ]
           },
@@ -1051,22 +1111,22 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "2e61869f-d0db-4532-b694-db6511db7a7d-fd-1"
+            "system": "https://EMISWeb/A82038",
+            "value": "2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1"
           }
         ],
         "groupIdentifier": {
-          "value": "2e61869f-d0db-4532-b694-db6511db7a7d-fd-1"
+          "value": "2e61869f-d0db-4532-b694-db6511db7a7d-hd-1"
         },
         "status": "completed",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/BAC177A5-B7D5-4C7B-A347-71A02AF38233"
+          "reference": "Medication/DAE92442-09FC-42BA-8CBD-62E46E9F13B1"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
         },
-        "authoredOn": "2020-03-02T12:49:35.397+00:00",
+        "authoredOn": "2020-03-02T12:49:02.21+00:00",
         "recorder": {
           "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
         },
@@ -1078,16 +1138,11 @@
         "dispenseRequest": {
           "validityPeriod": {
             "start": "2019-09-30",
-            "end": "2019-10-28"
+            "end": "2019-09-30"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsule"
-              }
-            ],
-            "value": 28
+            "value": 28,
+            "unit": "capsule"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -1123,38 +1178,38 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "80462435-9a91-47a4-a7e9-c7bf525a00c5"
+            "system": "https://EMISWeb/A82038",
+            "value": "80462435-9A91-47A4-A7E9-C7BF525A00C5"
           }
         ],
         "basedOn": [
           {
-            "reference": "MedicationRequest/2E61869F-D0DB-4532-B694-DB6511DB7A7D-FD-1"
+            "reference": "MedicationRequest/2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1"
           }
         ],
         "groupIdentifier": {
-          "value": "2e61869f-d0db-4532-b694-db6511db7a7d-fd-1"
+          "value": "2e61869f-d0db-4532-b694-db6511db7a7d-hd-1"
         },
         "status": "completed",
         "intent": "order",
         "medicationReference": {
-          "reference": "Medication/BAC177A5-B7D5-4C7B-A347-71A02AF38233"
+          "reference": "Medication/DAE92442-09FC-42BA-8CBD-62E46E9F13B1"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
         },
-        "authoredOn": "2019-09-30T12:38:00+01:00",
+        "authoredOn": "2020-03-02T12:49:35.397+00:00",
         "recorder": {
           "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
         },
         "note": [
           {
             "authorString": "Prescriber Notes",
-            "text": "Issue number 1 Administrative note\r\n"
+            "text": "Issue number 1 Administrative note"
           },
           {
             "authorString": "Patient Notes",
-            "text": "Issue number 1 Script note\r\n"
+            "text": "Issue number 1 Script note"
           }
         ],
         "dosageInstruction": [
@@ -1169,13 +1224,8 @@
             "end": "2019-10-28"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsule"
-              }
-            ],
-            "value": 28
+            "value": 28,
+            "unit": "capsule"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -1201,11 +1251,11 @@
             "extension": [
               {
                 "url": "numberOfRepeatPrescriptionsAllowed",
-                "valuePositiveInt": 11
+                "valueUnsignedInt": 11
               },
               {
                 "url": "numberOfRepeatPrescriptionsIssued",
-                "valuePositiveInt": 0
+                "valueUnsignedInt": 0
               }
             ]
           },
@@ -1224,8 +1274,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "2e61869f-d0db-4532-b694-db6511db7a7d"
+            "system": "https://EMISWeb/A82038",
+            "value": "2E61869F-D0DB-4532-B694-DB6511DB7A7D"
           }
         ],
         "groupIdentifier": {
@@ -1234,23 +1284,23 @@
         "status": "active",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/BAC177A5-B7D5-4C7B-A347-71A02AF38233"
+          "reference": "Medication/DAE92442-09FC-42BA-8CBD-62E46E9F13B1"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
         },
-        "authoredOn": "2020-03-02T12:49:02.21+00:00",
+        "authoredOn": "2020-03-02T12:49:35.397+00:00",
         "recorder": {
           "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
         },
         "note": [
           {
             "authorString": "Prescriber Notes",
-            "text": "Administrative note\r\n"
+            "text": "Administrative note"
           },
           {
             "authorString": "Patient Notes",
-            "text": "Script note\r\n"
+            "text": "Script note"
           }
         ],
         "dosageInstruction": [
@@ -1264,13 +1314,8 @@
             "start": "2019-09-30"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsule"
-              }
-            ],
-            "value": 14
+            "value": 14,
+            "unit": "capsule"
           },
           "expectedSupplyDuration": {
             "value": 14,
@@ -1280,14 +1325,14 @@
           }
         },
         "priorPrescription": {
-          "reference": "MedicationRequest/2E61869F-D0DB-4532-B694-DB6511DB7A7D-FD-1"
+          "reference": "MedicationRequest/2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "BAC177A5-B7D5-4C7B-A347-71A02AF38233",
+        "id": "DAE92442-09FC-42BA-8CBD-62E46E9F13B1",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -1339,8 +1384,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "c7bc725f-0004-4b35-8f2a-474786b61042"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_e9bd000000000000"
           }
         ],
         "basedOn": [
@@ -1408,8 +1453,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "13731ff6-6e0b-479b-ab5a-7152f12c993a"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_e9bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -1482,8 +1527,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "375c1c46-a03c-4b77-884e-b8983fbdf3d9"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_d0aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -1562,8 +1607,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "cf6eb424-0cd8-487f-af37-953fad101e75"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_b0aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -1666,8 +1711,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "e2a88d63-4bcb-408b-ba27-69058d297014"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_31bd000000000000"
           }
         ],
         "basedOn": [
@@ -1735,8 +1780,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "26a31ef5-b489-4aec-b984-f24fde85f117"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_31bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -1809,8 +1854,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "35655f20-2d5c-4d7b-a2e2-e878dca458c8"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_37dff60000000000_order"
           }
         ],
         "basedOn": [
@@ -1889,8 +1934,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "b67d1719-b426-4f6c-a787-c113771fa144"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_27dff60000000000_order"
           }
         ],
         "basedOn": [
@@ -1993,8 +2038,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "8d21c7cf-4d38-4949-8dec-47426e16a48b"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_21bd000000000000"
           }
         ],
         "basedOn": [
@@ -2083,8 +2128,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "ffca04a7-6518-4008-83de-5965c97ed23a"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_21bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -2159,8 +2204,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "302899d5-35f1-47a0-975d-cf72e824fbe4"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_87dff60000000000_order"
           }
         ],
         "basedOn": [
@@ -2264,8 +2309,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "1ac21529-d179-4a2b-83a7-afd4021b2dca"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_d9bd000000000000"
           }
         ],
         "basedOn": [
@@ -2338,8 +2383,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "1308b12d-f262-4265-8122-3e352636498e"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_d9bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -2413,8 +2458,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "02830729-aa4b-47d5-9ac8-57330c343535"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_50aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -2494,8 +2539,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "d3d47d3a-aa36-44b0-8edb-925a977d168b"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_60aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -2575,8 +2620,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "da0ac5b8-a557-4526-bac2-6519d61f7e8f"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_70aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -2656,8 +2701,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "c2cb086d-d431-423d-bfa0-fa8125fcb5ae"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_80aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -2737,8 +2782,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "2014ceed-d0ac-4b8b-9d6b-1128896f3c58"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_90aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -2818,8 +2863,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "fa80c541-5aa9-4643-a748-9b8b945ae37e"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_a0aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -2923,8 +2968,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "0e781b21-6402-4a77-82b9-254bf6b6acc9"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_44bd000000000000"
           }
         ],
         "basedOn": [
@@ -2996,8 +3041,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "6e363fed-7508-4750-ae05-903750a3b99a"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_44bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -3070,8 +3115,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "16f6d37f-eec5-4353-b260-e0c6781aef7b"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_67dff60000000000_order"
           }
         ],
         "basedOn": [
@@ -3150,8 +3195,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "4c590824-5444-4781-947b-bb32b6625f30"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_77dff60000000000_order"
           }
         ],
         "basedOn": [
@@ -3254,8 +3299,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "ecbdab8a-c6e1-49ea-b246-3de848688b27"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_58bd000000000000"
           }
         ],
         "basedOn": [
@@ -3327,8 +3372,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "36e167b1-3cc6-4ed9-a5b3-baca68df2239"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_58bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -3401,8 +3446,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "fbcb88c6-0092-4dc8-b505-d19985b3def9"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_11eff60000000000_order"
           }
         ],
         "basedOn": [
@@ -3481,8 +3526,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "493b2a11-e423-4607-850f-99947726ca7a"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_21eff60000000000_order"
           }
         ],
         "basedOn": [
@@ -3561,8 +3606,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "32c7b480-33b7-4940-8965-267e0b3d95dd"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_31eff60000000000_order"
           }
         ],
         "basedOn": [
@@ -3641,8 +3686,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "fdc40b36-ccbf-43a4-a555-479df445bf61"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_41eff60000000000_order"
           }
         ],
         "basedOn": [
@@ -3721,8 +3766,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "246a2dd6-7343-47e0-8eba-e3d288f8c3e4"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_51eff60000000000_order"
           }
         ],
         "basedOn": [
@@ -3801,8 +3846,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "42cb3275-760b-47f8-9216-c01ae0c9cc26"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_61eff60000000000_order"
           }
         ],
         "basedOn": [
@@ -3869,7 +3914,8 @@
           "coding": [
             {
               "system": "http://snomed.info/sct",
-              "code": "2284311000001102"
+              "code": "2284311000001102",
+              "display": "Cocois ointment (RPH Pharmaceuticals AB) 40 gram"
             }
           ],
           "text": "Cocois ointment (RPH Pharmaceuticals AB)"
@@ -3909,8 +3955,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "2fef5063-ce14-46c2-9662-159c69d73757"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_48bd000000000000"
           }
         ],
         "basedOn": [
@@ -3982,8 +4028,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "d4ed38a5-31d3-4d11-8f09-b913bfc71657"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "9000000000000000_48bd000000000000_plan"
           }
         ],
         "groupIdentifier": {
@@ -4056,8 +4102,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "1b6c5451-43aa-4cd4-bc2e-20f63a108d17"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_01eff60000000000_order"
           }
         ],
         "basedOn": [
@@ -4134,236 +4180,6 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "1000000000000000_e0aff60000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2020-01-28"
-          },
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
-                  "code": "prescribed-at-gp-practice",
-                  "display": "Prescribed at GP practice"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "9f49d67f-7a6d-452e-8c9a-9f1062f9c40f"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1000000000000000_e0aff60000000000_plan"
-          }
-        ],
-        "context": {
-          "reference": "Encounter/4000000000000000_b91a090000000000"
-        },
-        "status": "completed",
-        "medicationReference": {
-          "reference": "Medication/1002868_0"
-        },
-        "effectivePeriod": {
-          "start": "2020-01-28",
-          "end": "2020-02-02"
-        },
-        "dateAsserted": "2019-09-30",
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "taken": "unk",
-        "dosage": [
-          {
-            "text": "take one 3 times/day"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "1000000000000000_e0aff60000000000_plan",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "delayed-prescribing",
-                  "display": "Delayed prescribing"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "cc7bcb02-7186-4b61-84c0-2299cb20942e"
-          }
-        ],
-        "status": "completed",
-        "intent": "plan",
-        "medicationReference": {
-          "reference": "Medication/1002868_0"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "context": {
-          "reference": "Encounter/4000000000000000_b91a090000000000"
-        },
-        "authoredOn": "2019-09-30T14:32:08+01:00",
-        "recorder": {
-          "reference": "Practitioner/fb5e000000000000"
-        },
-        "dosageInstruction": [
-          {
-            "text": "take one 3 times/day"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2020-01-28",
-            "end": "2020-02-02"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsule"
-              }
-            ],
-            "value": 15
-          },
-          "expectedSupplyDuration": {
-            "value": 5,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "1000000000000000_e0aff60000000000_order",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "delayed-prescribing",
-                  "display": "Delayed prescribing"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "32e73702-2a7b-4c31-b2aa-365f8c53023f"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1000000000000000_e0aff60000000000_plan"
-          }
-        ],
-        "status": "completed",
-        "intent": "order",
-        "medicationReference": {
-          "reference": "Medication/1002868_0"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "context": {
-          "reference": "Encounter/4000000000000000_b91a090000000000"
-        },
-        "authoredOn": "2019-09-30T14:32:08+01:00",
-        "recorder": {
-          "reference": "Practitioner/fb5e000000000000"
-        },
-        "dosageInstruction": [
-          {
-            "text": "take one 3 times/day"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2020-01-28",
-            "end": "2020-02-02"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsule"
-              }
-            ],
-            "value": 15
-          },
-          "expectedSupplyDuration": {
-            "value": 5,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Medication",
-        "id": "1002868_0",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
-          ]
-        },
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "323509004",
-              "display": "Amoxicillin 250mg capsules"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationStatement",
         "id": "1000000000000000_61aff60000000000",
         "meta": {
           "profile": [
@@ -4390,8 +4206,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "35751571-d80a-4135-87b9-77ab6273977c"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_61aff60000000000"
           }
         ],
         "basedOn": [
@@ -4447,8 +4263,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "0c2e06c6-4370-4cee-a33c-8ed465ef0374"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_61aff60000000000_plan"
           }
         ],
         "status": "completed",
@@ -4519,8 +4335,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "770f9c64-b4b6-4bd7-8ac3-6a4e7c2caf05"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_61aff60000000000_order"
           }
         ],
         "basedOn": [
@@ -4621,8 +4437,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "81bc8d04-b3fd-4636-acc8-5b5863ca1aec"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_c0aff60000000000"
           }
         ],
         "basedOn": [
@@ -4678,8 +4494,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "00ea9148-fb14-4d36-9229-b2673c4b5c7a"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_c0aff60000000000_plan"
           }
         ],
         "status": "completed",
@@ -4768,8 +4584,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "a4d3a6d9-4951-4f8f-b01f-b74759b5a02a"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_17dff60000000000"
           }
         ],
         "basedOn": [
@@ -4831,8 +4647,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "5f91a232-798d-479f-b2a3-ae25cff649d2"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_17dff60000000000_plan"
           }
         ],
         "status": "active",
@@ -4909,8 +4725,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "a1d0a97d-ad5b-440b-876e-1b05b50c9faa"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_17dff60000000000_order"
           }
         ],
         "basedOn": [
@@ -4990,237 +4806,6 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "1000000000000000_d7dff60000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2020-02-19"
-          },
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
-                  "code": "prescribed-at-gp-practice",
-                  "display": "Prescribed at GP practice"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "00981f29-6f76-4c3b-bc78-5916a94bd660"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1000000000000000_d7dff60000000000_plan"
-          }
-        ],
-        "context": {
-          "reference": "Encounter/4000000000000000_136a090000000000"
-        },
-        "status": "active",
-        "medicationReference": {
-          "reference": "Medication/9000154_0"
-        },
-        "effectivePeriod": {
-          "start": "2020-02-19",
-          "end": "2020-02-26"
-        },
-        "dateAsserted": "2020-02-19",
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "taken": "unk",
-        "dosage": [
-          {
-            "text": "take one 3 times/day"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "1000000000000000_d7dff60000000000_plan",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "acute",
-                  "display": "Acute"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "1c47db6a-030b-4549-adcf-99fee5a45759"
-          }
-        ],
-        "status": "active",
-        "intent": "plan",
-        "medicationReference": {
-          "reference": "Medication/9000154_0"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "context": {
-          "reference": "Encounter/4000000000000000_136a090000000000"
-        },
-        "authoredOn": "2020-02-19T14:41:08Z",
-        "recorder": {
-          "reference": "Practitioner/fb5e000000000000"
-        },
-        "dosageInstruction": [
-          {
-            "text": "take one 3 times/day"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2020-02-19",
-            "end": "2020-02-26"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsules"
-              }
-            ],
-            "value": 21
-          },
-          "expectedSupplyDuration": {
-            "value": 7,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "1000000000000000_d7dff60000000000_order",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "acute",
-                  "display": "Acute"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "26bfdf43-4751-4396-aa8b-ec5caa2e3eb5"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1000000000000000_d7dff60000000000_plan"
-          }
-        ],
-        "status": "active",
-        "intent": "order",
-        "medicationReference": {
-          "reference": "Medication/9000154_0"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "context": {
-          "reference": "Encounter/4000000000000000_136a090000000000"
-        },
-        "authoredOn": "2020-02-19T14:41:08Z",
-        "recorder": {
-          "reference": "Practitioner/fb5e000000000000"
-        },
-        "dosageInstruction": [
-          {
-            "text": "take one 3 times/day"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2020-02-19",
-            "end": "2020-02-26"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsules"
-              }
-            ],
-            "value": 21
-          },
-          "expectedSupplyDuration": {
-            "value": 7,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Medication",
-        "id": "9000154_0",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
-          ]
-        },
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "196421000000109",
-              "display": "Transfer-degraded medication entry"
-            }
-          ],
-          "text": "AMOXICILLIN capsules 250mg [CROSS-PHAR]"
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationStatement",
         "id": "1000000000000000_34dff60000000000",
         "meta": {
           "profile": [
@@ -5247,8 +4832,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "f7eb2c96-502e-4fe8-9b2c-978685641f70"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_34dff60000000000"
           }
         ],
         "basedOn": [
@@ -5305,8 +4890,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "f2fbf107-22f4-479a-b7ec-1fa02896f6a9"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_34dff60000000000_plan"
           }
         ],
         "status": "active",
@@ -5378,8 +4963,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "541dc4c1-1915-4918-bc0a-1e36aa4ec05c"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_34dff60000000000_order"
           }
         ],
         "basedOn": [
@@ -5455,236 +5040,6 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "1000000000000000_a1eff60000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2020-02-25"
-          },
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
-                  "code": "prescribed-at-gp-practice",
-                  "display": "Prescribed at GP practice"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "26ee89c0-9faa-41d9-8917-2075df8461b1"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1000000000000000_a1eff60000000000_plan"
-          }
-        ],
-        "context": {
-          "reference": "Encounter/4000000000000000_2e6a090000000000"
-        },
-        "status": "active",
-        "medicationReference": {
-          "reference": "Medication/3004531_6"
-        },
-        "effectivePeriod": {
-          "start": "2020-02-25",
-          "end": "2020-03-08"
-        },
-        "dateAsserted": "2020-02-25",
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "taken": "unk",
-        "dosage": [
-          {
-            "text": "take two 4 times/day"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "1000000000000000_a1eff60000000000_plan",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "acute",
-                  "display": "Acute"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "5a53d2b4-f316-4539-9573-7742c36c8b41"
-          }
-        ],
-        "status": "active",
-        "intent": "plan",
-        "medicationReference": {
-          "reference": "Medication/3004531_6"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "context": {
-          "reference": "Encounter/4000000000000000_2e6a090000000000"
-        },
-        "authoredOn": "2020-02-25T11:55:34Z",
-        "recorder": {
-          "reference": "Practitioner/fb5e000000000000"
-        },
-        "dosageInstruction": [
-          {
-            "text": "take two 4 times/day"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2020-02-25",
-            "end": "2020-03-08"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "pack of 100 capsule(s)"
-              }
-            ],
-            "value": 1
-          },
-          "expectedSupplyDuration": {
-            "value": 12,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "1000000000000000_a1eff60000000000_order",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "acute",
-                  "display": "Acute"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "f07450ae-202a-4884-8c67-b1a7c028645e"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1000000000000000_a1eff60000000000_plan"
-          }
-        ],
-        "status": "active",
-        "intent": "order",
-        "medicationReference": {
-          "reference": "Medication/3004531_6"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "context": {
-          "reference": "Encounter/4000000000000000_2e6a090000000000"
-        },
-        "authoredOn": "2020-02-25T11:55:34Z",
-        "recorder": {
-          "reference": "Practitioner/fb5e000000000000"
-        },
-        "dosageInstruction": [
-          {
-            "text": "take two 4 times/day"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2020-02-25",
-            "end": "2020-03-08"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "pack of 100 capsule(s)"
-              }
-            ],
-            "value": 1
-          },
-          "expectedSupplyDuration": {
-            "value": 12,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Medication",
-        "id": "3004531_6",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
-          ]
-        },
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "9709511000001108"
-            }
-          ],
-          "text": "Paracetamol 500mg capsules"
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationStatement",
         "id": "1000000000000000_71eff60000000000",
         "meta": {
           "profile": [
@@ -5711,8 +5066,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "20450af6-e14e-4337-bdbc-933e30296856"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_71eff60000000000"
           }
         ],
         "basedOn": [
@@ -5768,8 +5123,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "89e52ce7-c9b1-4e24-8f73-e1fa4fe74967"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_71eff60000000000_plan"
           }
         ],
         "status": "active",
@@ -5840,8 +5195,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "46113484-90b0-40e6-97ee-5ef668f25fe7"
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "1000000000000000_71eff60000000000_order"
           }
         ],		
         "basedOn": [
@@ -5905,7 +5260,8 @@
           "coding": [
             {
               "system": "http://snomed.info/sct",
-              "code": "1122411000001107"
+              "code": "1122411000001107",
+              "display": "Timolol 0.25% eye drops 5 ml"
             }
           ],
           "text": "Timolol 0.25% eye drops"
@@ -5915,7 +5271,7 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "2E352BA6-8F87-479B-BC80-41494027F2E6",
+        "id": "2E352BA6-8F87-479B-BC80-41494027F2E6-MS",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
@@ -5937,8 +5293,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "fbdb076f-1d04-efc2-983c-71537763e705"
+            "system": "https://EMISWeb/A82038",
+            "value": "FBDB076F-1D04-EFC2-983C-71537763E705"
           }
         ],
         "basedOn": [
@@ -5948,7 +5304,7 @@
         ],
         "status": "active",
         "medicationReference": {
-          "reference": "Medication/663DF46E-3E81-47E5-ACF7-883AF703FC08"
+          "reference": "Medication/A37EA2D2-69D6-43C9-BB6F-66CF8D9D50F7"
         },
         "effectivePeriod": {
           "start": "2020-03-04"
@@ -5987,11 +5343,11 @@
             "extension": [
               {
                 "url": "numberOfRepeatPrescriptionsAllowed",
-                "valuePositiveInt": 6
+                "valueUnsignedInt": 6
               },
               {
                 "url": "numberOfRepeatPrescriptionsIssued",
-                "valuePositiveInt": 0
+                "valueUnsignedInt": 0
               }
             ]
           },
@@ -6010,8 +5366,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "2e352ba6-8f87-479b-bc80-41494027f2e6"
+            "system": "https://EMISWeb/A82038",
+            "value": "2E352BA6-8F87-479B-BC80-41494027F2E6"
           }
         ],
         "groupIdentifier": {
@@ -6020,7 +5376,7 @@
         "status": "active",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/663DF46E-3E81-47E5-ACF7-883AF703FC08"
+          "reference": "Medication/A37EA2D2-69D6-43C9-BB6F-66CF8D9D50F7"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -6032,7 +5388,7 @@
         "note": [
           {
             "authorString": "Patient Notes",
-            "text": "Take 30 mins before a meal or snack\r\n"
+            "text": "Take 30 mins before a meal or snack"
           }
         ],
         "dosageInstruction": [
@@ -6046,13 +5402,8 @@
             "start": "2020-03-04"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 28
+            "value": 28,
+            "unit": "tablet"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -6066,7 +5417,7 @@
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "663DF46E-3E81-47E5-ACF7-883AF703FC08",
+        "id": "A37EA2D2-69D6-43C9-BB6F-66CF8D9D50F7",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -6305,7 +5656,7 @@
     {
       "resource": {
         "resourceType": "MedicationStatement",
-        "id": "60880139-9E79-4F1E-959A-545B4A7F3BC7",
+        "id": "60880139-9E79-4F1E-959A-545B4A7F3BC7-MS",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
@@ -6313,10 +5664,6 @@
         },
         "extension": [
           {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2020-02-11T00:00:00+01:00"
-          },
-		  {
             "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
             "valueCodeableConcept": {
               "coding": [
@@ -6327,12 +5674,16 @@
                 }
               ]
             }
+          },
+          {
+            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
+            "valueDateTime": "2019-07-01T00:00:00+01:00"
           }
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "e84daaaf-c74c-e9da-4be4-8629214e182e"
+            "system": "https://EMISWeb/A82038",
+            "value": "E84DAAAF-C74C-E9DA-4BE4-8629214E182E"
           }
         ],
         "basedOn": [
@@ -6342,10 +5693,10 @@
         ],
         "status": "active",
         "medicationReference": {
-          "reference": "Medication/36C088A0-AAA6-4E6C-A85F-3EA3234793CB"
+          "reference": "Medication/56587AC8-2930-4B25-8A80-6D22D0E9A5F1"
         },
         "effectivePeriod": {
-          "start": "2020-02-11"
+          "start": "2019-07-01"
         },
         "dateAsserted": "2020-03-02T14:42:12.453+00:00",
         "subject": {
@@ -6373,12 +5724,8 @@
             "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationRepeatInformation-1",
             "extension": [
               {
-                "url": "numberOfRepeatPrescriptionsAllowed",
-                "valuePositiveInt": 0
-              },
-              {
                 "url": "numberOfRepeatPrescriptionsIssued",
-                "valuePositiveInt": 1
+                "valueUnsignedInt": 1
               }
             ]
           },
@@ -6397,8 +5744,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "60880139-9e79-4f1e-959a-545b4a7f3bc7"
+            "system": "https://EMISWeb/A82038",
+            "value": "60880139-9E79-4F1E-959A-545B4A7F3BC7"
           }
         ],
         "groupIdentifier": {
@@ -6407,7 +5754,7 @@
         "status": "active",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/36C088A0-AAA6-4E6C-A85F-3EA3234793CB"
+          "reference": "Medication/56587AC8-2930-4B25-8A80-6D22D0E9A5F1"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -6423,16 +5770,11 @@
         ],
         "dispenseRequest": {
           "validityPeriod": {
-            "start": "2020-02-11"
+            "start": "2019-07-01"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 28
+            "value": 28,
+            "unit": "tablet"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -6468,8 +5810,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "ea171c1e-6c99-45a7-b4ba-605c6ba22a4b"
+            "system": "https://EMISWeb/A82038",
+            "value": "EA171C1E-6C99-45A7-B4BA-605C6BA22A4B"
           }
         ],
         "basedOn": [
@@ -6480,15 +5822,15 @@
         "groupIdentifier": {
           "value": "60880139-9e79-4f1e-959a-545b4a7f3bc7"
         },
-        "status": "active",
+        "status": "completed",
         "intent": "order",
         "medicationReference": {
-          "reference": "Medication/36C088A0-AAA6-4E6C-A85F-3EA3234793CB"
+          "reference": "Medication/56587AC8-2930-4B25-8A80-6D22D0E9A5F1"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
         },
-        "authoredOn": "2020-02-11T14:36:00+01:00",
+        "authoredOn": "2020-03-02T14:42:34.29+00:00",
         "recorder": {
           "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
         },
@@ -6499,17 +5841,12 @@
         ],
         "dispenseRequest": {
           "validityPeriod": {
-            "start": "2020-02-11",
-            "end": "2020-03-09"
+            "start": "2019-07-01",
+            "end": "2019-07-29"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 28
+            "value": 28,
+            "unit": "tablet"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -6523,7 +5860,7 @@
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "36C088A0-AAA6-4E6C-A85F-3EA3234793CB",
+        "id": "56587AC8-2930-4B25-8A80-6D22D0E9A5F1",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -6571,8 +5908,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "8f7b874f-2a7e-8471-0f5b-803e7af43503"
+            "system": "https://EMISWeb/A82038",
+            "value": "8F7B874F-2A7E-8471-0F5B-803E7AF43503"
           }
         ],
         "basedOn": [
@@ -6582,7 +5919,7 @@
         ],
         "status": "active",
         "medicationReference": {
-          "reference": "Medication/58DBE5D1-D53E-474F-9B8E-FBEDF0E3EF6E-M"
+          "reference": "Medication/6548025F-84B3-4C72-BC39-A2A0A7FAF66A"
         },
         "effectivePeriod": {
           "start": "2010-08-09"
@@ -6624,8 +5961,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "e01e5a37-972a-4911-b3a8-873e68978084"
+            "system": "https://EMISWeb/A82038",
+            "value": "E01E5A37-972A-4911-B3A8-873E68978084"
           }
         ],
         "groupIdentifier": {
@@ -6634,7 +5971,7 @@
         "status": "active",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/58DBE5D1-D53E-474F-9B8E-FBEDF0E3EF6E-M"
+          "reference": "Medication/6548025F-84B3-4C72-BC39-A2A0A7FAF66A"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -6653,13 +5990,8 @@
             "start": "2010-08-09"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsule"
-              }
-            ],
-            "value": 15
+            "value": 15,
+            "unit": "capsule"
           },
           "expectedSupplyDuration": {
             "value": 5,
@@ -6673,7 +6005,7 @@
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "58DBE5D1-D53E-474F-9B8E-FBEDF0E3EF6E-M",
+        "id": "6548025F-84B3-4C72-BC39-A2A0A7FAF66A",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -6717,16 +6049,12 @@
                 }
               ]
             }
-          },
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2010-01-15T00:00:00+00:00"
           }
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "0bbd883f-e74a-795e-3876-099aafcdbbed"
+            "system": "https://EMISWeb/A82038",
+            "value": "0BBD883F-E74A-795E-3876-099AAFCDBBED"
           }
         ],
         "basedOn": [
@@ -6736,11 +6064,75 @@
         ],
         "status": "completed",
         "medicationReference": {
-          "reference": "Medication/BB42B59E-F6E1-4016-8448-0867F26A1620-M"
+          "reference": "Medication/0C881423-E7C2-4A28-9244-5E1ED3DA572D"
         },
         "effectivePeriod": {
           "start": "2010-01-15",
           "end": "2018-10-27"
+        },
+        "dateAsserted": "2010-01-15T10:06:09.733+00:00",
+        "subject": {
+          "reference": "Patient/42c6100000000000"
+        },
+        "taken": "unk",
+        "note": [
+          {
+            "authorString": "Prescriber Notes",
+            "text": "This is a pharmacy information note for Cilazapril"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "One To Be Taken Each Day"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "EB002DF0-C869-4464-8F74-340BBC8A2457-FI-1-MS",
+        "meta": {
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
+                  "code": "prescribed-at-gp-practice",
+                  "display": "Prescribed at GP practice"
+                }
+              ]
+            }
+          },
+          {
+            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
+            "valueDateTime": "2010-01-15T00:00:00+00:00"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://EMISWeb/A82038",
+            "value": "A2C20582-E327-C4E5-B25A-060507840FCA"
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "MedicationRequest/EB002DF0-C869-4464-8F74-340BBC8A2457-FI-1"
+          }
+        ],
+        "status": "completed",
+        "medicationReference": {
+          "reference": "Medication/0C881423-E7C2-4A28-9244-5E1ED3DA572D"
+        },
+        "effectivePeriod": {
+          "start": "2010-01-15",
+          "end": "2010-01-15"
         },
         "dateAsserted": "2010-01-15T10:06:08.953+00:00",
         "subject": {
@@ -6750,11 +6142,7 @@
         "note": [
           {
             "authorString": "Prescriber Notes",
-            "text": "This is a pharmacy information note for Cilazapril"
-          },
-          {
-            "authorString": "Prescriber Notes",
-            "text": "Issue number 1 This is a pharmacy information note for Cilazapril\r\n"
+            "text": "Issue number 1 This is a pharmacy information note for Cilazapril"
           }
         ],
         "dosage": [
@@ -6762,6 +6150,73 @@
             "text": "One To Be Taken Each Day"
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "EB002DF0-C869-4464-8F74-340BBC8A2457-FI-1",
+        "meta": {
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                  "code": "acute",
+                  "display": "Acute"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://EMISWeb/A82038",
+            "value": "EB002DF0-C869-4464-8F74-340BBC8A2457-FI-1"
+          }
+        ],
+        "groupIdentifier": {
+          "value": "eb002df0-c869-4464-8f74-340bbc8a2457-fi-1"
+        },
+        "status": "completed",
+        "intent": "plan",
+        "medicationReference": {
+          "reference": "Medication/0C881423-E7C2-4A28-9244-5E1ED3DA572D"
+        },
+        "subject": {
+          "reference": "Patient/42c6100000000000"
+        },
+        "authoredOn": "2010-01-15T10:06:08.953+00:00",
+        "recorder": {
+          "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
+        },
+        "dosageInstruction": [
+          {
+            "text": "One To Be Taken Each Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2010-01-15",
+            "end": "2010-01-15"
+          },
+          "quantity": {
+            "value": 28,
+            "unit": "tablet"
+          },
+          "expectedSupplyDuration": {
+            "value": 28,
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
       }
     },
     {
@@ -6789,8 +6244,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "eb002df0-c869-4464-8f74-340bbc8a2457"
+            "system": "https://EMISWeb/A82038",
+            "value": "EB002DF0-C869-4464-8F74-340BBC8A2457"
           }
         ],
         "groupIdentifier": {
@@ -6799,19 +6254,19 @@
         "status": "completed",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/BB42B59E-F6E1-4016-8448-0867F26A1620-M"
+          "reference": "Medication/0C881423-E7C2-4A28-9244-5E1ED3DA572D"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
         },
-        "authoredOn": "2010-01-15T10:06:08.953+00:00",
+        "authoredOn": "2010-01-15T10:06:09.733+00:00",
         "recorder": {
           "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
         },
         "note": [
           {
             "authorString": "Prescriber Notes",
-            "text": "This is a pharmacy information note for Cilazapril\r\n"
+            "text": "This is a pharmacy information note for Cilazapril"
           }
         ],
         "dosageInstruction": [
@@ -6825,13 +6280,8 @@
             "end": "2018-10-27"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 28
+            "value": 28,
+            "unit": "tablet"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -6839,6 +6289,9 @@
             "system": "http://unitsofmeasure.org",
             "code": "d"
           }
+        },
+        "priorPrescription": {
+          "reference": "MedicationRequest/EB002DF0-C869-4464-8F74-340BBC8A2457-FI-1"
         }
       }
     },
@@ -6867,22 +6320,22 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "f14dcb62-c936-4fb9-be4b-9ae9326a9944"
+            "system": "https://EMISWeb/A82038",
+            "value": "F14DCB62-C936-4FB9-BE4B-9AE9326A9944"
           }
         ],
         "basedOn": [
           {
-            "reference": "MedicationRequest/EB002DF0-C869-4464-8F74-340BBC8A2457"
+            "reference": "MedicationRequest/EB002DF0-C869-4464-8F74-340BBC8A2457-FI-1"
           }
         ],
         "groupIdentifier": {
-          "value": "eb002df0-c869-4464-8f74-340bbc8a2457"
+          "value": "eb002df0-c869-4464-8f74-340bbc8a2457-fi-1"
         },
         "status": "completed",
         "intent": "order",
         "medicationReference": {
-          "reference": "Medication/BB42B59E-F6E1-4016-8448-0867F26A1620-M"
+          "reference": "Medication/0C881423-E7C2-4A28-9244-5E1ED3DA572D"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -6894,7 +6347,7 @@
         "note": [
           {
             "authorString": "Prescriber Notes",
-            "text": "Issue number 1 This is a pharmacy information note for Cilazapril\r\n"
+            "text": "Issue number 1 This is a pharmacy information note for Cilazapril"
           }
         ],
         "dosageInstruction": [
@@ -6908,13 +6361,8 @@
             "end": "2010-02-12"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 28
+            "value": 28,
+            "unit": "tablet"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -6928,7 +6376,7 @@
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "BB42B59E-F6E1-4016-8448-0867F26A1620-M",
+        "id": "0C881423-E7C2-4A28-9244-5E1ED3DA572D",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -6972,12 +6420,16 @@
                 }
               ]
             }
+          },
+          {
+            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
+            "valueDateTime": "2010-10-01T00:00:00+01:00"
           }
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "d9f9df68-6b1e-95a9-1824-7c813860ab00"
+            "system": "https://EMISWeb/A82038",
+            "value": "D9F9DF68-6B1E-95A9-1824-7C813860AB00"
           }
         ],
         "basedOn": [
@@ -6987,7 +6439,7 @@
         ],
         "status": "stopped",
         "medicationReference": {
-          "reference": "Medication/22E7195D-2C39-4B2A-B565-7ACF04753466-M"
+          "reference": "Medication/923CE5C9-CA49-40B8-A68A-FD55C576AF8A"
         },
         "effectivePeriod": {
           "start": "2010-10-01",
@@ -7045,8 +6497,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "47599d21-788e-4f4a-8da8-9dbe1b40a2bf"
+            "system": "https://EMISWeb/A82038",
+            "value": "47599D21-788E-4F4A-8DA8-9DBE1B40A2BF"
           }
         ],
         "groupIdentifier": {
@@ -7055,7 +6507,7 @@
         "status": "stopped",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/22E7195D-2C39-4B2A-B565-7ACF04753466-M"
+          "reference": "Medication/923CE5C9-CA49-40B8-A68A-FD55C576AF8A"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -7075,13 +6527,8 @@
             "end": "2010-10-01"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsule"
-              }
-            ],
-            "value": 14
+            "value": 14,
+            "unit": "capsule"
           },
           "expectedSupplyDuration": {
             "value": 14,
@@ -7103,21 +6550,6 @@
         },
         "extension": [
           {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatusReason-1",
-            "extension": [
-              {
-                "url": "statusReason",
-                "valueCodeableConcept": {
-                  "text": "Change to Medication Treatment Regime"
-                }
-              },
-              {
-                "url": "statusChangeDate",
-                "valueDateTime": "2010-10-01T12:08:19.107+01:00"
-              }
-            ]
-          },
-          {
             "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
             "valueCodeableConcept": {
               "coding": [
@@ -7132,8 +6564,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "9155dfd6-182a-48ed-9a62-97a92955020a"
+            "system": "https://EMISWeb/A82038",
+            "value": "9155DFD6-182A-48ED-9A62-97A92955020A"
           }
         ],
         "basedOn": [
@@ -7147,7 +6579,7 @@
         "status": "stopped",
         "intent": "order",
         "medicationReference": {
-          "reference": "Medication/22E7195D-2C39-4B2A-B565-7ACF04753466-M"
+          "reference": "Medication/923CE5C9-CA49-40B8-A68A-FD55C576AF8A"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -7156,6 +6588,11 @@
         "recorder": {
           "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
         },
+        "note": [
+          {
+            "text": "Cancellation Reason: Change to Medication Treatment Regime, Cancellation Date: 2010-10-01"
+          }
+        ],
         "dosageInstruction": [
           {
             "text": "One To Be Taken Each Day"
@@ -7167,13 +6604,8 @@
             "end": "2010-10-01"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "capsule"
-              }
-            ],
-            "value": 14
+            "value": 14,
+            "unit": "capsule"
           },
           "expectedSupplyDuration": {
             "value": 14,
@@ -7187,7 +6619,7 @@
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "22E7195D-2C39-4B2A-B565-7ACF04753466-M",
+        "id": "923CE5C9-CA49-40B8-A68A-FD55C576AF8A",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -7205,514 +6637,6 @@
               "system": "http://snomed.info/sct",
               "code": "321949006",
               "display": "Fluoxetine 20mg capsules"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationStatement",
-        "id": "1458EF9E-D0EA-4745-BB46-C38668E0EC0C-FD-1-MS",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
-                  "code": "prescribed-at-gp-practice",
-                  "display": "Prescribed at GP practice"
-                }
-              ]
-            }
-          },
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2011-11-15T14:54:00+00:00"
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "4cc4b004-ecf8-397a-b0ff-dd551568541e"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1458EF9E-D0EA-4745-BB46-C38668E0EC0C-FD-1"
-          }
-        ],
-        "status": "completed",
-        "medicationReference": {
-          "reference": "Medication/DB5B5481-6339-4F79-8CE1-4E621E24F36E-M"
-        },
-        "effectivePeriod": {
-          "start": "2011-11-15",
-          "end": "2011-12-13"
-        },
-        "dateAsserted": "2011-11-15T14:56:09.187+00:00",
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "taken": "unk",
-        "note": [
-          {
-            "authorString": "Prescriber Notes",
-            "text": "Issue number 1 This is the generic acute for 22047\r\n"
-          }
-        ],
-        "dosage": [
-          {
-            "text": "One To Be Taken Every Four To Six Hours When Required"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "1458EF9E-D0EA-4745-BB46-C38668E0EC0C-FD-1",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "acute",
-                  "display": "Acute"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "1458ef9e-d0ea-4745-bb46-c38668e0ec0c-fd-1"
-          }
-        ],
-        "groupIdentifier": {
-          "value": "1458ef9e-d0ea-4745-bb46-c38668e0ec0c-fd-1"
-        },
-        "status": "completed",
-        "intent": "plan",
-        "medicationReference": {
-          "reference": "Medication/DB5B5481-6339-4F79-8CE1-4E621E24F36E-M"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "authoredOn": "2011-11-15T14:56:09.187+00:00",
-        "recorder": {
-          "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-        },
-        "dosageInstruction": [
-          {
-            "text": "One To Be Taken Every Four To Six Hours When Required"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2011-11-15",
-            "end": "2011-12-13"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 168
-          },
-          "expectedSupplyDuration": {
-            "value": 28,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "5CF3E022-961E-4D8A-B0BA-5705B9EBD55A",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "acute",
-                  "display": "Acute"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "5cf3e022-961e-4d8a-b0ba-5705b9ebd55a"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1458EF9E-D0EA-4745-BB46-C38668E0EC0C-FD-1"
-          }
-        ],
-        "groupIdentifier": {
-          "value": "1458ef9e-d0ea-4745-bb46-c38668e0ec0c-fd-1"
-        },
-        "status": "completed",
-        "intent": "order",
-        "medicationReference": {
-          "reference": "Medication/DB5B5481-6339-4F79-8CE1-4E621E24F36E-M"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "authoredOn": "2011-11-15T14:54:00+00:00",
-        "recorder": {
-          "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-        },
-        "note": [
-          {
-            "authorString": "Prescriber Notes",
-            "text": "Issue number 1 This is the generic acute for 22047\r\n"
-          }
-        ],
-        "dosageInstruction": [
-          {
-            "text": "One To Be Taken Every Four To Six Hours When Required"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2011-11-15",
-            "end": "2011-12-13"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 168
-          },
-          "expectedSupplyDuration": {
-            "value": 28,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Medication",
-        "id": "DB5B5481-6339-4F79-8CE1-4E621E24F36E-M",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
-          ]
-        },
-        "code": {
-          "coding": [
-            {
-              "system": "https://fhir.hl7.org.uk/Id/emis-drug-codes",
-              "code": "ASE/24522EMIS",
-              "display": "Aspirin 300mg gastro-resistant tablets",
-              "userSelected": true
-            },
-            {
-              "system": "http://snomed.info/sct",
-              "code": "322225002",
-              "display": "Aspirin 300mg gastro-resistant tablets"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationStatement",
-        "id": "1458EF9E-D0EA-4745-BB46-C38668E0EC0C-MS",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
-                  "code": "prescribed-at-gp-practice",
-                  "display": "Prescribed at GP practice"
-                }
-              ]
-            }
-          },
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-            "valueDateTime": "2011-11-15T14:54:00+00:00"
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "2d42d834-1fea-7240-5d87-95bab3af470f"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1458EF9E-D0EA-4745-BB46-C38668E0EC0C"
-          }
-        ],
-        "status": "stopped",
-        "medicationReference": {
-          "reference": "Medication/F02F10C5-D001-422C-A723-0A3BD81B0CB2-M"
-        },
-        "effectivePeriod": {
-          "start": "2011-11-15",
-          "end": "2011-11-15"
-        },
-        "dateAsserted": "2011-11-15T14:55:59.093+00:00",
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "taken": "unk",
-        "note": [
-          {
-            "authorString": "Prescriber Notes",
-            "text": "Issue number 1 THis is the acute issue post generic -&amp;gt; proprietary switch for 22047\r\n"
-          }
-        ],
-        "dosage": [
-          {
-            "text": "One To Be Taken Every Four To Six Hours When Required"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "1458EF9E-D0EA-4745-BB46-C38668E0EC0C",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatusReason-1",
-            "extension": [
-              {
-                "url": "statusReason",
-                "valueCodeableConcept": {
-                  "text": "End course for acute post G -&amp;gt; T switch for 22047"
-                }
-              },
-              {
-                "url": "statusChangeDate",
-                "valueDateTime": "2011-11-15T15:02:50.72+00:00"
-              }
-            ]
-          },
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "acute",
-                  "display": "Acute"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "1458ef9e-d0ea-4745-bb46-c38668e0ec0c"
-          }
-        ],
-        "groupIdentifier": {
-          "value": "1458ef9e-d0ea-4745-bb46-c38668e0ec0c"
-        },
-        "status": "stopped",
-        "intent": "plan",
-        "medicationReference": {
-          "reference": "Medication/F02F10C5-D001-422C-A723-0A3BD81B0CB2-M"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "authoredOn": "2011-11-15T14:55:59.093+00:00",
-        "recorder": {
-          "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-        },
-        "dosageInstruction": [
-          {
-            "text": "One To Be Taken Every Four To Six Hours When Required"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2011-11-15",
-            "end": "2011-11-15"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 168
-          },
-          "expectedSupplyDuration": {
-            "value": 28,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        },
-        "priorPrescription": {
-          "reference": "MedicationRequest/1458EF9E-D0EA-4745-BB46-C38668E0EC0C-FD-1"
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "44638ED8-35BC-4715-BC17-D7E59E92554D",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "acute",
-                  "display": "Acute"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "44638ed8-35bc-4715-bc17-d7e59e92554d"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/1458EF9E-D0EA-4745-BB46-C38668E0EC0C"
-          }
-        ],
-        "groupIdentifier": {
-          "value": "1458ef9e-d0ea-4745-bb46-c38668e0ec0c"
-        },
-        "status": "completed",
-        "intent": "order",
-        "medicationReference": {
-          "reference": "Medication/F02F10C5-D001-422C-A723-0A3BD81B0CB2-M"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "authoredOn": "2011-11-15T14:59:52.57+00:00",
-        "recorder": {
-          "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-        },
-        "note": [
-          {
-            "authorString": "Prescriber Notes",
-            "text": "Issue number 1 THis is the acute issue post generic -&amp;gt; proprietary switch for 22047\r\n"
-          }
-        ],
-        "dosageInstruction": [
-          {
-            "text": "One To Be Taken Every Four To Six Hours When Required"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2011-11-15",
-            "end": "2011-12-13"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 168
-          },
-          "expectedSupplyDuration": {
-            "value": 28,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "Medication",
-        "id": "F02F10C5-D001-422C-A723-0A3BD81B0CB2-M",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
-          ]
-        },
-        "code": {
-          "coding": [
-            {
-              "system": "https://fhir.hl7.org.uk/Id/emis-drug-codes",
-              "code": "NUTA2039",
-              "display": "Nu-Seals 300 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)",
-              "userSelected": true
-            },
-            {
-              "system": "http://snomed.info/sct",
-              "code": "183311000001101",
-              "display": "Nu-Seals 300 gastro-resistant tablets (Alliance Pharmaceuticals Ltd)"
             }
           ]
         }
@@ -7747,8 +6671,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "ccb7338a-7b51-107a-0a41-9e3eb7e57825"
+            "system": "https://EMISWeb/A82038",
+            "value": "CCB7338A-7B51-107A-0A41-9E3EB7E57825"
           }
         ],
         "basedOn": [
@@ -7758,7 +6682,7 @@
         ],
         "status": "stopped",
         "medicationReference": {
-          "reference": "Medication/261B4DA2-C62D-41A9-A254-341E45A9A5C9-M"
+          "reference": "Medication/DDF08CFF-20F6-4B21-8FE0-D7AF8C1129AC"
         },
         "effectivePeriod": {
           "start": "2010-03-23",
@@ -7800,8 +6724,24 @@
                       "userSelected": true
                     },
                     {
+                      "extension": [
+                        {
+                          "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                          "extension": [
+                            {
+                              "url": "descriptionId",
+                              "valueId": "1030121000006113"
+                            },
+                            {
+                              "url": "descriptionDisplay",
+                              "valueString": "Adverse reaction to Prednisolone"
+                            }
+                          ]
+                        }
+                      ],
                       "system": "http://snomed.info/sct",
-                      "code": "1030121000006109"
+                      "code": "1030121000006109",
+                      "display": "Adverse reaction to Prednisolone"
                     }
                   ],
                   "text": "Adverse reaction to Prednisolone (Fat, John said)"
@@ -7828,8 +6768,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "c3de337c-18be-4379-9ee8-38683327b53a"
+            "system": "https://EMISWeb/A82038",
+            "value": "C3DE337C-18BE-4379-9EE8-38683327B53A"
           }
         ],
         "groupIdentifier": {
@@ -7838,7 +6778,7 @@
         "status": "stopped",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/261B4DA2-C62D-41A9-A254-341E45A9A5C9-M"
+          "reference": "Medication/DDF08CFF-20F6-4B21-8FE0-D7AF8C1129AC"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -7858,13 +6798,8 @@
             "end": "2010-08-09"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 30
+            "value": 30,
+            "unit": "tablet"
           },
           "expectedSupplyDuration": {
             "value": 30,
@@ -7900,8 +6835,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "dae87b52-38ed-42bd-b081-34e8ba634194"
+            "system": "https://EMISWeb/A82038",
+            "value": "DAE87B52-38ED-42BD-B081-34E8BA634194"
           }
         ],
         "basedOn": [
@@ -7915,12 +6850,12 @@
         "status": "completed",
         "intent": "order",
         "medicationReference": {
-          "reference": "Medication/261B4DA2-C62D-41A9-A254-341E45A9A5C9-M"
+          "reference": "Medication/DDF08CFF-20F6-4B21-8FE0-D7AF8C1129AC"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
         },
-        "authoredOn": "2010-03-23T15:39:00+00:00",
+        "authoredOn": "2010-03-23T15:59:29.41+00:00",
         "recorder": {
           "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
         },
@@ -7935,13 +6870,8 @@
             "end": "2010-04-22"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "tablet"
-              }
-            ],
-            "value": 30
+            "value": 30,
+            "unit": "tablet"
           },
           "expectedSupplyDuration": {
             "value": 30,
@@ -7955,7 +6885,7 @@
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "261B4DA2-C62D-41A9-A254-341E45A9A5C9-M",
+        "id": "DDF08CFF-20F6-4B21-8FE0-D7AF8C1129AC",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -8007,8 +6937,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "bf47c921-12aa-3235-e7e2-4d3f833e5aa3"
+            "system": "https://EMISWeb/A82038",
+            "value": "BF47C921-12AA-3235-E7E2-4D3F833E5AA3"
           }
         ],
         "basedOn": [
@@ -8018,7 +6948,7 @@
         ],
         "status": "active",
         "medicationReference": {
-          "reference": "Medication/B5BCF3B2-48D9-4111-A693-1378C664915A-M"
+          "reference": "Medication/E14FC522-A409-491A-8A37-F8648A6D9EFB"
         },
         "effectivePeriod": {
           "start": "2010-01-14"
@@ -8050,11 +6980,11 @@
             "extension": [
               {
                 "url": "numberOfRepeatPrescriptionsAllowed",
-                "valuePositiveInt": 12
+                "valueUnsignedInt": 12
               },
               {
                 "url": "numberOfRepeatPrescriptionsIssued",
-                "valuePositiveInt": 1
+                "valueUnsignedInt": 1
               }
             ]
           },
@@ -8073,8 +7003,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "51f22039-1fd7-44b1-b8ef-54994ae81706"
+            "system": "https://EMISWeb/A82038",
+            "value": "51F22039-1FD7-44B1-B8EF-54994AE81706"
           }
         ],
         "groupIdentifier": {
@@ -8083,7 +7013,7 @@
         "status": "active",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/B5BCF3B2-48D9-4111-A693-1378C664915A-M"
+          "reference": "Medication/E14FC522-A409-491A-8A37-F8648A6D9EFB"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -8102,13 +7032,8 @@
             "start": "2010-01-14"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "device"
-              }
-            ],
-            "value": 100
+            "value": 100,
+            "unit": "device"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -8144,8 +7069,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "2488eaab-4c1a-477c-a34e-5c38f636952e"
+            "system": "https://EMISWeb/A82038",
+            "value": "2488EAAB-4C1A-477C-A34E-5C38F636952E"
           }
         ],
         "basedOn": [
@@ -8159,7 +7084,7 @@
         "status": "completed",
         "intent": "order",
         "medicationReference": {
-          "reference": "Medication/B5BCF3B2-48D9-4111-A693-1378C664915A-M"
+          "reference": "Medication/E14FC522-A409-491A-8A37-F8648A6D9EFB"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -8179,13 +7104,8 @@
             "end": "2010-02-11"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "device"
-              }
-            ],
-            "value": 100
+            "value": 100,
+            "unit": "device"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -8199,7 +7119,7 @@
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "B5BCF3B2-48D9-4111-A693-1378C664915A-M",
+        "id": "E14FC522-A409-491A-8A37-F8648A6D9EFB",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -8251,8 +7171,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "139a7606-4263-eba3-cd56-31bf97816eb2"
+            "system": "https://EMISWeb/A82038",
+            "value": "139A7606-4263-EBA3-CD56-31BF97816EB2"
           }
         ],
         "basedOn": [
@@ -8262,7 +7182,7 @@
         ],
         "status": "active",
         "medicationReference": {
-          "reference": "Medication/924DD882-82CD-4036-8551-1275DE09C82D-M"
+          "reference": "Medication/17A4DFEE-213D-4565-BA41-C8CF648BC5FA"
         },
         "effectivePeriod": {
           "start": "2010-01-18"
@@ -8294,11 +7214,11 @@
             "extension": [
               {
                 "url": "numberOfRepeatPrescriptionsAllowed",
-                "valuePositiveInt": 3
+                "valueUnsignedInt": 3
               },
               {
                 "url": "numberOfRepeatPrescriptionsIssued",
-                "valuePositiveInt": 3
+                "valueUnsignedInt": 3
               }
             ]
           },
@@ -8317,8 +7237,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
+            "system": "https://EMISWeb/A82038",
+            "value": "B6777C23-E245-4053-BE4C-45F5D0A27054"
           }
         ],
         "groupIdentifier": {
@@ -8327,7 +7247,7 @@
         "status": "active",
         "intent": "plan",
         "medicationReference": {
-          "reference": "Medication/924DD882-82CD-4036-8551-1275DE09C82D-M"
+          "reference": "Medication/17A4DFEE-213D-4565-BA41-C8CF648BC5FA"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -8346,167 +7266,8 @@
             "start": "2010-01-18"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "gram"
-              }
-            ],
-            "value": 40
-          },
-          "expectedSupplyDuration": {
-            "value": 28,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "63E48882-8381-410A-BD0A-3DAAEA849FBB",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "repeat",
-                  "display": "Repeat"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "63e48882-8381-410a-bd0a-3daaea849fbb"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/B6777C23-E245-4053-BE4C-45F5D0A27054"
-          }
-        ],
-        "groupIdentifier": {
-          "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
-        },
-        "status": "completed",
-        "intent": "order",
-        "medicationReference": {
-          "reference": "Medication/924DD882-82CD-4036-8551-1275DE09C82D-M"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "authoredOn": "2010-01-20T09:35:21.617+00:00",
-        "recorder": {
-          "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-        },
-        "dosageInstruction": [
-          {
-            "text": "Apply Each Day"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2010-01-20",
-            "end": "2010-02-17"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "gram"
-              }
-            ],
-            "value": 40
-          },
-          "expectedSupplyDuration": {
-            "value": 28,
-            "unit": "day",
-            "system": "http://unitsofmeasure.org",
-            "code": "d"
-          }
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "MedicationRequest",
-        "id": "A4EF54E4-E3A0-4DFB-876D-5396378506C6",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
-          ]
-        },
-        "extension": [
-          {
-            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
-            "valueCodeableConcept": {
-              "coding": [
-                {
-                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-                  "code": "repeat",
-                  "display": "Repeat"
-                }
-              ]
-            }
-          }
-        ],
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "a4ef54e4-e3a0-4dfb-876d-5396378506c6"
-          }
-        ],
-        "basedOn": [
-          {
-            "reference": "MedicationRequest/B6777C23-E245-4053-BE4C-45F5D0A27054"
-          }
-        ],
-        "groupIdentifier": {
-          "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
-        },
-        "status": "completed",
-        "intent": "order",
-        "medicationReference": {
-          "reference": "Medication/924DD882-82CD-4036-8551-1275DE09C82D-M"
-        },
-        "subject": {
-          "reference": "Patient/42c6100000000000"
-        },
-        "authoredOn": "2010-01-19T09:18:53.657+00:00",
-        "recorder": {
-          "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-        },
-        "dosageInstruction": [
-          {
-            "text": "Apply Each Day"
-          }
-        ],
-        "dispenseRequest": {
-          "validityPeriod": {
-            "start": "2010-01-19",
-            "end": "2010-02-16"
-          },
-          "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "gram"
-              }
-            ],
-            "value": 40
+            "value": 40,
+            "unit": "gram"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -8542,8 +7303,8 @@
         ],
         "identifier": [
           {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "5fba0748-81a4-4d79-8edf-b558a5ea3dc8"
+            "system": "https://EMISWeb/A82038",
+            "value": "5FBA0748-81A4-4D79-8EDF-B558A5EA3DC8"
           }
         ],
         "basedOn": [
@@ -8557,7 +7318,7 @@
         "status": "completed",
         "intent": "order",
         "medicationReference": {
-          "reference": "Medication/924DD882-82CD-4036-8551-1275DE09C82D-M"
+          "reference": "Medication/17A4DFEE-213D-4565-BA41-C8CF648BC5FA"
         },
         "subject": {
           "reference": "Patient/42c6100000000000"
@@ -8577,13 +7338,152 @@
             "end": "2010-02-15"
           },
           "quantity": {
-            "extension": [
-              {
-                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationQuantityText-1",
-                "valueString": "gram"
-              }
-            ],
-            "value": 40
+            "value": 40,
+            "unit": "gram"
+          },
+          "expectedSupplyDuration": {
+            "value": 28,
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "A4EF54E4-E3A0-4DFB-876D-5396378506C6",
+        "meta": {
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                  "code": "repeat",
+                  "display": "Repeat"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://EMISWeb/A82038",
+            "value": "A4EF54E4-E3A0-4DFB-876D-5396378506C6"
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "MedicationRequest/B6777C23-E245-4053-BE4C-45F5D0A27054"
+          }
+        ],
+        "groupIdentifier": {
+          "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
+        },
+        "status": "completed",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/17A4DFEE-213D-4565-BA41-C8CF648BC5FA"
+        },
+        "subject": {
+          "reference": "Patient/42c6100000000000"
+        },
+        "authoredOn": "2010-01-19T09:18:53.657+00:00",
+        "recorder": {
+          "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Apply Each Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2010-01-19",
+            "end": "2010-02-16"
+          },
+          "quantity": {
+            "value": 40,
+            "unit": "gram"
+          },
+          "expectedSupplyDuration": {
+            "value": 28,
+            "unit": "day",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "63E48882-8381-410A-BD0A-3DAAEA849FBB",
+        "meta": {
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+          ]
+        },
+        "extension": [
+          {
+            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                  "code": "repeat",
+                  "display": "Repeat"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://EMISWeb/A82038",
+            "value": "63E48882-8381-410A-BD0A-3DAAEA849FBB"
+          }
+        ],
+        "basedOn": [
+          {
+            "reference": "MedicationRequest/B6777C23-E245-4053-BE4C-45F5D0A27054"
+          }
+        ],
+        "groupIdentifier": {
+          "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
+        },
+        "status": "completed",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/17A4DFEE-213D-4565-BA41-C8CF648BC5FA"
+        },
+        "subject": {
+          "reference": "Patient/42c6100000000000"
+        },
+        "authoredOn": "2010-01-20T09:35:21.617+00:00",
+        "recorder": {
+          "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Apply Each Day"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2010-01-20",
+            "end": "2010-02-17"
+          },
+          "quantity": {
+            "value": 40,
+            "unit": "gram"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -8597,7 +7497,7 @@
     {
       "resource": {
         "resourceType": "Medication",
-        "id": "924DD882-82CD-4036-8551-1275DE09C82D-M",
+        "id": "17A4DFEE-213D-4565-BA41-C8CF648BC5FA",
         "meta": {
           "profile": [
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
@@ -8700,11 +7600,6 @@
           },
           {
             "item": {
-              "reference": "MedicationStatement/1000000000000000_e0aff60000000000"
-            }
-          },
-          {
-            "item": {
               "reference": "MedicationStatement/1000000000000000_61aff60000000000"
             }
           },
@@ -8720,17 +7615,7 @@
           },
           {
             "item": {
-              "reference": "MedicationStatement/1000000000000000_d7dff60000000000"
-            }
-          },
-          {
-            "item": {
               "reference": "MedicationStatement/1000000000000000_34dff60000000000"
-            }
-          },
-          {
-            "item": {
-              "reference": "MedicationStatement/1000000000000000_a1eff60000000000"
             }
           },
           {
@@ -8740,22 +7625,22 @@
           },
           {
             "item": {
-              "reference": "MedicationStatement/2E61869F-D0DB-4532-B694-DB6511DB7A7D"
+              "reference": "MedicationStatement/2E61869F-D0DB-4532-B694-DB6511DB7A7D-MS"
             }
           },
           {
             "item": {
-              "reference": "MedicationStatement/2E61869F-D0DB-4532-B694-DB6511DB7A7D-FD-1"
+              "reference": "MedicationStatement/2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1-MS"
             }
           },
           {
             "item": {
-              "reference": "MedicationStatement/2E352BA6-8F87-479B-BC80-41494027F2E6"
+              "reference": "MedicationStatement/2E352BA6-8F87-479B-BC80-41494027F2E6-MS"
             }
           },
           {
             "item": {
-              "reference": "MedicationStatement/60880139-9E79-4F1E-959A-545B4A7F3BC7"
+              "reference": "MedicationStatement/60880139-9E79-4F1E-959A-545B4A7F3BC7-MS"
             }
           },
           {
@@ -8770,17 +7655,12 @@
           },
           {
             "item": {
+              "reference": "MedicationStatement/EB002DF0-C869-4464-8F74-340BBC8A2457-FI-1-MS"
+            }
+          },
+          {
+            "item": {
               "reference": "MedicationStatement/47599D21-788E-4F4A-8DA8-9DBE1B40A2BF-MS"
-            }
-          },
-          {
-            "item": {
-              "reference": "MedicationStatement/1458EF9E-D0EA-4745-BB46-C38668E0EC0C-MS"
-            }
-          },
-          {
-            "item": {
-              "reference": "MedicationStatement/1458EF9E-D0EA-4745-BB46-C38668E0EC0C-FD-1-MS"
             }
           },
           {
