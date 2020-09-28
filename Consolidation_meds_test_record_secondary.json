@@ -3830,7 +3830,7 @@
         "subject": {
           "reference": "Patient/2FE2854D-CF58-4AEE-8F71-257ADF74FE21"
         },
-        "date": "2019-05-17T11:05:49",
+        "date": "2019-05-17",
         "orderedBy": {
           "coding": [
             {
