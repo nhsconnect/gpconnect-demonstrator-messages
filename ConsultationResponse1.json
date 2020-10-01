@@ -147,7 +147,7 @@
         },
         "status": "current",
         "mode": "snapshot",
-        "title": "Medication List",
+        "title": "Uncategorised data",
         "code": {
           "coding": [
             {
@@ -1500,24 +1500,13 @@
         },
         "status": "current",
         "mode": "snapshot",
-        "title": "Consultations - medications contained in Consultations",
+        "title": "Consultations - medications contained in consultations",
         "code": {
           "coding": [
             {
-              "extension": [
-                {
-                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
-                  "extension": [
-                    {
-                      "url": "DescriptionID",
-                      "valueId": "2391371000000119"
-                    }
-                  ]
-                }
-              ],
-              "code": "933361000000108",
-              "display": "Medications and medical devices",
-              "system": "http://snomed.info/sct"
+              "code": "Consultations - medications contained in consultations",
+              "display": "Consultations - medications contained in consultations",
+              "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
@@ -1599,24 +1588,13 @@
         },
         "status": "current",
         "mode": "snapshot",
-        "title": "Consultations - uncategorised data contained in Consultations",
+        "title": "Consultations - uncategorised data contained in consultations",
         "code": {
           "coding": [
             {
-              "extension": [
-                {
-                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
-                  "extension": [
-                    {
-                      "url": "DescriptionID",
-                      "valueId": "2149851000000119"
-                    }
-                  ]
-                }
-              ],
-              "code": "826501000000100",
-              "display": "Miscellaneous record",
-              "system": "http://snomed.info/sct"
+              "code": "Consultations - uncategorised data contained in consultations",
+              "display": "Consultations - uncategorised data contained in consultations",
+              "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
@@ -1886,20 +1864,9 @@
         "code": {
           "coding": [
             {
-              "extension": [
-                {
-                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
-                  "extension": [
-                    {
-                      "url": "DescriptionID",
-                      "valueId": "2391371000000119"
-                    }
-                  ]
-                }
-              ],
-              "code": "933361000000108",
-              "display": "Medications and medical devices",
-              "system": "http://snomed.info/sct"
+              "code": "Problems - medications related to problems",
+              "display": "Problems - medications related to problems",
+              "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
@@ -1978,20 +1945,9 @@
         "code": {
           "coding": [
             {
-              "extension": [
-                {
-                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
-                  "extension": [
-                    {
-                      "url": "DescriptionID",
-                      "valueId": "2149851000000119"
-                    }
-                  ]
-                }
-              ],
-              "code": "826501000000100",
-              "display": "Miscellaneous record",
-              "system": "http://snomed.info/sct"
+              "code": "Problems - uncategorised data related to problems",
+              "display": "Problems - uncategorised data related to problems",
+              "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
@@ -2113,6 +2069,11 @@
               "reference": "Observation/Consultation1-Topic2-Category-Plan-Observation-2"
             }
           },
+		  {
+			"item": {
+				"reference": "Observation/Consultation1-Topic1-Category-History-Observation-2"
+				}
+		  },
           {
             "item": {
               "reference": "Observation/Consultation3-Topic2-Category-History-Observation-1"
@@ -2170,6 +2131,16 @@
           },
           {
             "item": {
+              "reference": "Observation/Consultation1-Topic4-Category-History-Observation-5"
+            }
+          },
+          {
+            "item": {
+              "reference": "Observation/Consultation1-Topic5-Category-History-Observation-4"
+           }
+		  },
+          {
+            "item": {
               "reference": "Observation/Consultation2-Topic2-Category-History-Observation-1"
             }
           },
@@ -2183,7 +2154,7 @@
               "reference": "Observation/Consultation2-Topic1-Category-History-Observation-1"
             }
           },
-          {
+		  		  {
             "item": {
               "reference": "Observation/Consultation2-Topic1-Category-Plan-Observation-2"
             }
@@ -4240,7 +4211,7 @@
             },
             "valueQuantity": {
               "value": 130,
-              "unit": "mmHg"
+              "unit": "mm[Hg]"
             }
           },
           {
@@ -4267,7 +4238,7 @@
             },
             "valueQuantity": {
               "value": 72,
-              "unit": "mmHg"
+              "unit": "mm[Hg]"
             }
           }
         ]
