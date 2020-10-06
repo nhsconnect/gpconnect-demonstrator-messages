@@ -1,2 +1,2 @@
 # gpconnect-demonstrator-messages
-Contains json fhir messages used by the gpconnect demonstrator
+Contains json fhir messages returned by the gpconnect demonstrator
