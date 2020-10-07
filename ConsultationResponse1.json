@@ -1490,6 +1490,62 @@
         ]
       }
     },
+	{
+	"resource": {
+        "resourceType": "List",
+        "meta": {
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+          ]
+        },
+        "status": "current",
+        "mode": "snapshot",
+        "title": "Consultations - problems contained in consultations",
+        "code": {
+          "coding": [
+            {
+              "code": "consultations-problems-contained-in-consultations",
+              "display": "Consultations - problems contained in consultations",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/04603d77-1a4e-4d63-b246-d7504f8bd833"
+        },
+        "date": "2019-03-01T10:57:34+00:00",
+        "orderedBy": {
+          "coding": [
+            {
+              "code": "event-date",
+              "system": "http://hl7.org/fhir/list-order"
+            }
+          ]
+        },
+        "entry": [
+          {
+            "item": {
+              "reference": "Condition/Problem-A-Anxiety-With-Depression"
+            }
+		  },
+		  {
+            "item": {
+              "reference": "Condition/Problem-B-Swollen-Legs"
+            }
+		  },
+		  {
+            "item": {
+              "reference": "Condition/Problem-D-URTI"
+            }
+          },
+		  {
+            "item": {
+              "reference": "Condition/Problem-E-Post-viral-cough"
+            }
+          }
+        ]
+      }
+    },	
     {
       "resource": {
         "resourceType": "List",
@@ -1504,7 +1560,7 @@
         "code": {
           "coding": [
             {
-              "code": "Consultations - medications contained in consultations",
+              "code": "consultations-medications-contained-in-consultations",
               "display": "Consultations - medications contained in consultations",
               "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
@@ -1592,7 +1648,7 @@
         "code": {
           "coding": [
             {
-              "code": "Consultations - uncategorised data contained in consultations",
+              "code": "consultations-uncategorised-data-contained-in-consultations",
               "display": "Consultations - uncategorised data contained in consultations",
               "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
@@ -1864,7 +1920,7 @@
         "code": {
           "coding": [
             {
-              "code": "Problems - medications related to problems",
+              "code": "problems-medications-related-to-problems",
               "display": "Problems - medications related to problems",
               "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
@@ -1945,7 +2001,7 @@
         "code": {
           "coding": [
             {
-              "code": "Problems - uncategorised data related to problems",
+              "code": "problems-uncategorised-data-related-to-problems",
               "display": "Problems - uncategorised data related to problems",
               "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
