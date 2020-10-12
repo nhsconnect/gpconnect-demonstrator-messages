@@ -1569,52 +1569,52 @@
         "entry": [
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic1-Category-Plan-Medication-Plan"
+              "reference": "MedicationStatement/Consultation1-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic1-Category-Plan-Medication-Order"
+              "reference": "MedicationStatement/Consultation1-Topic1-Category-Plan-Medication-Order"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic3-flat-Medication-Plan-1"
+              "reference": "MedicationStatement/Consultation1-Topic3-flat-Medication-Plan-1"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic3-flat-Medication-Order-1"
+              "reference": "MedicationStatement/Consultation1-Topic3-flat-Medication-Order-1"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic4-Category-Plan-Medication-Order-1"
+              "reference": "MedicationStatement/Consultation1-Topic4-Category-Plan-Medication-Order-1"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic4-Category-Plan-Medication-Plan-1"
+              "reference": "MedicationStatement/Consultation1-Topic4-Category-Plan-Medication-Plan-1"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation2-Topic1-Category-Plan-Medication-Plan"
+              "reference": "MedicationStatement/Consultation2-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation2-Topic1-Category-Plan-Medication-Order"
+              "reference": "MedicationStatement/Consultation2-Topic1-Category-Plan-Medication-Order"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation3-Topic1-Category-Plan-Medication-Plan"
+              "reference": "MedicationStatement/Consultation3-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation3-Topic1-Category-Plan-Medication-Order"
+              "reference": "MedicationStatement/Consultation3-Topic1-Category-Plan-Medication-Order"
             }
           }
         ]
@@ -1929,44 +1929,44 @@
         "entry": [
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic1-Category-Plan-Medication-Plan"
+              "reference": "MedicationStatement/Consultation1-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic1-Category-Plan-Medication-Order"
-            }
-          },
-
-          {
-            "item": {
-              "reference": "MedicationRequest/Consultation2-Topic1-Category-Plan-Medication-Plan"
-            }
-          },
-          {
-            "item": {
-              "reference": "MedicationRequest/Consultation2-Topic1-Category-Plan-Medication-Order"
+              "reference": "MedicationStatement/Consultation1-Topic1-Category-Plan-Medication-Order"
             }
           },
 
           {
             "item": {
-              "reference": "MedicationRequest/Consultation3-Topic1-Category-Plan-Medication-Plan"
+              "reference": "MedicationStatement/Consultation2-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation3-Topic1-Category-Plan-Medication-Order"
+              "reference": "MedicationStatement/Consultation2-Topic1-Category-Plan-Medication-Order"
+            }
+          },
+
+          {
+            "item": {
+              "reference": "MedicationStatement/Consultation3-Topic1-Category-Plan-Medication-Plan"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic4-Category-Plan-Medication-Plan-1"
+              "reference": "MedicationStatement/Consultation3-Topic1-Category-Plan-Medication-Order"
             }
           },
           {
             "item": {
-              "reference": "MedicationRequest/Consultation1-Topic4-Category-Plan-Medication-Order-1"
+              "reference": "MedicationStatement/Consultation1-Topic4-Category-Plan-Medication-Plan-1"
+            }
+          },
+          {
+            "item": {
+              "reference": "MedicationStatement/Consultation1-Topic4-Category-Plan-Medication-Order-1"
             }
           }
         ]
