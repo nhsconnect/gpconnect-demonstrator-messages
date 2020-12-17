@@ -1487,7 +1487,7 @@
             {
               "code": "consultations-medications-contained-in-consultations",
               "display": "Consultations - medications contained in consultations",
-              "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
+              "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
@@ -1550,7 +1550,7 @@
             {
               "code": "consultations-uncategorised-data-contained-in-consultations",
               "display": "Consultations - uncategorised data contained in consultations",
-              "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
+              "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
@@ -1822,7 +1822,7 @@
             {
               "code": "problems-medications-related-to-problems",
               "display": "Problems - medications related to problems",
-              "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
+              "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
@@ -1881,7 +1881,7 @@
             {
               "code": "problems-uncategorised-data-related-to-problems",
               "display": "Problems - uncategorised data related to problems",
-              "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
+              "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
