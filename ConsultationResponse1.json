@@ -1032,15 +1032,15 @@
               {
                 "coding": [
                   {
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
                     "code": "PPRF",
-                    "display": "Primary Performer"
+                    "display": "primary performer"
                   }
                 ]
               }
             ],
             "individual": {
-              "reference": "Practioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
+              "reference": "Practitioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
             }
           },
           {
@@ -1048,15 +1048,15 @@
               {
                 "coding": [
                   {
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                    "code": "AUTH",
-                    "display": "Author"
+                    "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
+                    "code": "REC",
+                    "display": "recorder"
                   }
                 ]
               }
             ],
             "individual": {
-              "reference": "Practioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
+              "reference": "Practitioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
             }
           }
         ],
@@ -1425,13 +1425,13 @@
         },
         "status": "current",
         "mode": "snapshot",
-        "title": "Consultations - problems contained in consultations",
+        "title": "Problems - linked problems not relating to the primary query",
         "code": {
           "coding": [
             {
-              "code": "consultations-problems-contained-in-consultations",
-              "display": "Consultations - problems contained in consultations",
-              "system": "http://snomed.info/sct"
+              "code": "problems-linked-problems-not-relating-to-the-primary-query",
+              "display": "Problems - linked problems not relating to the primary query",
+              "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1"
             }
           ]
         },
@@ -5283,15 +5283,15 @@
               {
                 "coding": [
                   {
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
                     "code": "PPRF",
-                    "display": "Primary Performer"
+                    "display": "primary performer"
                   }
                 ]
               }
             ],
             "individual": {
-              "reference": "Practioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
+              "reference": "Practitioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
             }
           },
           {
@@ -5299,15 +5299,15 @@
               {
                 "coding": [
                   {
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                    "code": "AUTH",
-                    "display": "Author"
+                    "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
+                    "code": "REC",
+                    "display": "recorder"
                   }
                 ]
               }
             ],
             "individual": {
-              "reference": "Practioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
+              "reference": "Practitioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
             }
           }
         ],
@@ -6463,15 +6463,15 @@
               {
                 "coding": [
                   {
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
                     "code": "PPRF",
-                    "display": "Primary Performer"
+                    "display": "primary performer"
                   }
                 ]
               }
             ],
             "individual": {
-              "reference": "Practioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
+              "reference": "Practitioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
             }
           },
           {
@@ -6479,15 +6479,15 @@
               {
                 "coding": [
                   {
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-                    "code": "AUTH",
-                    "display": "Author"
+                    "system": "https://fhir.nhs.uk/STU3/CodeSystem/GPConnect-ParticipantType-1",
+                    "code": "REC",
+                    "display": "recorder"
                   }
                 ]
               }
             ],
             "individual": {
-              "reference": "Practioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
+              "reference": "Practitioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
             }
           }
         ],
