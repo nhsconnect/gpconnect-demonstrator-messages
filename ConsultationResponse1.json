@@ -3061,7 +3061,7 @@
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":[
 			{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 			}],
         "comment": "Come for review. Overall doing better. Mood still low but improving. More good days than bad. Energy levels ok. Motivation improving. Support from neighbour visits daily"
 	  }
@@ -3117,7 +3117,7 @@
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":[
 			{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 			}]
 	  }
 	},
@@ -3166,7 +3166,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }],
         "comment": "MSE euthymic. Not anxious. No DSH/hallucinations/abnormal thoughts"
       }
@@ -3216,7 +3216,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		}]
 	  }
     },
@@ -3269,7 +3269,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }]
       }
     },
@@ -3316,7 +3316,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }],
         "comment": "Advised re local walking group"
       }
@@ -3346,7 +3346,7 @@
         },
         "authoredOn": "2019-03-28",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -3504,7 +3504,7 @@
         },
         "authoredOn": "2019-03-28",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -3599,7 +3599,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }],
         "comment": "2 months - bilateral swollen lower legs"
       }
@@ -3653,7 +3653,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }]
 		}
     },
@@ -3708,7 +3708,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }],
         "comment": "Patient looks flushed"
       }
@@ -3764,7 +3764,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		}]
 	  }
     },
@@ -3819,7 +3819,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }],
         "comment": "Chest clear"
       }
@@ -3875,7 +3875,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		}]
 	  }
     },
@@ -3924,7 +3924,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }],
         "comment": "Swelling lower legs bilaterally. Mild pitting oedema. Heart sounds normal. No distress. Abdomen normal. No cervical lymphadenopathy. Throat normal. Ears normal"
       }
@@ -3974,7 +3974,7 @@
         "effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }],
         "comment": "Advice to mobilise more. Review with results."
       }
@@ -4019,7 +4019,7 @@
 		"effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		}]
 	  }
     },
@@ -4068,7 +4068,7 @@
 		"effectiveDateTime": "2019-03-28T10:30:00+00:00",
 		"issued": "2019-03-28T10:30:00+00:00",
 		"performer":  [{
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
 		  }],
 		"comment": "average 150/90 last six weeks"
       }
@@ -4203,7 +4203,7 @@
         },
         "authoredOn": "2019-03-28",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -4361,7 +4361,7 @@
         },
         "authoredOn": "2019-03-28",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -4694,7 +4694,7 @@
         },
         "authoredOn": "2019-03-28",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -4852,7 +4852,7 @@
         },
         "authoredOn": "2019-03-28",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -6075,7 +6075,7 @@
         },
         "authoredOn": "2019-05-01",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -6233,7 +6233,7 @@
         },
         "authoredOn": "2019-05-01",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -7352,7 +7352,7 @@
         },
         "authoredOn": "2019-06-01",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
@@ -7510,7 +7510,7 @@
         },
         "authoredOn": "2019-06-01",
         "recorder": {
-          "reference": "PractitionerRole/e0244de8-07ef-4274-9f7a-d7067bcc8d21"
+          "reference": "Practitioner/ff266bb2-cddb-4d03-837c-bd64d4bbe4eb"
         },
         "note": [
           {
