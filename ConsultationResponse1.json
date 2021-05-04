@@ -4839,7 +4839,7 @@
         ],
         "basedOn": [
           {
-            "reference": "Consultation1-Topic4-Category-Plan-Medication-Plan-1"
+            "reference": "MedicationRequest/Consultation1-Topic4-Category-Plan-Medication-Plan-1"
           }
         ],
         "status": "completed",
