@@ -11576,8 +11576,8 @@
           "reference": "Observation/9825b7cf-de29-4c07-9b84-4af04dbf8233"
         }
       }, {
-        "target": {
         "type": "has-member",
+        "target": {
           "reference": "Observation/e732e681-3a89-4433-a37b-3767dd19d809"
         }
       }, {
