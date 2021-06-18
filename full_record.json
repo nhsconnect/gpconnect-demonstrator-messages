@@ -11374,10 +11374,6 @@
         "item": {
           "reference": "DiagnosticReport/efae5859-28df-4e7d-be91-6df56d8215e4"
         }
-      }, {
-        "item": {
-          "reference": "DiagnosticReport/efae5859-28df-4e7d-be91-6df56d8215e5"
-        }
       } ]
     }
   }, {
@@ -11550,74 +11546,92 @@
         "reference": "Specimen/756a8361-79ce-4561-afcb-a91fe19df123"
       },
       "related": [ {
+        "type": "has-member",
         "target": {
           "reference": "Observation/dacb177a-9501-4dcc-8b22-b941791ae0dc"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/32685afe-1d46-4d98-8279-39b9e96ee914"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/770b982d-be09-4744-a5d7-54e757947ffe"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/0a8aba3d-6b29-4dba-9c64-3a47516cc5eb"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/ddc43c3a-2863-4d6f-a926-162f5a4174b1"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/9825b7cf-de29-4c07-9b84-4af04dbf8233"
         }
       }, {
         "target": {
+        "type": "has-member",
           "reference": "Observation/e732e681-3a89-4433-a37b-3767dd19d809"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/2a604bea-1ef4-4cb1-97a0-f2a160f12679"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/704b6bb2-a1c0-429b-b901-c641e70345ec"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/53f4132c-0168-4327-8d69-560b13f5bb4e"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/c9e03e92-78b8-4e8e-9785-cbd9424e9380"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/9c61ad77-8c17-41aa-b795-f0fcb9f983d5"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/f67cb109-0890-4e47-9126-86da677c7008"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/1f2e71db-b9aa-4e4f-9a78-87f99fefc8bf"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/a23b563d-765a-4032-8dd3-c03178224f35"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/fedb7c2d-337c-435c-9169-612349783b5a"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/f9070943-7460-413a-a608-e15334b6e1d9"
         }
       }, {
+        "type": "has-member",
         "target": {
           "reference": "Observation/66acb40a-e241-474a-92b5-c74f9aa6a854"
         }
@@ -12483,112 +12497,6 @@
     }
   }, {
     "fhir_comments": [ " part 2 " ],
-    "resource": {
-      "resourceType": "ProcedureRequest",
-      "id": "d9df1431-22ac-462a-946a-f195f6c639b0",
-      "meta": {
-        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-ProcedureRequest-1" ]
-      },
-      "identifier": [ {
-        "system": "https://tools.ietf.org/html/rfc4122",
-        "value": "7e9bbd01-4e52-420d-b05b-48bc671d6709"
-      } ],
-      "status": "active",
-      "intent": "order",
-      "code": {
-        "coding": [ {
-          "system": "http://snomed.info/sct",
-          "code": "26604007",
-          "display": "FBC - Full blood count"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/2",
-        "display": "SKELLY, Horace"
-      },
-      "requester": {
-        "agent": {
-          "reference": "Practitioner/1",
-          "display": "GILBERT"
-        }
-      },
-      "performer": {
-        "reference": "Organization/7",
-        "display": "COXWOLD Surgery"
-      },
-      "note": [ {
-        "text": "FBC"
-      } ]
-    }
-  }, {
-    "resource": {
-      "resourceType": "DiagnosticReport",
-      "id": "efae5859-28df-4e7d-be91-6df56d8215e5",
-      "meta": {
-        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-DiagnosticReport-1" ]
-      },
-      "identifier": [ {
-        "system": "https://tools.ietf.org/html/rfc4122",
-        "value": "1b663fc5-9dec-49c0-90ed-18a7cfa5a6b3"
-      } ],
-      "basedOn": [ {
-        "reference": "ProcedureRequest/d9df1431-22ac-462a-946a-f195f6c639b0"
-      } ],
-      "status": "final",
-      "code": {
-        "coding": [ {
-          "system": "http://snomed.info/sct",
-          "code": "721981007",
-          "display": "Diagnostic studies report"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/2",
-        "display": "SKELLY, Horace"
-      },
-      "issued": "2019-04-03T12:00:00+00:00",
-      "performer": [ {
-        "actor": {
-          "reference": "Organization/7",
-          "display": "COXWOLD Surgery"
-        }
-      } ],
-      "specimen": [ {
-        "reference": "Specimen/756a8361-79ce-4561-afcb-a91fe19df124"
-      } ],
-      "result": [ {
-        "reference": "Observation/dacb177a-9501-4dcc-8b22-b941791ae0db"
-      } ]
-    }
-  }, {
-    "resource": {
-      "resourceType": "Specimen",
-      "id": "756a8361-79ce-4561-afcb-a91fe19df124",
-      "meta": {
-        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Specimen-1" ]
-      },
-      "identifier": [ {
-        "system": "https://tools.ietf.org/html/rfc4122",
-        "value": "1b663fc5-9dec-49c0-9eed-18a7cfa5a6b3"
-      } ],
-      "status": "available",
-      "type": {
-        "coding": [ {
-          "system": "http://snomed.info/sct",
-          "code": "122555007",
-          "display": "Venous blood specimen"
-        } ]
-      },
-      "subject": {
-        "reference": "Patient/2",
-        "display": "SKELLY, Horace"
-      },
-      "receivedTime": "2017-11-01T15:00:00+00:00",
-      "collection": {
-        "collectedDateTime": "2019-04-01T11:00:00+00:00"
-      }
-    }
-  }, {
     "resource": {
       "resourceType": "Condition",
       "id": "InvestigationsProblem",
