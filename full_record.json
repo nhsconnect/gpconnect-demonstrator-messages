@@ -5131,7 +5131,7 @@
         }
       }, {
         "item": {
-          "reference": "Referral items are not supported by the provider system"
+          "reference": "ReferralRequest/Consultation1-Topic1-Category-Plan-ReferralRequest-1"
         }
       }, {
         "item": {
@@ -5789,7 +5789,11 @@
         }
       }, {
         "item": {
-          "reference": "Referral items are not supported by the provider system"
+          "reference": "ReferralRequest/Consultation1-Topic5-Category-Plan-ReferralRequest-1"
+        }
+      }, {
+        "item": {
+          "reference": "documentReference/Consultation1-Topic5-Plan-DocumentReference-1"
         }
       } ]
     }
@@ -8787,11 +8791,11 @@
         }
       }, {
         "item": {
-          "display": "Pathology report items are not supported by the provider system"
+          "display": "DiagnosticReport/Consultation3-Topic2-Category-Examination-DiagnosticReport-1"
         }
       }, {
         "item": {
-          "display": "Pathology report items are not supported by the provider system"
+          "display": "DiagnosticReport/Consultation3-Topic2-Category-Examination-DiagnosticReport-2"
         }
       } ]
     }
@@ -10756,6 +10760,52 @@
       "description": "Referral due to swollen legs"
     }
   }, {
+    "fullUrl": "http://10.0.2.2:4854/B82617/STU3/1/gpconnect/fhir/DocumentReference/27863182736",
+    "resource": {
+      "resourceType": "DocumentReference",
+      "id": "Consultation1-Topic5-Category-Plan-DocumentReference-1",
+      "meta": {
+        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-DocumentReference-1" ]
+      },
+      "masterIdentifier": {
+        "system": "LocalSystem/1",
+        "value": "bb2374e2-dde2-11e9-9d36-2a2ae2dbcce4"
+      },
+      "identifier": [ {
+        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+        "value": "bb237762-dde2-11e9-9d36-2a2ae2dbcce4"
+      } ],
+      "status": "current",
+      "type": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "824331000000106",
+          "display": "Inpatient final discharge letter"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/2"
+      },
+      "created": "2019-06-24T09:35:00+11:00",
+      "indexed": "2019-07-02T09:43:41+11:00",
+      "author": [ {
+        "reference": "Practitioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7"
+      } ],
+      "description": "Discharge Summary",
+      "content": [ {
+        "attachment": {
+          "contentType": "application/msword",
+          "url": "http://10.0.2.2:4854/B82617/STU3/1/gpconnect/fhir/Binary/07a6483f-732b-461e-86b6-edb665c45510",
+          "size": 3654
+        }
+      } ],
+      "context": {
+        "encounter": {
+          "reference": "Encounter/Encounter1"
+        }
+      }
+    }
+  }, {
     "resource": {
       "resourceType": "ReferralRequest",
       "id": "Consultation1-Topic1-Category-Plan-ReferralRequest-1",
@@ -10846,6 +10896,19 @@
       "meta": {
         "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1" ]
       },
+      "extension": [ {
+        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ClinicalSetting-1",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "1060971000000108",
+            "display": "General practice service"
+          } ]
+        }
+      }, {
+        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ListWarningCode-1",
+        "valueCode": "confidential-items"
+      } ],
       "status": "current",
       "mode": "snapshot",
       "title": "Uncategorised data",
@@ -10854,8 +10917,8 @@
           "system": "http://snomed.info/sct",
           "code": "826501000000100",
           "display": "Miscellaneous record"
-        } ]
-      },
+        } ] 
+	  },  
       "subject": {
         "reference": "Patient/2"
       },
@@ -10866,6 +10929,9 @@
           "code": "event-date"
         } ]
       },
+	  "note": [ {
+        "text": "Items excluded due to confidentiality and/or patient preferences."
+      } ],
       "entry": [ {
         "item": {
           "reference": "Observation/Consultation1_topic2_category_Examination_Observation_1"
@@ -11352,14 +11418,95 @@
       },
       "status": "current",
       "mode": "snapshot",
-      "title": "Investigations and results",
+      "title": "Problems - documents related to problems",
       "code": {
         "coding": [ {
-          "system": "http://snomed.info/sct",
-          "code": "887191000000108",
-          "display": "Investigations and results"
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1",
+          "code": "problems-documents-related-to-problems",
+          "display": "Problems - documents related to problems"
         } ]
       },
+      "subject": {
+        "reference": "Patient/2"
+      },
+      "date": "2019-03-01T10:57:34+00:00",
+      "orderedBy": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/list-order",
+          "code": "event-date"
+        } ]
+      },
+      "entry": [{
+        "item": {
+          "reference": "DocumentReference/Consultation1-Topic5-Category-Plan-DocumentReference-1"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "List",
+      "meta": {
+        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1" ]
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Problems - outbound referrals related to problems",
+      "code": {
+        "coding": [ {
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1",
+          "code": "problems-outbound-referrals-related-to-problems",
+          "display": "Problems - outbound referrals related to problems"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/2"
+      },
+      "date": "2019-03-01T10:57:34+00:00",
+      "orderedBy": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/list-order",
+          "code": "event-date"
+        } ]
+      },
+      "entry": [ {
+        "item": {
+          "reference": "ReferralRequest/Consultation1-Topic1-Category-Plan-ReferralRequest-1"
+        }
+      }, {
+        "item": {
+          "reference": "ReferralRequest/Consultation1-Topic5-Category-Plan-ReferralRequest-1"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "List",
+      "meta": {
+        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1" ]
+      },
+      "extension": [ {
+        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ClinicalSetting-1",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "1060971000000108",
+            "display": "General practice service"
+          } ]
+        }
+      }, {
+        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ListWarningCode-1",
+        "valueCode": "confidential-items"
+      } ],
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Problems - investigations related to problems",
+      "code": {
+        "coding": [ {
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1",
+          "code": "problems-investigations-related-to-problems",
+          "display": "Problems - investigations related to problems"
+        }]
+	  },
       "subject": {
         "reference": "Patient/2"
       },
@@ -11370,6 +11517,57 @@
           "code": "event-date"
         } ]
       },
+      "note": [ {
+        "text": "Items excluded due to confidentiality and/or patient preferences."
+      } ],
+      "entry": [ {
+        "item": {
+          "reference": "DiagnosticReport/efae5859-28df-4e7d-be91-6df56d8215e4"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "List",
+      "meta": {
+        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1" ]
+      },
+      "extension": [ {
+        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ClinicalSetting-1",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "1060971000000108",
+            "display": "General practice service"
+          } ]
+        }
+      }, {
+        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ListWarningCode-1",
+        "valueCode": "confidential-items"
+      } ],
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Investigations and results",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "887191000000108",
+          "display": "Investigations and results"
+        }]
+	  }, 
+      "subject": {
+        "reference": "Patient/2"
+      },
+      "date": "2018-03-01T10:57:34+00:00",
+      "orderedBy": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/list-order",
+          "code": "event-date"
+        } ]
+      },
+      "note": [ {
+        "text": "Items excluded due to confidentiality and/or patient preferences."
+      } ],
       "entry": [ {
         "item": {
           "reference": "DiagnosticReport/efae5859-28df-4e7d-be91-6df56d8215e4"
@@ -12539,6 +12737,122 @@
       "asserter": {
         "reference": "Practitioner/1"
       }
+    }
+  }, {
+    "resource": {
+      "resourceType": "List",
+      "meta": {
+        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1" ]
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Consultations - documents contained in consultations",
+      "code": {
+        "coding": [ {
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1",
+          "code": "consultations-documents-contained-in-consultations",
+          "display": "Consultations - documents contained in consultations"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/2"
+      },
+      "date": "2019-03-01T10:57:34+00:00",
+      "orderedBy": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/list-order",
+          "code": "event-date"
+        } ]
+      },
+      "entry": [{
+        "item": {
+          "reference": "DocumentReference/Consultation1-Topic5-Category-Plan-DocumentReference-1"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "List",
+      "meta": {
+        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1" ]
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Consultations - outbound referrals in consultations",
+      "code": {
+        "coding": [ {
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1",
+          "code": "consultations-outbound-referrals-in-consultations",
+          "display": "Consultations - outbound referrals in consultations"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/2"
+      },
+      "date": "2019-03-01T10:57:34+00:00",
+      "orderedBy": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/list-order",
+          "code": "event-date"
+        } ]
+      },
+      "entry": [ {
+        "item": {
+          "reference": "ReferralRequest/Consultation1-Topic1-Category-Plan-ReferralRequest-1"
+        }
+      }, {
+        "item": {
+          "reference": "ReferralRequest/Consultation1-Topic5-Category-Plan-ReferralRequest-1"
+        }
+      } ]
+    }
+  }, {
+    "resource": {
+      "resourceType": "List",
+      "meta": {
+        "profile": [ "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1" ]
+      },
+      "extension": [ {
+        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ClinicalSetting-1",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "1060971000000108",
+            "display": "General practice service"
+          } ]
+        }
+      }, {
+        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ListWarningCode-1",
+        "valueCode": "confidential-items"
+      } ],
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Consultations - investigations contained in consultations",
+      "code": {
+        "coding": [ {
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1",
+          "code": "consultations-investigations-contained-in-consultations",
+          "display": "Consultations - investigations contained in onsultations"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/2"
+      },
+      "date": "2018-03-01T10:57:34+00:00",
+      "orderedBy": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/list-order",
+          "code": "event-date"
+        } ]
+      },
+      "note": [ {
+        "text": "Items excluded due to confidentiality and/or patient preferences."
+      } ],
+      "entry": [ {
+        "item": {
+          "reference": "DiagnosticReport/efae5859-28df-4e7d-be91-6df56d8215e4"
+        }
+      } ]
     }
   }, {
     "resource": {
