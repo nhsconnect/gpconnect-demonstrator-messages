@@ -5793,7 +5793,7 @@
         }
       }, {
         "item": {
-          "reference": "documentReference/Consultation1-Topic5-Plan-DocumentReference-1"
+          "reference": "DocumentReference/Consultation1-Topic5-Plan-DocumentReference-1"
         }
       } ]
     }
@@ -12832,7 +12832,7 @@
         "coding": [ {
           "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/GPConnect-SecondaryListValues-1",
           "code": "consultations-investigations-contained-in-consultations",
-          "display": "Consultations - investigations contained in onsultations"
+          "display": "Consultations - investigations contained in consultations"
         } ]
       },
       "subject": {
