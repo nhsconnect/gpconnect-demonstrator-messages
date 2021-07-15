@@ -10760,7 +10760,6 @@
       "description": "Referral due to swollen legs"
     }
   }, {
-    "fullUrl": "http://10.0.2.2:4854/B82617/STU3/1/gpconnect/fhir/DocumentReference/27863182736",
     "resource": {
       "resourceType": "DocumentReference",
       "id": "Consultation1-Topic5-Category-Plan-DocumentReference-1",
