@@ -816,11 +816,11 @@
 							}
 						},
 						"route": {
-							"coding": {
+							"coding": [{
 								"system": "http://snomed.info/sct",
 								"code": "18679011000001101",
 								"display": "inhalation"
-							}
+							}]
 						},
 						"doseQuantity": {
 							"value": 2,
@@ -894,11 +894,11 @@
 							}
 						},
 						"route": {
-							"coding": {
+							"coding": [{
 								"system": "http://snomed.info/sct",
 								"code": "18679011000001101",
 								"display": "inhalation"
-							}
+							}]
 						},
 						"doseQuantity": {
 							"value": 2,
@@ -1006,11 +1006,11 @@
 							}
 						},
 						"route": {
-							"coding": {
+							"coding": [{
 								"system": "http://snomed.info/sct",
 								"code": "18679011000001101",
 								"display": "inhalation"
-							}
+							}]
 						},
 						"doseQuantity": {
 							"value": 2,
@@ -1126,11 +1126,11 @@
 							}
 						},
 						"route": {
-							"coding": {
+							"coding": [{
 								"system": "http://snomed.info/sct",
 								"code": "18679011000001101",
 								"display": "inhalation"
-							}
+							}]
 						},
 						"doseQuantity": {
 							"value": 2,
@@ -1226,11 +1226,11 @@
 							}
 						},
 						"route": {
-							"coding": {
+							"coding": [{
 								"system": "http://snomed.info/sct",
 								"code": "18679011000001101",
 								"display": "inhalation"
-							}
+							}]
 						},
 						"doseQuantity": {
 							"value": 2,
@@ -1326,11 +1326,11 @@
 							}
 						},
 						"route": {
-							"coding": {
+							"coding": [{
 								"system": "http://snomed.info/sct",
 								"code": "18679011000001101",
 								"display": "inhalation"
-							}
+							}]
 						},
 						"doseQuantity": {
 							"value": 2,
@@ -1426,11 +1426,11 @@
 							}
 						},
 						"route": {
-							"coding": {
+							"coding": [{
 								"system": "http://snomed.info/sct",
 								"code": "18679011000001101",
 								"display": "inhalation"
-							}
+							}]
 						},
 						"doseQuantity": {
 							"value": 2,

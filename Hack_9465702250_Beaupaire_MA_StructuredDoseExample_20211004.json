@@ -1197,11 +1197,11 @@
 						}
 					},
 					"site": {
-						"coding": {
+						"coding": [{
 							"system": "http://snomed.info/sct",
 							"code": "40638003",
 							"display": "Structure of both eyes"
-						}
+						}]
 					},
 					"doseRange": {
 						"low": {
@@ -1297,11 +1297,11 @@
 						}
 					},
 					"site": {
-						"coding": {
+						"coding": [{
 							"system": "http://snomed.info/sct",
 							"code": "40638003",
 							"display": "Structure of both eyes"
-						}
+						}]
 					},
 					"doseRange": {
 						"low": {
