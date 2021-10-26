@@ -3949,7 +3949,7 @@
             }
           },
           {
-            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extensioncoding-CareConnect-GPC-DosageLastChanged-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-DosageLastChanged-1",
             "valueDateTime": "2020-02-25"
           }
         ],
