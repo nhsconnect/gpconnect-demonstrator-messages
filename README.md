@@ -3,7 +3,7 @@ Sample json messages to be returned by the NHS Digital GP Connect Demonstrator.
 NB All these records refer to synthetic data constructed for test purposes
 
 ### Records
-| Filename | NHS Number | Patient Name | Description | Deployed? <br/> Demonstrator Patient # | Demonstrator NHS # | Demonstrator Patient Name |
+| Filename | NHS Number | Patient Name | Description | <sub>Deployed? <br/> D'strator Patient # </sub> | D'strator NHS # | D'strator Patient Name |
 | -------- | ---------- | ------------ | ----------- | --------  | ---------------------: | ------------------------- |
 |Consolidated_allergies_test_<br/>record.json|9465698830|Ben-Avi Nusa| Rich Data Demonstrator Patient | Y 24 | 9690937332 | Beyer |
 |Consolidated_Allergies_Test_<br/>Record_v0_1.json|9465699012|Chittor Unmesh| ? | N | | | |
