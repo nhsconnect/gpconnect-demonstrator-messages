@@ -1,0 +1,5 @@
+ex
+setremote.sh
+xml/**
+summarise_json_msg.sh
+checkjsonformat.sh
