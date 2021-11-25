@@ -3966,7 +3966,7 @@
             }
           },
           {
-            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-DosageLastChanged-1",
+            "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extensioncoding-CareConnect-GPC-DosageLastChanged-1",
             "valueDateTime": "2020-02-25"
           }
         ],
@@ -5215,7 +5215,7 @@
             "system": "https://tpp-uk.com/Id/ccs-id",
             "value": "1000000000000000_71eff60000000000_order"
           }
-        ],		
+        ],
         "basedOn": [
           {
             "reference": "MedicationRequest/1000000000000000_71eff60000000000_plan"
@@ -7439,6 +7439,518 @@
 			}
 		},
     {
+        "resource": {
+            "resourceType": "MedicationStatement",
+            "id": "AFA9A909-808C-49DF-B805-9E43C947EE5A-MS",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
+                                "code": "prescribed-at-gp-practice",
+                                "display": "Prescribed at GP practice"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
+                    "valueDateTime": "2021-10-19T00:00:00+01:00"
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE21AFA9A909808C49DFB8059E43C947EE5AMS"
+                }
+            ],
+            "basedOn": [
+                {
+                    "reference": "MedicationRequest/AFA9A909-808C-49DF-B805-9E43C947EE5A"
+                }
+            ],
+            "status": "completed",
+            "medicationReference": {
+                "reference": "Medication/1724C3CE-3191-4CC4-8A00-4BD45A9F7BD3"
+            },
+            "effectivePeriod": {
+                "start": "2021-10-19",
+                "end": "2021-11-02"
+            },
+            "dateAsserted": "2021-10-19T10:39:16.27+01:00",
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "taken": "unk",
+            "note": [
+                {
+                    "text": "Prescriber Notes:Pharmacy Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                },
+                {
+                    "text": "Patient Notes:Patient Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                },
+                {
+                    "text": "Prescriber Notes:Issue number 1 Pharmacy Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`\r\nPharmacy Message with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                },
+                {
+                    "text": "Patient Notes:Issue number 1 Patient Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`\r\nPatient Message with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                }
+            ],
+            "dosage": [
+                {
+                    "text": "Dosage with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`",
+                    "patientInstruction": "Patient Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                }
+            ]
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "AFA9A909-808C-49DF-B805-9E43C947EE5A",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                                "code": "acute",
+                                "display": "Acute"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE21AFA9A909808C49DFB8059E43C947EE5A"
+                }
+            ],
+            "groupIdentifier": {
+                "value": "afa9a909-808c-49df-b805-9e43c947ee5a"
+            },
+            "status": "completed",
+            "intent": "plan",
+            "medicationReference": {
+                "reference": "Medication/1724C3CE-3191-4CC4-8A00-4BD45A9F7BD3"
+            },
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "authoredOn": "2021-10-19T10:39:16.27+01:00",
+            "recorder": {
+                "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
+            },
+            "note": [
+                {
+                    "text": "Prescriber Notes:Pharmacy Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                },
+                {
+                    "text": "Patient Notes:Patient Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                }
+            ],
+            "dosageInstruction": [
+                {
+                    "text": "Dosage with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`",
+                    "patientInstruction": "Patient Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                }
+            ],
+            "dispenseRequest": {
+                "validityPeriod": {
+                    "start": "2021-10-19",
+                    "end": "2021-11-02"
+                },
+                "quantity": {
+                    "value": 14,
+                    "unit": "tablet"
+                },
+                "expectedSupplyDuration": {
+                    "value": 14,
+                    "unit": "day",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "d"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "B20B2FB4-4970-4A0C-83AE-8F5B9D6F5AAF",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                                "code": "acute",
+                                "display": "Acute"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE21B20B2FB449704A0C83AE8F5B9D6F5AAF"
+                }
+            ],
+            "basedOn": [
+                {
+                    "reference": "MedicationRequest/AFA9A909-808C-49DF-B805-9E43C947EE5A"
+                }
+            ],
+            "groupIdentifier": {
+                "value": "afa9a909-808c-49df-b805-9e43c947ee5a"
+            },
+            "status": "completed",
+            "intent": "order",
+            "medicationReference": {
+                "reference": "Medication/1724C3CE-3191-4CC4-8A00-4BD45A9F7BD3"
+            },
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "authoredOn": "2021-10-19T10:40:13.863+01:00",
+            "recorder": {
+                "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
+            },
+            "note": [
+                {
+                    "text": "Prescriber Notes:Issue number 1 Pharmacy Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`\r\nPharmacy Message with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                },
+                {
+                    "text": "Patient Notes:Issue number 1 Patient Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`\r\nPatient Message with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                }
+            ],
+            "dosageInstruction": [
+                {
+                    "text": "Dosage with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`",
+                    "patientInstruction": "Patient Info with special characters:!@£$%^&*()_+-={}[]:\"|;'\\<>?,./~`"
+                }
+            ],
+            "dispenseRequest": {
+                "validityPeriod": {
+                    "start": "2021-10-19",
+                    "end": "2021-11-02"
+                },
+                "quantity": {
+                    "value": 14,
+                    "unit": "tablet"
+                },
+                "expectedSupplyDuration": {
+                    "value": 14,
+                    "unit": "day",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "d"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "Medication",
+            "id": "1724C3CE-3191-4CC4-8A00-4BD45A9F7BD3",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
+                ]
+            },
+            "code": {
+                "coding": [
+                    {
+                        "system": "https://fhir.hl7.org.uk/Id/emis-drug-codes",
+                        "code": "ERE/2023NEMIS",
+                        "display": "Erythromycin 250mg gastro-resistant tablets",
+                        "userSelected": true
+                    },
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "324178009",
+                        "display": "Erythromycin 250mg gastro-resistant tablets"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "MedicationStatement",
+            "id": "E6261782-BB51-4BA0-91F0-F7D09A7B1259-MS",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
+                                "code": "prescribed-at-gp-practice",
+                                "display": "Prescribed at GP practice"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
+                    "valueDateTime": "2021-10-19T00:00:00+01:00"
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE21E6261782BB514BA091F0F7D09A7B1259MS"
+                }
+            ],
+            "basedOn": [
+                {
+                    "reference": "MedicationRequest/E6261782-BB51-4BA0-91F0-F7D09A7B1259"
+                }
+            ],
+            "status": "completed",
+            "medicationReference": {
+                "reference": "Medication/0111D8E9-FBC2-4EBA-A977-BBA9D780B515"
+            },
+            "effectivePeriod": {
+                "start": "2021-10-19",
+                "end": "2021-11-18"
+            },
+            "dateAsserted": "2021-10-19T10:31:12.647+01:00",
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "taken": "unk",
+            "note": [
+                {
+                    "text": "Prescriber Notes:This is some Pharmacy Information which is useful when trying to convey pharmacy type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field."
+                },
+                {
+                    "text": "Patient Notes:This is some Patient Information which is useful when trying to convey patient type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field."
+                },
+                {
+                    "text": "Prescriber Notes:Issue number 1 This is some Pharmacy Information which is useful when trying to convey pharmacy type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field.\r\nThis is some Pharmacy information which is captured when the medication is actually being issued.\r\nThis is a second line of text in the Pharmacy field."
+                },
+                {
+                    "text": "Patient Notes:Issue number 1 This is some Patient Information which is useful when trying to convey patient type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field.\r\nThis is some Patient information which is captured when the medication is actually being issued.\r\nThis is a second line of text in the Patient field."
+                }
+            ],
+            "dosage": [
+                {
+                    "text": "This is some very long dosage information which will not actually tell the patient how much or indeed when to take this medication. They will simply have to work it out for themselves and i wish them all the very best.",
+                    "patientInstruction": "This is some Patient Information which is useful when trying to convey patient type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field."
+                }
+            ]
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "E6261782-BB51-4BA0-91F0-F7D09A7B1259",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                                "code": "acute",
+                                "display": "Acute"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE21E6261782BB514BA091F0F7D09A7B1259"
+                }
+            ],
+            "groupIdentifier": {
+                "value": "e6261782-bb51-4ba0-91f0-f7d09a7b1259"
+            },
+            "status": "completed",
+            "intent": "plan",
+            "medicationReference": {
+                "reference": "Medication/0111D8E9-FBC2-4EBA-A977-BBA9D780B515"
+            },
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "authoredOn": "2021-10-19T10:31:12.647+01:00",
+            "recorder": {
+                "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
+            },
+            "note": [
+                {
+                    "text": "Prescriber Notes:This is some Pharmacy Information which is useful when trying to convey pharmacy type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field."
+                },
+                {
+                    "text": "Patient Notes:This is some Patient Information which is useful when trying to convey patient type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field."
+                }
+            ],
+            "dosageInstruction": [
+                {
+                    "text": "This is some very long dosage information which will not actually tell the patient how much or indeed when to take this medication. They will simply have to work it out for themselves and i wish them all the very best.",
+                    "patientInstruction": "This is some Patient Information which is useful when trying to convey patient type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field."
+                }
+            ],
+            "dispenseRequest": {
+                "validityPeriod": {
+                    "start": "2021-10-19",
+                    "end": "2021-11-18"
+                },
+                "quantity": {
+                    "value": 30,
+                    "unit": "tablet"
+                },
+                "expectedSupplyDuration": {
+                    "value": 30,
+                    "unit": "day",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "d"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "C56A95E5-FD91-4C81-A17B-D40B77840688",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                                "code": "acute",
+                                "display": "Acute"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE21C56A95E5FD914C81A17BD40B77840688"
+                }
+            ],
+            "basedOn": [
+                {
+                    "reference": "MedicationRequest/E6261782-BB51-4BA0-91F0-F7D09A7B1259"
+                }
+            ],
+            "groupIdentifier": {
+                "value": "e6261782-bb51-4ba0-91f0-f7d09a7b1259"
+            },
+            "status": "completed",
+            "intent": "order",
+            "medicationReference": {
+                "reference": "Medication/0111D8E9-FBC2-4EBA-A977-BBA9D780B515"
+            },
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "authoredOn": "2021-10-19T10:34:14.75+01:00",
+            "recorder": {
+                "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
+            },
+            "note": [
+                {
+                    "text": "Prescriber Notes:Issue number 1 This is some Pharmacy Information which is useful when trying to convey pharmacy type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field.\r\nThis is some Pharmacy information which is captured when the medication is actually being issued.\r\nThis is a second line of text in the Pharmacy field."
+                },
+                {
+                    "text": "Patient Notes:Issue number 1 This is some Patient Information which is useful when trying to convey patient type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field.\r\nThis is some Patient information which is captured when the medication is actually being issued.\r\nThis is a second line of text in the Patient field."
+                }
+            ],
+            "dosageInstruction": [
+                {
+                    "text": "This is some very long dosage information which will not actually tell the patient how much or indeed when to take this medication. They will simply have to work it out for themselves and i wish them all the very best.",
+                    "patientInstruction": "This is some Patient Information which is useful when trying to convey patient type information.  This field can hold a large amount of data which is very useful when testing a large amount of data in a field."
+                }
+            ],
+            "dispenseRequest": {
+                "validityPeriod": {
+                    "start": "2021-10-19",
+                    "end": "2021-11-18"
+                },
+                "quantity": {
+                    "value": 30,
+                    "unit": "tablet"
+                },
+                "expectedSupplyDuration": {
+                    "value": 30,
+                    "unit": "day",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "d"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "Medication",
+            "id": "0111D8E9-FBC2-4EBA-A977-BBA9D780B515",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
+                ]
+            },
+            "code": {
+                "coding": [
+                    {
+                        "system": "https://fhir.hl7.org.uk/Id/emis-drug-codes",
+                        "code": "PETA14419NEMIS",
+                        "display": "Perindopril erbumine 8mg tablets",
+                        "userSelected": true
+                    },
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "374667004",
+                        "display": "Perindopril erbumine 8mg tablets"
+                    }
+                ]
+            }
+        }
+    },
+    {
       "resource": {
         "resourceType": "List",
         "meta": {
@@ -7595,6 +8107,16 @@
             "item": {
               "reference": "MedicationStatement/B6777C23-E245-4053-BE4C-45F5D0A27054-MS"
             }
+          },
+          {
+              "item": {
+                  "reference": "MedicationStatement/AFA9A909-808C-49DF-B805-9E43C947EE5A-MS"
+              }
+          },
+          {
+              "item": {
+                  "reference": "MedicationStatement/E6261782-BB51-4BA0-91F0-F7D09A7B1259-MS"
+              }
           },
 		  {
 			"item": {

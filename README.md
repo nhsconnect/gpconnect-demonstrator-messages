@@ -21,7 +21,7 @@ NB All these records refer to synthetic data constructed for test purposes
 |Investigations_Consumer_Data_<br/>Extract_File.json|9465701718|Guerra Jordan| Rich Investigations | N  | | |
 |Medications_consumer_data_<br/>p2_v0_1.json|9465698490|Daniels Shoshana| Rich Demonstrator Patient | N  23 | 9690937324 | Oakes |
 |<del>Medications_consumer_data_<br/>v0_1.json></del>|9450038082|Cudmore Maleah| Rich Demonstrator Patient copied to Consolidation_meds_test_record.json | N 22 | 9690937316 |  Pye |
-|Medications_consumer_data_<br/>v0_2.json|9450038082|Cudmore Maleah| Rich Demonstrator Patient | N 22 | 9690937316 |  Pye |
+|<del>Medications_consumer_data_<br/>v0_2.json</del>|9450038082|Cudmore Maleah| Rich Demonstrator Patient copied to Consolidation_meds_test_record.json  | N 22 | 9690937316 |  Pye |
 |Problems_ConsumerData_<br/>v0_2.json|9465701262|Meyers Yannis| Rich Problems | N  | | |
 |Referrals_ConsumerData_<br/>v0_2.json|9465699918|Magre Topsy| Rich Referrals | N | | |
 |UNCAT_Consumer_Data_file.json|9465701297|Livermore Cericeridwen| Rich Uncategorised | N | | |
