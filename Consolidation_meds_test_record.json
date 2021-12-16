@@ -7463,7 +7463,7 @@
                 },
                 {
                     "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-                    "valueDateTime": "2021-10-19T00:00:00+01:00"
+                    "valueDateTime": "2019-10-19T00:00:00+01:00"
                 }
             ],
             "identifier": [
@@ -7482,10 +7482,10 @@
                 "reference": "Medication/1724C3CE-3191-4CC4-8A00-4BD45A9F7BD3"
             },
             "effectivePeriod": {
-                "start": "2021-10-19",
-                "end": "2021-11-02"
+                "start": "2019-10-19",
+                "end": "2019-11-02"
             },
-            "dateAsserted": "2021-10-19T10:39:16.27+01:00",
+            "dateAsserted": "2019-10-19T10:39:16.27+01:00",
             "subject": {
                 "reference": "Patient/42c6100000000000"
             },
@@ -7552,7 +7552,7 @@
             "subject": {
                 "reference": "Patient/42c6100000000000"
             },
-            "authoredOn": "2021-10-19T10:39:16.27+01:00",
+            "authoredOn": "2019-10-19T10:39:16.27+01:00",
             "recorder": {
                 "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
             },
@@ -7572,8 +7572,8 @@
             ],
             "dispenseRequest": {
                 "validityPeriod": {
-                    "start": "2021-10-19",
-                    "end": "2021-11-02"
+                    "start": "2019-10-19",
+                    "end": "2019-11-02"
                 },
                 "quantity": {
                     "value": 14,
@@ -7633,7 +7633,7 @@
             "subject": {
                 "reference": "Patient/42c6100000000000"
             },
-            "authoredOn": "2021-10-19T10:40:13.863+01:00",
+            "authoredOn": "2019-10-19T10:40:13.863+01:00",
             "recorder": {
                 "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
             },
@@ -7653,8 +7653,8 @@
             ],
             "dispenseRequest": {
                 "validityPeriod": {
-                    "start": "2021-10-19",
-                    "end": "2021-11-02"
+                    "start": "2019-10-19",
+                    "end": "2019-11-02"
                 },
                 "quantity": {
                     "value": 14,
@@ -7719,7 +7719,7 @@
                 },
                 {
                     "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
-                    "valueDateTime": "2021-10-19T00:00:00+01:00"
+                    "valueDateTime": "2019-10-19T00:00:00+01:00"
                 }
             ],
             "identifier": [
@@ -7738,10 +7738,10 @@
                 "reference": "Medication/0111D8E9-FBC2-4EBA-A977-BBA9D780B515"
             },
             "effectivePeriod": {
-                "start": "2021-10-19",
-                "end": "2021-11-18"
+                "start": "2019-10-19",
+                "end": "2019-11-18"
             },
-            "dateAsserted": "2021-10-19T10:31:12.647+01:00",
+            "dateAsserted": "2019-10-19T10:31:12.647+01:00",
             "subject": {
                 "reference": "Patient/42c6100000000000"
             },
@@ -7808,7 +7808,7 @@
             "subject": {
                 "reference": "Patient/42c6100000000000"
             },
-            "authoredOn": "2021-10-19T10:31:12.647+01:00",
+            "authoredOn": "2019-10-19T10:31:12.647+01:00",
             "recorder": {
                 "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
             },
@@ -7828,8 +7828,8 @@
             ],
             "dispenseRequest": {
                 "validityPeriod": {
-                    "start": "2021-10-19",
-                    "end": "2021-11-18"
+                    "start": "2019-10-19",
+                    "end": "2019-11-18"
                 },
                 "quantity": {
                     "value": 30,
@@ -7889,7 +7889,7 @@
             "subject": {
                 "reference": "Patient/42c6100000000000"
             },
-            "authoredOn": "2021-10-19T10:34:14.75+01:00",
+            "authoredOn": "2019-10-19T10:34:14.75+01:00",
             "recorder": {
                 "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
             },
@@ -7909,8 +7909,8 @@
             ],
             "dispenseRequest": {
                 "validityPeriod": {
-                    "start": "2021-10-19",
-                    "end": "2021-11-18"
+                    "start": "2019-10-19",
+                    "end": "2019-11-18"
                 },
                 "quantity": {
                     "value": 30,
