@@ -467,7 +467,7 @@
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
-              "reference": "Referral items are not supported by the provider system"
+              "display": "Referral items are not supported by the provider system"
             }
           },
           {
@@ -677,7 +677,7 @@
           {
             "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
             "valueReference": {
-              "reference": "Test Request items are not supported by the provider system"
+              "display": "Test Request items are not supported by the provider system"
             }
           },
           {
@@ -2157,7 +2157,7 @@
           },
           {
             "item": {
-              "reference": "Referral items are not supported by the provider system"
+              "display": "Referral items are not supported by the provider system"
             }
           },
           {
@@ -3009,7 +3009,7 @@
           },
           {
             "item": {
-              "reference": "Referral items are not supported by the provider system"
+              "display": "Referral items are not supported by the provider system"
             }
           }
         ]
