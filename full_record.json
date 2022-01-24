@@ -9567,7 +9567,7 @@
       }, {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
         "valueReference": {
-          "reference": "Referral items are not supported by the provider system"
+          "display": "Referral items are not supported by the provider system"
         }
       }, {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
@@ -9732,7 +9732,7 @@
       }, {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
         "valueReference": {
-          "reference": "Test Request items are not supported by the provider system"
+          "display": "Test Request items are not supported by the provider system"
         }
       }, {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
@@ -10008,6 +10008,10 @@
           } ]
         }
       } ],
+      "identifier": [ {
+        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+        "value": "bb49bd70-bca8-11eb-b888-1002b58598b5"
+      } ],
       "basedOn": [ {
         "reference": "MedicationRequest/Consultation1-Topic1-Category-Plan-Medication-Plan"
       } ],
@@ -10051,6 +10055,10 @@
             "display": "Prescribed at GP practice"
           } ]
         }
+      } ],
+	  "identifier": [ {
+        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+        "value": "bb49bd70-bca8-11eb-b888-1002b58598b6"
       } ],
       "basedOn": [ {
         "reference": "MedicationRequest/Consultation1-Topic3-flat-Medication-Plan-1"
@@ -10096,6 +10104,10 @@
           } ]
         }
       } ],
+	  "identifier": [ {
+        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+        "value": "bb49bd70-bca8-11eb-b888-1002b58598b7"
+      } ],
       "basedOn": [ {
         "reference": "MedicationRequest/Consultation1-Topic4-Category-Plan-Medication-Plan-1"
       } ],
@@ -10140,6 +10152,10 @@
           } ]
         }
       } ],
+	  "identifier": [ {
+        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+        "value": "bb49bd70-bca8-11eb-b888-1002b58598b8"
+      } ],
       "basedOn": [ {
         "reference": "MedicationRequest/Consultation2-Topic1-Category-Plan-Medication-Plan"
       } ],
@@ -10183,6 +10199,10 @@
             "display": "Prescribed at GP practice"
           } ]
         }
+      } ],
+	  "identifier": [ {
+        "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+        "value": "bb49bd70-bca8-11eb-b888-1002b58598b9"
       } ],
       "basedOn": [ {
         "reference": "MedicationRequest/Consultation3-Topic1-Category-Plan-Medication-Plan"
