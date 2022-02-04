@@ -1486,7 +1486,6 @@
                 },
                 "status": "active",
                 "name": "Armitage Bridge Hospital",
-                "description": "",
                 "type": {
                     "text": "Hospital"
                 },

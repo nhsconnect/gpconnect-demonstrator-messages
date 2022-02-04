@@ -1447,7 +1447,6 @@
                 },
                 "status": "active",
                 "name": "Testvale Surgery",
-                "description": "",
                 "telecom": [
                     {
                         "system": "phone",
