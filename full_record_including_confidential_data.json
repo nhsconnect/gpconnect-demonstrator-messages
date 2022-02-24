@@ -449,9 +449,6 @@
           "display": "Sorted by Event Date"
         } ]
       },
-      "note": [ {
-        "text": "Items excluded due to confidentiality and/or patient preferences."
-      } ],
       "entry": [ {
         "item": {
           "reference": "MedicationStatement/1"
@@ -10125,6 +10122,21 @@
         "valueReference": {
           "reference": "Observation/Consultation3-Topic2-Category-Plan-Observation-1"
         }
+      }, {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+        "valueReference": {
+          "reference": "DiagnosticReport/d4a5bf91-b3de-44a8-84c0-a389e551c625"
+        }
+      }, {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+        "valueReference": {
+          "reference": "MedicationStatement/e351aa55-1ab3-400f-af67-52eafcec6b56"
+        }
+      }, {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1",
+        "valueReference": {
+          "reference": "Observation/Consultation3-Topic2-Category-Examination-Observation-8"
+        }
       } ],
       "identifier": [ {
         "system": "https://provider.nhs.uk/data-identifier",
@@ -11178,7 +11190,7 @@
       "content": [ {
         "attachment": {
           "contentType": "application/msword",
-          "url": "http://10.0.2.2:4854/B82617/STU3/1/gpconnect/fhir/Binary/07a6483f-732b-461e-86b6-edb665c45510",
+          "url": "__BINARY_URL__/Binary/07a6483f-732b-461e-86b6-edb665c45510",
           "size": 3654
         }
       } ],
@@ -11309,9 +11321,6 @@
           "code": "event-date"
         } ]
       },
-	  "note": [ {
-        "text": "Items excluded due to confidentiality and/or patient preferences."
-      } ],
       "entry": [ {
         "item": {
           "reference": "Observation/Consultation1-Topic1-Category-History-Observation-1"
@@ -11784,6 +11793,10 @@
         "item": {
           "reference": "MedicationStatement/d806d0aa-a2c7-4a4b-9121-e80e04c20693"
         }
+      }, {
+        "item": {
+          "reference": "MedicationStatement/e351aa55-1ab3-400f-af67-52eafcec6b56"
+        }
       } ]
     }
   }, {
@@ -11968,7 +11981,11 @@
         "item": {
           "reference": "Observation/Consultation2-Topic1-Category-Plan-Observation-1"
         }
-      } ]
+      }, {
+        "item": {
+          "reference": "Observation/Consultation3-Topic2-Category-Examination-Observation-8"
+        }
+      }  ]
     }
   }, {
     "resource": {
@@ -12078,7 +12095,11 @@
         "item": {
           "reference": "DiagnosticReport/efae5859-28df-4e7d-be91-6df56d8215e4"
         }
-      } ]
+      },  {
+        "item": {
+          "reference": "DiagnosticReport/d4a5bf91-b3de-44a8-84c0-a389e551c625"
+        }
+      }  ]
     }
   }, {
     "resource": {
