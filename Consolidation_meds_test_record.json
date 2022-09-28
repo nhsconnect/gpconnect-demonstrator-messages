@@ -1042,7 +1042,7 @@
                         "reference": "MedicationRequest/2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1"
                     }
                 ],
-                "status": "completed",
+                "status": "stopped",
                 "medicationReference": {
                     "reference": "Medication/DAE92442-09FC-42BA-8CBD-62E46E9F13B1"
                 },
@@ -1101,6 +1101,21 @@
                         ]
                     },
                     {
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatusReason-1",
+                        "extension": [
+                            {
+                                "url": "statusReason",
+                                "valueCodeableConcept": {
+                                    "text": "No information available"
+                                }
+                            },
+                            {
+                                "url": "statusChangeDate",
+                                "valueDateTime": "2019-09-30T12:38:00+01:00"
+                            }
+                        ]
+                    },
+                    {
                         "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
                         "valueCodeableConcept": {
                             "coding": [
@@ -1119,7 +1134,10 @@
                         "value": "7DC1C5D8540B4A7C8E19CBD3426A8CC62E61869FD0DB4532B694DB6511DB7A7DHD1"
                     }
                 ],
-                "status": "completed",
+                "groupIdentifier": {
+                    "value": "2e61869f-d0db-4532-b694-db6511db7a7d-hd-1"
+                },
+                "status": "stopped",
                 "intent": "plan",
                 "medicationReference": {
                     "reference": "Medication/DAE92442-09FC-42BA-8CBD-62E46E9F13B1"
@@ -1128,11 +1146,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2020-03-02T12:49:02.21+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -1202,6 +1215,9 @@
                         "reference": "MedicationRequest/2E61869F-D0DB-4532-B694-DB6511DB7A7D-HD-1"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "2e61869f-d0db-4532-b694-db6511db7a7d-hd-1"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -1214,11 +1230,6 @@
                     "reference": "Encounter/32B11852-21CF-495A-9EEA-6A4761BACF33"
                 },
                 "authoredOn": "2019-09-30T12:38:00+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -1296,6 +1307,9 @@
                         "value": "7DC1C5D8540B4A7C8E19CBD3426A8CC62E61869FD0DB4532B694DB6511DB7A7D"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "2e61869f-d0db-4532-b694-db6511db7a7d"
+                },
                 "status": "active",
                 "intent": "plan",
                 "medicationReference": {
@@ -1305,11 +1319,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2020-03-02T12:49:35.397+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -5387,6 +5396,9 @@
                         "value": "7DC1C5D8540B4A7C8E19CBD3426A8CC62E352BA68F87479BBC8041494027F2E6"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "2e352ba6-8f87-479b-bc80-41494027f2e6"
+                },
                 "status": "active",
                 "intent": "plan",
                 "medicationReference": {
@@ -5396,11 +5408,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2020-03-04T16:35:02.273+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -5766,6 +5773,9 @@
                         "value": "7DC1C5D8540B4A7C8E19CBD3426A8CC6608801399E794F1E959A545B4A7F3BC7"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "60880139-9e79-4f1e-959a-545b4a7f3bc7"
+                },
                 "status": "active",
                 "intent": "plan",
                 "medicationReference": {
@@ -5775,11 +5785,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2020-03-02T14:42:12.453+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -5839,6 +5844,9 @@
                         "reference": "MedicationRequest/60880139-9E79-4F1E-959A-545B4A7F3BC7"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "60880139-9e79-4f1e-959a-545b4a7f3bc7"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -5851,11 +5859,6 @@
                     "reference": "Encounter/A48BE469-0303-4196-9909-2A0F2017D6C6"
                 },
                 "authoredOn": "2019-07-01T14:36:00+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -5901,7 +5904,7 @@
 						},
 						{
 							"system": "http://snomed.info/sct",
-							"code": "320030001",
+							"code": "39733011000001106",
 							"display": "Atorvastatin 20mg tablets"
 						}
 					]
@@ -5990,6 +5993,9 @@
                         "value": "2FE2854DCF584AEE8F71257ADF74FE21E01E5A37972A4911B3A8873E68978084"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "e01e5a37-972a-4911-b3a8-873e68978084"
+                },
                 "status": "active",
                 "intent": "plan",
                 "medicationReference": {
@@ -5999,11 +6005,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-08-09T13:35:05.947+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
                 },
@@ -6093,7 +6094,7 @@
                         "reference": "MedicationRequest/EB002DF0-C869-4464-8F74-340BBC8A2457"
                     }
                 ],
-                "status": "completed",
+                "status": "stopped",
                 "medicationReference": {
                     "reference": "Medication/0C881423-E7C2-4A28-9244-5E1ED3DA572D"
                 },
@@ -6132,6 +6133,21 @@
                 },
                 "extension": [
                     {
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatusReason-1",
+                        "extension": [
+                            {
+                                "url": "statusReason",
+                                "valueCodeableConcept": {
+                                    "text": "Expired"
+                                }
+                            },
+                            {
+                                "url": "statusChangeDate",
+                                "valueDateTime": "2018-10-27T02:01:03.697+01:00"
+                            }
+                        ]
+                    },
+                    {
                         "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
                         "valueCodeableConcept": {
                             "coding": [
@@ -6150,7 +6166,10 @@
                         "value": "2FE2854DCF584AEE8F71257ADF74FE21EB002DF0C86944648F74340BBC8A2457"
                     }
                 ],
-                "status": "completed",
+                "groupIdentifier": {
+                    "value": "eb002df0-c869-4464-8f74-340bbc8a2457"
+                },
+                "status": "stopped",
                 "intent": "plan",
                 "medicationReference": {
                     "reference": "Medication/0C881423-E7C2-4A28-9244-5E1ED3DA572D"
@@ -6159,11 +6178,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-01-15T10:06:08.953+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -6229,6 +6243,9 @@
                         "reference": "MedicationRequest/EB002DF0-C869-4464-8F74-340BBC8A2457"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "eb002df0-c869-4464-8f74-340bbc8a2457"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -6238,11 +6255,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-01-15T10:06:09.733+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -6402,6 +6414,9 @@
                         "value": "2FE2854DCF584AEE8F71257ADF74FE2147599D21788E4F4A8DA89DBE1B40A2BF"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "47599d21-788e-4f4a-8da8-9dbe1b40a2bf"
+                },
                 "status": "stopped",
                 "intent": "plan",
                 "medicationReference": {
@@ -6411,11 +6426,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-10-01T11:24:28.613+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -6476,6 +6486,9 @@
                         "reference": "MedicationRequest/47599D21-788E-4F4A-8DA8-9DBE1B40A2BF"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "47599d21-788e-4f4a-8da8-9dbe1b40a2bf"
+                },
                 "status": "stopped",
                 "intent": "order",
                 "medicationReference": {
@@ -6485,11 +6498,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-10-01T11:24:36.91+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -6677,6 +6685,9 @@
                         "value": "2FE2854DCF584AEE8F71257ADF74FE21C3DE337C18BE43799EE838683327B53A"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "c3de337c-18be-4379-9ee8-38683327b53a"
+                },
                 "status": "stopped",
                 "intent": "plan",
                 "medicationReference": {
@@ -6686,11 +6697,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-03-23T15:59:21.893+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -6751,6 +6757,9 @@
                         "reference": "MedicationRequest/C3DE337C-18BE-4379-9EE8-38683327B53A"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "c3de337c-18be-4379-9ee8-38683327b53a"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -6763,11 +6772,6 @@
                     "reference": "Encounter/8F1F0FF5-2F2C-482B-BD9A-98101786B46D"
                 },
                 "authoredOn": "2010-03-23T15:39:00+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -6919,6 +6923,9 @@
                         "value": "2FE2854DCF584AEE8F71257ADF74FE2151F220391FD744B1B8EF54994AE81706"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "51f22039-1fd7-44b1-b8ef-54994ae81706"
+                },
                 "status": "active",
                 "intent": "plan",
                 "medicationReference": {
@@ -6928,11 +6935,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-01-14T11:02:50.067+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -6992,6 +6994,9 @@
                         "reference": "MedicationRequest/51F22039-1FD7-44B1-B8EF-54994AE81706"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "51f22039-1fd7-44b1-b8ef-54994ae81706"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -7001,11 +7006,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-01-14T11:02:51.91+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -7096,7 +7096,7 @@
                         "reference": "MedicationRequest/B6777C23-E245-4053-BE4C-45F5D0A27054"
                     }
                 ],
-                "status": "active",
+                "status": "completed",
                 "medicationReference": {
                     "reference": "Medication/17A4DFEE-213D-4565-BA41-C8CF648BC5FA"
                 },
@@ -7157,7 +7157,10 @@
                         "value": "2FE2854DCF584AEE8F71257ADF74FE21B6777C23E2454053BE4C45F5D0A27054"
                     }
                 ],
-                "status": "active",
+                "groupIdentifier": {
+                    "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
+                },
+                "status": "completed",
                 "intent": "plan",
                 "medicationReference": {
                     "reference": "Medication/17A4DFEE-213D-4565-BA41-C8CF648BC5FA"
@@ -7166,11 +7169,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-01-18T14:49:19.567+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -7230,6 +7228,9 @@
                         "reference": "MedicationRequest/B6777C23-E245-4053-BE4C-45F5D0A27054"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -7239,11 +7240,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-01-18T14:49:20.283+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -7304,6 +7300,9 @@
                         "reference": "MedicationRequest/B6777C23-E245-4053-BE4C-45F5D0A27054"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -7313,11 +7312,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-01-19T09:18:53.657+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -7378,6 +7372,9 @@
                         "reference": "MedicationRequest/B6777C23-E245-4053-BE4C-45F5D0A27054"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "b6777c23-e245-4053-be4c-45f5d0a27054"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -7387,11 +7384,6 @@
                     "reference": "Patient/42c6100000000000"
                 },
                 "authoredOn": "2010-01-20T09:35:21.617+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
                 },
@@ -7953,6 +7945,248 @@
     },
     {
       "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "34A76899-0C61-413C-BC34-9F357971B469",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatusReason-1",
+                    "extension": [
+                        {
+                            "url": "statusReason",
+                            "valueCodeableConcept": {
+                                "text": "Expired"
+                            }
+                        },
+                        {
+                            "url": "statusChangeDate",
+                            "valueDateTime": "2018-10-27T02:01:03.697+01:00"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                                "code": "acute",
+                                "display": "Acute"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE2134A768990C61413CBC349F357971B469"
+                }
+            ],
+            "status": "stopped",
+            "intent": "plan",
+            "medicationReference": {
+                "reference": "Medication/C67DB8FE-8C98-4D86-903C-3AB1EDF348D4"
+            },
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "authoredOn": "2010-01-14T10:22:07.493+00:00",
+            "requester": {
+                "agent": {
+                    "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
+                }
+            },
+            "recorder": {
+                "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
+            },
+            "dosageInstruction": [
+                {
+                    "text": "One To Be Taken Each Day"
+                }
+            ],
+            "dispenseRequest": {
+                "validityPeriod": {
+                    "start": "2010-01-14",
+                    "end": "2018-10-27"
+                },
+                "quantity": {
+                    "value": 28,
+                    "unit": "tablet"
+                },
+                "expectedSupplyDuration": {
+                    "value": 28,
+                    "unit": "day",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "d"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "2E9ED4C7-857F-41CC-A3B7-60FDB5EF6963",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationRequest-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescriptionType-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+                                "code": "acute",
+                                "display": "Acute"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE212E9ED4C7857F41CCA3B760FDB5EF6963"
+                }
+            ],
+            "basedOn": [
+                {
+                    "reference": "MedicationRequest/34A76899-0C61-413C-BC34-9F357971B469"
+                }
+            ],
+            "status": "completed",
+            "intent": "order",
+            "medicationReference": {
+                "reference": "Medication/C67DB8FE-8C98-4D86-903C-3AB1EDF348D4"
+            },
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "authoredOn": "2010-01-14T10:22:11.573+00:00",
+            "requester": {
+                "agent": {
+                    "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
+                }
+            },
+            "recorder": {
+                "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
+            },
+            "dosageInstruction": [
+                {
+                    "text": "One To Be Taken Each Day"
+                }
+            ],
+            "dispenseRequest": {
+                "validityPeriod": {
+                    "start": "2010-03-31",
+                    "end": "2010-04-28"
+                },
+                "quantity": {
+                    "value": 28,
+                    "unit": "tablet"
+                },
+                "expectedSupplyDuration": {
+                    "value": 28,
+                    "unit": "day",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "d"
+                }
+            }
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "MedicationStatement",
+            "id": "34A76899-0C61-413C-BC34-9F357971B469-MS",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-MedicationStatement-1"
+                ]
+            },
+            "extension": [
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-PrescribingAgency-1",
+                    "valueCodeableConcept": {
+                        "coding": [
+                            {
+                                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
+                                "code": "prescribed-at-gp-practice",
+                                "display": "Prescribed at GP practice"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-MedicationStatementLastIssueDate-1",
+                    "valueDateTime": "2010-03-31T00:00:00+01:00"
+                }
+            ],
+            "identifier": [
+                {
+                    "system": "https://EMISWeb/A82038",
+                    "value": "2FE2854DCF584AEE8F71257ADF74FE2134A768990C61413CBC349F357971B469MS"
+                }
+            ],
+            "basedOn": [
+                {
+                    "reference": "MedicationRequest/34A76899-0C61-413C-BC34-9F357971B469"
+                }
+            ],
+            "status": "stopped",
+            "medicationReference": {
+                "reference": "Medication/C67DB8FE-8C98-4D86-903C-3AB1EDF348D4"
+            },
+            "effectivePeriod": {
+                "start": "2010-01-14",
+                "end": "2018-10-27"
+            },
+            "dateAsserted": "2010-01-14T10:22:07.493+00:00",
+            "subject": {
+                "reference": "Patient/42c6100000000000"
+            },
+            "taken": "unk",
+            "dosage": [
+                {
+                    "text": "One To Be Taken Each Day"
+                }
+            ]
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "Medication",
+            "id": "C67DB8FE-8C98-4D86-903C-3AB1EDF348D4",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
+                ]
+            },
+            "code": {
+                "coding": [
+                    {
+                        "system": "https://fhir.hl7.org.uk/Id/emis-drug-codes",
+                        "code": "AMTA17006NEMIS",
+                        "display": "Amlodipine 10mg tablets",
+                        "userSelected": true
+                    },
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "39731911000001109",
+                        "display": "Amlodipine 10mg tablets"
+                    }
+                ]
+            }
+        }
+    },
+    {
+      "resource": {
         "resourceType": "List",
         "meta": {
           "profile": [
@@ -8123,7 +8357,12 @@
 			"item": {
 			  "reference": "MedicationStatement/39-8498"
 			}
+		  },
+      {
+          "item": {
+              "reference": "MedicationStatement/F3FAA12E-567A-4CC4-9F65-B29DFB911532-MS"
 		  }
+      }
         ]
       }
     }

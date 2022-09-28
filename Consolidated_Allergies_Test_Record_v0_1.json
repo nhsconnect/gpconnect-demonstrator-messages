@@ -294,11 +294,16 @@
 				"patient": {
 					"reference": "Patient/e8ac400000000000"
 				},
-                "onsetDateTime": "2019-03-28",
+        "onsetDateTime": "2019",
                 "assertedDate": "2019-03-28T13:28:07.827+00:00",
                 "recorder": {
-                    "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
+            "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
+        },
+        "note": [
+            {
+                "text": "Year only populated - special characters: !'£$%^&*(0_+}{\":?><~`@][';/.,"
                 }
+        ]
             }
         },
         {
@@ -1748,7 +1753,7 @@
                     ]
                 },
                 "patient": {
-                    "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+                    "reference": "Patient/e8ac400000000000"
                 },
                 "assertedDate": "2021-09-17T11:39:44.913+01:00",
                 "recorder": {
@@ -1815,7 +1820,7 @@
                     ]
                 },
                 "patient": {
-                    "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+                    "reference": "Patient/e8ac400000000000"
                 },
                 "onsetDateTime": "2021-09-17T13:14:00+01:00",
                 "assertedDate": "2021-09-17T13:16:05.8+01:00",
@@ -1880,7 +1885,7 @@
                     ]
                 },
                 "patient": {
-                    "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+                    "reference": "Patient/e8ac400000000000"
                 },
                 "onsetDateTime": "2019",
                 "assertedDate": "2019-03-28T13:28:07.827+00:00",
@@ -2485,7 +2490,7 @@
                 },
                 "extension": [
                     {
-                        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ActualProblem-1",
                         "valueReference": {
                             "reference": "AllergyIntolerance/3FC884E6-A327-4076-B4C5-6B02192C5160"
                         }
@@ -2564,7 +2569,7 @@
                 },
                 "extension": [
                     {
-                        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ActualProblem-1",
                         "valueReference": {
                             "reference": "AllergyIntolerance/62658072-28AF-47E5-B81C-BC0521D5C41C"
                         }

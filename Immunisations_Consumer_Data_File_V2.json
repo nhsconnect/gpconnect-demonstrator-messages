@@ -31,6 +31,10 @@
                     },
                     {
                         "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ListWarningCode-1",
+                        "valueCode": "confidential-items"
+                    },
+                    {
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ListWarningCode-1",
                         "valueCode": "data-in-transit"
                     }
                 ],
@@ -61,7 +65,7 @@
                 },
                 "note": [
                     {
-                        "text": "Patient record transfer from previous GP practice not yet complete; information recorded before 15-Oct-2020 may be missing."
+                        "text": "Items excluded due to confidentiality and/or patient preferences. Patient record transfer from previous GP practice not yet complete; information recorded before 15-Oct-2020 may be missing."
                     }
                 ],
                 "entry": [
@@ -1888,7 +1892,7 @@
                 },
                 "extension": [
                     {
-                        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ActualProblem-1",
                         "valueReference": {
                             "reference": "Observation/F6FCF37E-F5D9-46FB-B39A-F94C32A69B11"
                         }
