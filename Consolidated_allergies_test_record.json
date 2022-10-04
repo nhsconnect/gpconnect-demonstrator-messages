@@ -490,245 +490,381 @@
     },
     {
       "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "3FC884E6-A327-4076-B4C5-6B02192C5160",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "3fc884e6-a327-4076-b4c5-6b02192c5160"
-          }
-        ],
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://read.info/readv2",
-              "code": "TJ03000",
-              "display": "Adverse reaction to erythromycin",
-              "userSelected": true
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "assertedDate": "2019-03-28",
-        "recorder": {
-          "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "62658072-28AF-47E5-B81C-BC0521D5C41C",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "62658072-28af-47e5-b81c-bc0521d5c41c"
-          }
-        ],
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "environment"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://read.info/readv2",
-              "code": "SN58200",
-              "display": "Peanut allergy",
-              "userSelected": true
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "assertedDate": "2019-03-28",
-        "recorder": {
-          "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "BCABE667-9375-4E32-823F-6B455FFF2D88",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "bcabe667-9375-4e32-823f-6b455fff2d88"
-          }
-        ],
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://read.info/readv2",
-              "code": "14L6.00",
-              "display": "H/O: serum allergy",
-              "userSelected": true
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "assertedDate": "2019-03-28",
-        "recorder": {
-          "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "42B94FC2-CF5C-46D4-B125-E0DC13E59ACA",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "42b94fc2-cf5c-46d4-b125-e0dc13e59aca"
-          }
-        ],
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "https://fhir.hl7.org.uk/Id/egton-codes",
-              "code": "ALLERGY4488HILLI",
-              "display": "Adverse reaction to Antoin",
-              "userSelected": true
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "assertedDate": "2019-03-28",
-        "recorder": {
-          "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-        }
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "4B9B29F2-A4D8-4C2D-9883-42EE3F5DAE74",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-            "value": "4b9b29f2-a4d8-4c2d-9883-42ee3f5dae74"
-          }
-        ],
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://read.info/readv2",
-              "code": "14L1.00",
-              "display": "H/O: penicillin allergy",
-              "userSelected": true
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "assertedDate": "2019-03-28",
-        "recorder": {
-          "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-        },
-        "note": [
-          {
-            "text": "Emis drug group"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "b000000000000000_850c000000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "317919004"
-            }
+          "resourceType": "AllergyIntolerance",
+          "id": "3FC884E6-A327-4076-B4C5-6B02192C5160",
+          "meta": {
+              "profile": [
+                  "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+              ]
+          },
+          "identifier": [
+              {
+                  "system": "https://EMISWeb/A82038",
+                  "value": "9340157B697342099B57BF6C64F29E463FC884E6A3274076B4C56B02192C5160"
+              }
           ],
-          "text": "BENDROFLUMETHIAZIDE (all components considered allergens - Bendroflumethiazide 2.5mg tablets)"
-        },
-        "patient": {
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "category": [
+              "medication"
+          ],
+          "code": {
+              "coding": [
+                  {
+                      "system": "http://read.info/readv2",
+                      "code": "TJ03000",
+                      "display": "Adverse reaction to erythromycin",
+                      "userSelected": true
+                  },
+                  {
+                      "extension": [
+                          {
+                              "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                              "extension": [
+                                  {
+                                      "url": "descriptionId",
+                                      "valueId": "2579700012"
+                                  },
+                                  {
+                                      "url": "descriptionDisplay",
+                                      "valueString": "Adverse reaction to erythromycin"
+                                  }
+                              ]
+                          }
+                      ],
+                      "system": "http://snomed.info/sct",
+                      "code": "419056004",
+                      "display": "Erythromycin adverse reaction"
+                  }
+              ]
+          },
+  "patient": {
           "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2010-12-20",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
-            },
-            "time": "2011-01-21T08:18:35Z",
-            "text": "This has an UNK date"
-          }
-        ]
+  },
+          "onsetDateTime": "2019-03-28",
+          "assertedDate": "2019-03-28T13:55:12.777+00:00",
+          "recorder": {
+              "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
+          },
+          "note": [
+              {
+                  "text": "Significance : Major\nEpisodicity : First"
+              }
+          ]
       }
-    },
+  },
+    {
+      "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "62658072-28AF-47E5-B81C-BC0521D5C41C",
+          "meta": {
+              "profile": [
+                  "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+              ]
+          },
+          "identifier": [
+              {
+                  "system": "https://EMISWeb/A82038",
+                  "value": "9340157B697342099B57BF6C64F29E466265807228AF47E5B81CBC0521D5C41C"
+              }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "category": [
+              "environment"
+          ],
+          "code": {
+              "coding": [
+                  {
+                      "system": "http://read.info/readv2",
+                      "code": "SN58200",
+                      "display": "Peanut allergy",
+                      "userSelected": true
+                  },
+                  {
+                      "extension": [
+                          {
+                              "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                              "extension": [
+                                  {
+                                      "url": "descriptionId",
+                                      "valueId": "152306018"
+                                  },
+                                  {
+                                      "url": "descriptionDisplay",
+                                      "valueString": "Allergy to peanuts"
+                                  }
+                              ]
+                          }
+                      ],
+                      "system": "http://snomed.info/sct",
+                      "code": "91935009",
+                      "display": "Allergy to peanut"
+                  }
+              ]
+          },
+  "patient": {
+          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+  },
+          "onsetDateTime": "2019-03-28",
+          "assertedDate": "2019-03-28T13:29:03.26+00:00",
+          "recorder": {
+              "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
+          },
+          "note": [
+              {
+                  "text": "Significance : Major\nEpisodicity : First"
+              }
+          ]
+      }
+  },
+  {
+      "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "BCABE667-9375-4E32-823F-6B455FFF2D88",
+          "meta": {
+              "profile": [
+                  "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+              ]
+          },
+          "identifier": [
+              {
+                  "system": "https://EMISWeb/A82038",
+                  "value": "9340157B697342099B57BF6C64F29E46BCABE66793754E32823F6B455FFF2D88"
+              }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "category": [
+              "medication"
+          ],
+          "code": {
+              "coding": [
+                  {
+                      "system": "http://read.info/readv2",
+                      "code": "14L6.00",
+                      "display": "H/O: serum allergy",
+                      "userSelected": true
+                  },
+                  {
+                      "extension": [
+                          {
+                              "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                              "extension": [
+                                  {
+                                      "url": "descriptionId",
+                                      "valueId": "3023291019"
+                                  },
+                                  {
+                                      "url": "descriptionDisplay",
+                                      "valueString": "Serum allergy"
+                                  }
+                              ]
+                          }
+                      ],
+                      "system": "http://snomed.info/sct",
+                      "code": "705097000",
+                      "display": "Allergy to serum"
+                  }
+              ]
+          },
+  "patient": {
+          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+  },
+  "onsetDateTime": "2019",
+          "assertedDate": "2019-03-28T13:28:07.827+00:00",
+          "recorder": {
+      "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
+  },
+  "note": [
+      {
+          "text": "Year only populated - special characters: !'£$%^&*(0_+}{\":?><~`@][';/.,"
+          }
+  ]
+      }
+  },
+  {
+      "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "42B94FC2-CF5C-46D4-B125-E0DC13E59ACA",
+          "meta": {
+              "profile": [
+                  "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+              ]
+          },
+          "identifier": [
+              {
+                  "system": "https://EMISWeb/A82038",
+                  "value": "9340157B697342099B57BF6C64F29E4642B94FC2CF5C46D4B125E0DC13E59ACA"
+              }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "category": [
+              "medication"
+          ],
+          "code": {
+              "coding": [
+                  {
+                      "system": "https://fhir.hl7.org.uk/Id/egton-codes",
+                      "code": "ALLERGY4488HILLI",
+                      "display": "Adverse reaction to Antoin",
+                      "userSelected": true
+                  },
+                  {
+                      "extension": [
+                          {
+                              "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                              "extension": [
+                                  {
+                                      "url": "descriptionId",
+                                      "valueId": "1061831000006117"
+                                  },
+                                  {
+                                      "url": "descriptionDisplay",
+                                      "valueString": "Adverse reaction to Antoin"
+                                  }
+                              ]
+                          }
+                      ],
+                      "system": "http://snomed.info/sct",
+                      "code": "1061831000006101",
+                      "display": "Adverse reaction to Antoin"
+                  }
+              ]
+          },
+  "patient": {
+          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+  },
+          "onsetDateTime": "2019-03-28",
+          "assertedDate": "2019-03-28T13:27:02.62+00:00",
+          "recorder": {
+              "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
+          }
+      }
+  },
+  {
+      "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "4B9B29F2-A4D8-4C2D-9883-42EE3F5DAE74",
+          "meta": {
+              "profile": [
+                  "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+              ]
+          },
+          "identifier": [
+              {
+                  "system": "https://EMISWeb/A82038",
+                  "value": "9340157B697342099B57BF6C64F29E464B9B29F2A4D84C2D988342EE3F5DAE74"
+              }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "category": [
+              "medication"
+          ],
+          "code": {
+              "coding": [
+                  {
+                      "system": "http://read.info/readv2",
+                      "code": "14L1.00",
+                      "display": "H/O: penicillin allergy",
+                      "userSelected": true
+                  },
+                  {
+                      "extension": [
+                          {
+                              "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                              "extension": [
+                                  {
+                                      "url": "descriptionId",
+                                      "valueId": "811091000006112"
+                                  },
+                                  {
+                                      "url": "descriptionDisplay",
+                                      "valueString": "Allergy to penicillin"
+                                  }
+                              ]
+                          }
+                      ],
+                      "system": "http://snomed.info/sct",
+                      "code": "91936005",
+                      "display": "Allergy to penicillin"
+                  }
+              ]
+          },
+  "patient": {
+          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+  },
+          "onsetDateTime": "2019-03-28",
+          "assertedDate": "2019-03-28T13:26:06.81+00:00",
+          "recorder": {
+              "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
+          },
+          "note": [
+              {
+                  "text": "Emis drug group"
+              }
+          ]
+      }
+  },
+  {
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "id": "b000000000000000_850c000000000000",
+      "meta": {
+        "profile": [
+          "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+        ]
+      },
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+          "valueReference": {
+            "reference": "Encounter/4000000000000000_9a44170000000000"
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "system": "https://tpp-uk.com/Id/ccs-id",
+          "value": "b000000000000000_850c000000000000"
+        }
+      ],
+      "clinicalStatus": "active",
+      "verificationStatus": "unconfirmed",
+      "category": [
+        "medication"
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "317919004",
+            "display": "Bendroflumethiazide 2.5mg tablets"
+          }
+        ],
+        "text": "BENDROFLUMETHIAZIDE"
+      },
+      "patient": {
+          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+      },
+      "onsetDateTime": "2010-12-20",
+      "assertedDate": "2011-01-21T08:18:35Z",
+      "recorder": {
+        "reference": "Practitioner/26f1000000000000"
+      },
+      "note": [
+        {
+          "authorReference": {
+            "reference": "Practitioner/26f1000000000000"
+          },
+          "time": "2011-01-21T08:18:35Z",
+          "text": "This has an UNK date"
+        }
+      ]
+    }
+  },
     {
       "resource": {
         "resourceType": "AllergyIntolerance",
@@ -738,6 +874,20 @@
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
           ]
         },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+            "valueReference": {
+              "reference": "Encounter/4000000000000000_5544170000000000"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "b000000000000000_f50c000000000000"
+          }
+        ],
         "clinicalStatus": "active",
         "verificationStatus": "unconfirmed",
         "category": [
@@ -747,10 +897,11 @@
           "coding": [
             {
               "system": "http://snomed.info/sct",
-              "code": "15065911000001106"
+              "code": "15065911000001106",
+              "display": "Codeine 15mg/5ml linctus"
             }
           ],
-          "text": "CODEINE PHOSPHATE (all components considered allergens - Codeine 15mg/5ml linctus)"
+          "text": "CODEINE PHOSPHATE"
         },
         "patient": {
           "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
@@ -772,37 +923,52 @@
       }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "b000000000000000_e50c000000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "4674511000001105"
-            }
-          ],
-          "text": "DICOBALT EDETATE (all components considered allergens - Dicobalt edetate 300mg/20ml solution for injection ampoules (Alliance Pharmaceuticals Ltd))"
-        },
-        "patient": {
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "b000000000000000_e50c000000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
+            },
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "b000000000000000_e50c000000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_5544170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2007-01",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "4674511000001105",
+                        "display": "Dicobalt edetate 300mg/20ml solution for injection ampoules (Alliance Pharmaceuticals Ltd)"
+                    }
+                ],
+                "text": "DICOBALT EDETATE"
+            },
+            "clinicalStatus": "active",
+            "patient": {
           "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2010-12-09",
-        "assertedDate": "2007-01",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
+            },
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2010-12-09"
         }
-      }
     },
     {
       "resource": {
@@ -813,6 +979,20 @@
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
           ]
         },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+            "valueReference": {
+              "reference": "Encounter/4000000000000000_8644170000000000"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "b000000000000000_b50c000000000000"
+          }
+        ],
         "clinicalStatus": "active",
         "verificationStatus": "unconfirmed",
         "category": [
@@ -847,300 +1027,435 @@
       }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "b000000000000000_a50c000000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "3961211000001100"
-            }
-          ],
-          "text": "DIHYDROTACHYSTEROL (all components considered allergens - Dihydrotachysterol 250micrograms/ml oral solution sugar free)"
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2010-12-16",
-        "assertedDate": "2010-12-16T08:45:33Z",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "b000000000000000_a50c000000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2010-12-16T08:45:33Z",
-            "text": "stopping becuase of allergy"
-          }
-        ]
-      }
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "b000000000000000_a50c000000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_f844170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2010-12-16T08:45:33Z",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "3961211000001100",
+                        "display": "Dihydrotachysterol 250micrograms/ml oral solution sugar free 15 ml"
+                    }
+                ],
+                "text": "DIHYDROTACHYSTEROL"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "stopping becuase of allergy",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2010-12-16T08:45:33Z"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2010-12-16"
+        }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "b000000000000000_950c000000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "3961211000001100"
-            }
-          ],
-          "text": "DIHYDROTACHYSTEROL (all components considered allergens - Dihydrotachysterol 250micrograms/ml oral solution sugar free)"
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2010-12-16",
-        "assertedDate": "2010-12-16T08:45:33Z",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "b000000000000000_950c000000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2010-12-16T08:45:33Z",
-            "text": "This is a sensitivity to a prescribed drug"
-          }
-        ]
-      }
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "b000000000000000_950c000000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_f844170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2010-12-16T08:45:33Z",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "3961211000001100",
+                        "display": "Dihydrotachysterol 250micrograms/ml oral solution sugar free 15 ml"
+                    }
+                ],
+                "text": "DIHYDROTACHYSTEROL"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "This is a sensitivity to a prescribed drug",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2010-12-16T08:45:33Z"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2010-12-16"
+        }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "b000000000000000_750c000000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "542511000001103",
-              "display": "Faverin 50mg tablets (Mylan)"
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2011-02-15",
-        "assertedDate": "2011-02-15",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "b000000000000000_750c000000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2011-02-16T09:03:17Z",
-            "text": "AMP"
-          }
-        ]
-      }
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "b000000000000000_750c000000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_ee44170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2011-02-15",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "542511000001103",
+                        "display": "Faverin 50mg tablets (Mylan)"
+                    }
+                ]
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "AMP",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2011-02-16T09:03:17Z"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2011-02-15"
+        }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "b000000000000000_350c000000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "196461000000101",
-              "display": "Transfer-degraded drug allergy"
-            }
-          ],
-          "text": "Sensitivity to Multilex action group: Antibacterials (in eye preparations)"
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2011-08-02",
-        "assertedDate": "2011-08-08T15:11:10+01:00",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "b000000000000000_350c000000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2011-08-08T15:11:09+01:00",
-            "text": "This is a second allergy by action group"
-          }
-        ]
-      }
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "b000000000000000_350c000000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_7854170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2011-08-08T15:11:10+01:00",
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "196461000000101",
+                        "display": "Transfer-degraded drug allergy"
+                    }
+                ],
+                "text": "Sensitivity to Multilex action group: Antibacterials (in eye preparations)"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "This is a second allergy by action group",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2011-08-08T15:11:09+01:00"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2011-08-02"
+        }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "5000000000000000_98eb070000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "environment"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "196461000000101",
-              "display": "Transfer-degraded drug allergy"
-            }
-          ],
-          "text": "Lentil Allergy"
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "1976-12-05",
-        "assertedDate": "1976-12-05T08:29:22Z",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "5000000000000000_98eb070000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2010-12-16T08:27:29Z",
-            "text": "Well nobody likes lentils"
-          }
-        ]
-      }
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "5000000000000000_98eb070000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_d844170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "1976-12-05T08:29:22Z",
+            "code": {
+                "coding": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                "extension": [
+                                    {
+                                        "url": "descriptionId",
+                                        "valueId": "294801000000114"
+                                    }
+                                ]
+                            }
+                        ],
+                        "system": "http://snomed.info/sct",
+                        "code": "196461000000101",
+                        "display": "Transfer-degraded drug allergy"
+                    }
+                ],
+                "text": "Lentil Allergy"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "Well nobody likes lentils",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2010-12-16T08:27:29Z"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "environment"
+            ],
+            "onsetDateTime": "1976-12-05"
+        }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "5000000000000000_23eb070000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "environment"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "300916003",
-              "display": "Latex allergy"
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2007-01",
-        "assertedDate": "2007-01",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "5000000000000000_23eb070000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2010-12-09T11:09:33Z",
-            "text": "This is a latex allergy comment with just a year"
-          }
-        ]
-      }
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "5000000000000000_23eb070000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_5544170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2007-01",
+            "code": {
+                "coding": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                "extension": [
+                                    {
+                                        "url": "descriptionId",
+                                        "valueId": "3750096014"
+                                    }
+                                ]
+                            }
+                        ],
+                        "system": "http://snomed.info/sct",
+                        "code": "300916003",
+                        "display": "Allergy to latex"
+                    }
+                ],
+                "text": "Latex allergy"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "This is a latex allergy comment with just a year",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2010-12-09T11:09:33Z"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "environment"
+            ],
+            "onsetDateTime": "2007-01"
+        }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "5000000000000000_f6fb070000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "environment"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "241960008",
-              "display": "Aspirin-induced angio-oedema-urticaria"
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2011-01-21",
-        "assertedDate": "2011-01-21T08:36:33Z",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "5000000000000000_f6fb070000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2011-01-21T08:36:33Z",
-            "text": "This won't interact with decision support"
-          }
-        ]
-      }
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "5000000000000000_f6fb070000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_aa44170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2011-01-21T08:36:33Z",
+            "code": {
+                "coding": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                "extension": [
+                                    {
+                                        "url": "descriptionId",
+                                        "valueId": "2154877014"
+                                    }
+                                ]
+                            }
+                        ],
+                        "system": "http://snomed.info/sct",
+                        "code": "241960008",
+                        "display": "Aspirin-induced angioedema-urticaria"
+                    }
+                ],
+                "text": "Aspirin-induced angio-oedema-urticaria"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "This won't interact with decision support",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2011-01-21T08:36:33Z"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "environment"
+            ],
+            "onsetDateTime": "2011-01-21"
+        }
     },
     {
       "resource": {
@@ -1151,6 +1466,20 @@
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
           ]
         },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+            "valueReference": {
+              "reference": "Encounter/4000000000000000_aa44170000000000"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "5000000000000000_e6fb070000000000"
+          }
+        ],
         "clinicalStatus": "active",
         "verificationStatus": "unconfirmed",
         "category": [
@@ -1159,8 +1488,20 @@
         "code": {
           "coding": [
             {
+              "extension": [
+                {
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "extension": [
+                    {
+                      "url": "descriptionId",
+                      "valueId": "3748817013"
+                    }
+                  ]
+                }
+              ],
               "system": "http://snomed.info/sct",
-              "code": "293880004"
+              "code": "293880004",
+              "display": "Allergy to amobarbital"
             }
           ],
           "text": "Amobarbital allergy"
@@ -1193,6 +1534,20 @@
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
           ]
         },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+            "valueReference": {
+              "reference": "Encounter/4000000000000000_de44170000000000"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "5000000000000000_d2fb070000000000"
+          }
+        ],
         "clinicalStatus": "active",
         "verificationStatus": "unconfirmed",
         "category": [
@@ -1201,11 +1556,23 @@
         "code": {
           "coding": [
             {
+              "extension": [
+                {
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "extension": [
+                    {
+                      "url": "descriptionId",
+                      "valueId": "3749285010"
+                    }
+                  ]
+                }
+              ],
               "system": "http://snomed.info/sct",
               "code": "293669002",
-              "display": "Kaolin allergy"
+              "display": "Allergy to kaolin"
             }
-          ]
+          ],
+          "text": "Kaolin allergy"
         },
         "patient": {
           "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
@@ -1235,6 +1602,20 @@
             "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
           ]
         },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+            "valueReference": {
+              "reference": "Encounter/4000000000000000_0244170000000000"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://tpp-uk.com/Id/ccs-id",
+            "value": "5000000000000000_dddb070000000000"
+          }
+        ],
         "clinicalStatus": "active",
         "verificationStatus": "unconfirmed",
         "category": [
@@ -1243,8 +1624,20 @@
         "code": {
           "coding": [
             {
+              "extension": [
+                {
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "extension": [
+                    {
+                      "url": "descriptionId",
+                      "valueId": "432460015"
+                    }
+                  ]
+                }
+              ],
               "system": "http://snomed.info/sct",
-              "code": "292324009"
+              "code": "292324009",
+              "display": "Primidone adverse reaction"
             }
           ],
           "text": "Adverse reaction to primidone"
@@ -1269,470 +1662,599 @@
       }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "5000000000000000_bddb070000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "294505008",
-              "display": "Amoxicillin allergy"
-            }
-          ]
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2011-09-12",
-        "assertedDate": "2011-09-12T08:18:09+01:00",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "5000000000000000_bddb070000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2011-09-12T08:18:09+01:00",
-            "text": "This is a read code drug allergy but with qualifiers"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "5000000000000000_9ddb070000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "91936005"
-            }
-          ],
-          "text": "Penicillin allergy"
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2011-09-12",
-        "assertedDate": "2011-09-12T08:24:57+01:00",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "5000000000000000_bddb070000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_e144170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2011-09-12T08:18:09+01:00",
+            "code": {
+                "coding": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                "extension": [
+                                    {
+                                        "url": "descriptionId",
+                                        "valueId": "3749800014"
+                                    }
+                                ]
+                            }
+                        ],
+                        "system": "http://snomed.info/sct",
+                        "code": "294505008",
+                        "display": "Allergy to amoxicillin"
+                    }
+                ],
+                "text": "Amoxicillin allergy"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "This is a read code drug allergy but with qualifiers",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2011-09-12T08:18:09+01:00"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2011-09-12"
         }
-      }
     },
     {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "5000000000000000_6ddb070000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "15911003"
-            }
-          ],
-          "text": "Cow's milk allergy"
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2011-09-12",
-        "assertedDate": "2011-09-12T08:24:57+01:00",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "5000000000000000_9ddb070000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
             },
-            "time": "2011-09-12T08:24:57+01:00",
-            "text": "This has an S1 severity and epsiodicity"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "5000000000000000_7ddb070000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "medication"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "232346004"
-            }
-          ],
-          "text": "Cat allergy"
-        },
-        "patient": {
-          "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2011-09-12",
-        "assertedDate": "2011-09-12T08:24:57+01:00",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
-        },
-        "note": [
-          {
-            "authorReference": {
-              "reference": "Practitioner/26f1000000000000"
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "5000000000000000_9ddb070000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_d144170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2011-09-12T08:24:57+01:00",
+            "code": {
+                "coding": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                "extension": [
+                                    {
+                                        "url": "descriptionId",
+                                        "valueId": "152307010"
+                                    }
+                                ]
+                            }
+                        ],
+                        "system": "http://snomed.info/sct",
+                        "code": "91936005",
+                        "display": "Allergy to penicillin"
+                    }
+                ],
+                "text": "Penicillin allergy"
             },
-            "time": "2011-09-12T08:24:57+01:00",
-            "text": "This is actually a 'drug allergy' as it is exported as one and has CTV3 as well as S1 severity and episodicity qualifiers"
-          }
-        ]
-      }
-    },
-    {
-      "resource": {
-        "resourceType": "AllergyIntolerance",
-        "id": "5000000000000000_8ddb070000000000",
-        "meta": {
-          "profile": [
-            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
-          ]
-        },
-        "clinicalStatus": "active",
-        "verificationStatus": "unconfirmed",
-        "category": [
-          "environment"
-        ],
-        "code": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "201551000000109",
-              "display": "Allergy to plasters"
-            }
-          ]
-        },
-        "patient": {
+            "clinicalStatus": "active",
+            "patient": {
           "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-        },
-        "onsetDateTime": "2011-09-12",
-        "assertedDate": "2011-09-12T08:24:57+01:00",
-        "recorder": {
-          "reference": "Practitioner/26f1000000000000"
+            },
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2011-09-12"
         }
-      }
     },
-	{
-	  "resource": {
-		"resourceType": "AllergyIntolerance",
-		"id": "88-16994",
-		"meta": {
-		  "profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"]
-		},
-		"identifier": [
-		  {
-			"system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-			"value": "c7f3c5c5-1024-59a7-8880-56660a9fc4ac"
-		  }
-		],
-		"clinicalStatus": "active",
-		"verificationStatus": "unconfirmed",
-		"type": "allergy",
-		"category": [
-		  "medication"
-		],
-		"code": {
-		  "coding": [
-			{
-			  "system": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
-			  "code": "60153020",
-			  "display": "Atenolol 50mg tablets",
-			  "userSelected": true
-			},
-			{
-			  "system": "http://snomed.info/sct",
-			  "code": "318420003",
-			  "display": "Atenolol 50mg tablets"
-			}
-		  ]
-		},
-		"patient": {
-		  "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-		},
-		"onsetDateTime": "2008-03-07",
-		"assertedDate": "2019-12-05T17:00:38.901+00:00",
-		"recorder": {
+    {
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "5000000000000000_6ddb070000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
+            },
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "5000000000000000_6ddb070000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_d144170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2011-09-12T08:24:57+01:00",
+            "code": {
+                "coding": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                "extension": [
+                                    {
+                                        "url": "descriptionId",
+                                        "valueId": "26952016"
+                                    }
+                                ]
+                            }
+                        ],
+                        "system": "http://snomed.info/sct",
+                        "code": "15911003",
+                        "display": "Cow's milk protein sensitivity"
+                    }
+                ],
+                "text": "Cow's milk allergy"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "This has an S1 severity and epsiodicity",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2011-09-12T08:24:57+01:00"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2011-09-12"
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "5000000000000000_7ddb070000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
+            },
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "5000000000000000_7ddb070000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_d144170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2011-09-12T08:24:57+01:00",
+            "code": {
+                "coding": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                "extension": [
+                                    {
+                                        "url": "descriptionId",
+                                        "valueId": "2838980018"
+                                    }
+                                ]
+                            }
+                        ],
+                        "system": "http://snomed.info/sct",
+                        "code": "232346004",
+                        "display": "Allergy to cat dander"
+                    }
+                ],
+                "text": "Cat allergy"
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "note": [
+                {
+                    "text": "This is actually a 'drug allergy' as it is exported as one and has CTV3 as well as S1 severity and episodicity qualifiers",
+                    "authorReference": {
+                        "reference": "Practitioner/26f1000000000000"
+                    },
+                    "time": "2011-09-12T08:24:57+01:00"
+                }
+            ],
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "medication"
+            ],
+            "onsetDateTime": "2011-09-12"
+        }
+    },
+    {
+        "resource": {
+            "resourceType": "AllergyIntolerance",
+            "id": "5000000000000000_8ddb070000000000",
+            "meta": {
+                "profile": [
+                    "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                ]
+            },
+            "identifier": [
+                {
+                    "system": "https://tpp-uk.com/Id/ccs-id",
+                    "value": "5000000000000000_8ddb070000000000"
+                }
+            ],
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter",
+                    "valueReference": {
+                        "reference": "Encounter/4000000000000000_d144170000000000"
+                    }
+                }
+            ],
+            "verificationStatus": "unconfirmed",
+            "assertedDate": "2011-09-12T08:24:57+01:00",
+            "code": {
+                "coding": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                "extension": [
+                                    {
+                                        "url": "descriptionId",
+                                        "valueId": "306731000000112"
+                                    }
+                                ]
+                            }
+                        ],
+                        "system": "http://snomed.info/sct",
+                        "code": "201551000000109",
+                        "display": "Allergy to plasters"
+                    }
+                ]
+            },
+            "clinicalStatus": "active",
+            "patient": {
+                "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+            },
+            "recorder": {
+                "reference": "Practitioner/26f1000000000000"
+            },
+            "category": [
+                "environment"
+            ],
+            "onsetDateTime": "2011-09-12"
+        }
+    },
+    {
+  	  "resource": {
+  		"resourceType": "AllergyIntolerance",
+  		"id": "88-16994",
+  		"meta": {
+  		  "profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"]
+  		},
+  		"identifier": [
+  		  {
+  			"system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+  			"value": "c7f3c5c5-1024-59a7-8880-56660a9fc4ac"
+  		  }
+  		],
+  		"clinicalStatus": "active",
+  		"verificationStatus": "unconfirmed",
+  		"type": "allergy",
+  		"category": [
+  		  "medication"
+  		],
+  		"code": {
+  		  "coding": [
+  			{
+  			  "system": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
+  			  "code": "60153020",
+  			  "display": "Atenolol 50mg tablets",
+  			  "userSelected": true
+  			},
+  			{
+  			  "system": "http://snomed.info/sct",
+  			  "code": "318420003",
+  			  "display": "Atenolol 50mg tablets"
+  			}
+  		  ]
+  		},
+  		"patient": {
+  		  "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
+  		},
+  		"onsetDateTime": "2008-03-07",
+  		"assertedDate": "2019-12-05T17:00:38.901+00:00",
+  		"recorder": {
 		  "reference": "Practitioner/80"
-		},
-		"note": [
-		  {
-			"text": "Certainty = Likely, Severity = Moderate, Reaction Type = Allergy, User Notes = not to have cos asthmatic"
-		  }
-		],
-		"reaction": [
-		  {
-			"manifestation": [
-		      {
-				"coding": [
-				  {
-					"code": "12D2.00",
-					"system": "http://read.info/readv2",
-					"userSelected": true
-				  },
-				  {
-					"code": "160377001",
-					"system": "http://snomed.info/sct"
-				  }
-				],
-				"text": "FH: Asthma"
-		      }
-			],
-			"severity": "moderate"
-		  }
-		]
-	  }
-	}, 
-	{
-	  "resource": {
-		"resourceType": "AllergyIntolerance",
-		"id": "88-16969",
-		"meta": {
-		  "profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"]
-		},
-		"identifier": [
-		  {
-			"system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-			"value": "87522074-07b8-55c2-95af-8dd6d3e593c9"
-		  }
-		],
-		"clinicalStatus": "active",
-		"verificationStatus": "unconfirmed",
-		"type": "allergy",
-		"category": [
-		  "medication"
-		],
-		"code": {
-		  "coding": [
-		    {
-			  "system": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
-			  "code": "67521020",
-			  "display": "Amobarbital 50mg tablets",
-			  "userSelected": true
-			},
-			{
-			  "system": "http://snomed.info/sct",
-			  "code": "321355009",
-			  "display": "Amobarbital 50mg tablets"
-			}
-		  ]
-		},
-		"patient": {
+  		},
+  		"note": [
+  		  {
+  			"text": "Certainty = Likely, Severity = Moderate, Reaction Type = Allergy, User Notes = not to have cos asthmatic"
+  		  }
+  		],
+  		"reaction": [
+  		  {
+  			"manifestation": [
+  		      {
+  				"coding": [
+  				  {
+  					"code": "12D2.00",
+  					"system": "http://read.info/readv2",
+  					"userSelected": true
+  				  },
+  				  {
+  					"code": "160377001",
+  					"system": "http://snomed.info/sct"
+  				  }
+  				],
+  				"text": "FH: Asthma"
+  		      }
+  			],
+  			"severity": "moderate"
+  		  }
+  		]
+  	  }
+  	},
+    {
+  	  "resource": {
+  		"resourceType": "AllergyIntolerance",
+  		"id": "88-16969",
+  		"meta": {
+  		  "profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"]
+  		},
+  		"identifier": [
+  		  {
+  			"system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+  			"value": "87522074-07b8-55c2-95af-8dd6d3e593c9"
+  		  }
+  		],
+  		"clinicalStatus": "active",
+  		"verificationStatus": "unconfirmed",
+  		"type": "allergy",
+  		"category": [
+  		  "medication"
+  		],
+  		"code": {
+  		  "coding": [
+  		    {
+  			  "system": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
+  			  "code": "67521020",
+  			  "display": "Amobarbital 50mg tablets",
+  			  "userSelected": true
+  			},
+  			{
+  			  "system": "http://snomed.info/sct",
+  			  "code": "321355009",
+  			  "display": "Amobarbital 50mg tablets"
+  			}
+  		  ]
+  		},
+  		"patient": {
 		  "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-		},
-		"onsetDateTime": "2005-07-23",
-		"assertedDate": "2019-12-05T17:00:31.678+00:00",
-		"recorder": {
+  		},
+  		"onsetDateTime": "2005-07-23",
+  		"assertedDate": "2019-12-05T17:00:31.678+00:00",
+  		"recorder": {
 		  "reference": "Practitioner/80"
-		},
-		"note": [
-		  {
-			"text": "Certainty = Likely, Severity = Moderate, Reaction Type = Allergy, User Notes = and some notes as well"
-		  }
-		],
-		"reaction": [
-		  {
-			"manifestation": [
-			  {
-				"coding": [
-				  {
-					"code": "1D14.00",
-					"system": "http://read.info/readv2",
-					"userSelected": true
-				  },
-				  {
-					"code": "162415008",
-					"system": "http://snomed.info/sct"
-				  }
-				],
-			    "text": "C/O: a rash"
-			  }
-			],
-		    "severity": "moderate"
-		  }
-		]
-	  }
-	}, 
-	{
-	  "resource": {
-		"resourceType": "AllergyIntolerance",
-		"id": "88-16949",
-		"meta": {
-		  "profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"]
-		},
-		"identifier": [
-		  {
-			"system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-			"value": "03f28e26-0c06-5672-8c03-a1d6ef278d91"
-		  }
-		],
-		"clinicalStatus": "active",
-		"verificationStatus": "unconfirmed",
-		"type": "allergy",
-		"category": [
-		  "medication"
-		],
-		"code": {
-		  "coding": [
-			{
-			  "system": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
-			  "code": "65977020",
-			  "display": "Paracetamol 500mg capsules",
-			  "userSelected": true
-			},
-			{
-			  "system": "http://snomed.info/sct",
-			  "code": "322280009",
-			  "display": "Paracetamol 500mg capsules"
-			}
-		  ]
-		},
-		"patient": {
+  		},
+  		"note": [
+  		  {
+  			"text": "Certainty = Likely, Severity = Moderate, Reaction Type = Allergy, User Notes = and some notes as well"
+  		  }
+  		],
+  		"reaction": [
+  		  {
+  			"manifestation": [
+  			  {
+  				"coding": [
+  				  {
+  					"code": "1D14.00",
+  					"system": "http://read.info/readv2",
+  					"userSelected": true
+  				  },
+  				  {
+  					"code": "162415008",
+  					"system": "http://snomed.info/sct"
+  				  }
+  				],
+  			    "text": "C/O: a rash"
+  			  }
+  			],
+  		    "severity": "moderate"
+  		  }
+  		]
+  	  }
+  	},
+    {
+  	  "resource": {
+  		"resourceType": "AllergyIntolerance",
+  		"id": "88-16949",
+  		"meta": {
+  		  "profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"]
+  		},
+  		"identifier": [
+  		  {
+  			"system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+  			"value": "03f28e26-0c06-5672-8c03-a1d6ef278d91"
+  		  }
+  		],
+  		"clinicalStatus": "active",
+  		"verificationStatus": "unconfirmed",
+  		"type": "allergy",
+  		"category": [
+  		  "medication"
+  		],
+  		"code": {
+  		  "coding": [
+  			{
+  			  "system": "https://fhir.hl7.org.uk/Id/resipuk-gemscript-drug-codes",
+  			  "code": "65977020",
+  			  "display": "Paracetamol 500mg capsules",
+  			  "userSelected": true
+  			},
+  			{
+  			  "system": "http://snomed.info/sct",
+  			  "code": "322280009",
+  			  "display": "Paracetamol 500mg capsules"
+  			}
+  		  ]
+  		},
+  		"patient": {
 		  "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-		},
-		"onsetDateTime": "2005-02-01",
-		"assertedDate": "2019-12-05T17:00:22.895+00:00",
-		"recorder": {
+  		},
+  		"onsetDateTime": "2005-02-01",
+  		"assertedDate": "2019-12-05T17:00:22.895+00:00",
+  		"recorder": {
 		  "reference": "Practitioner/80"
-		},
-		"note": [
-		  {
-			"text": "Certainty = Likely, Severity = Moderate, Reaction Type = Allergy, User Notes = Some allergy notes"
-		  }
-		],
-		"reaction": [
-		  {
-			"manifestation": [
-			  {
-				"coding": [
-				  {
-					"code": "1D14.00",
-					"system": "http://read.info/readv2",
-					"userSelected": true
-				  },
-				  {
-					"code": "162415008",
-					"system": "http://snomed.info/sct"
-				  }
-				],
-				"text": "C/O: a rash"
-			  }
-			],
-		    "severity": "moderate"
-		  }
-		]
-	  }
-	},
-	{
-	  "resource": {
-		"resourceType": "AllergyIntolerance",
-		"id": "429-16968",
-		"meta": {
-		  "profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"]
-		},
-		"identifier": [
-		  {
-			"system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
-			"value": "8ab7e43f-5f91-556d-ba1b-55923ebc4deb"
-		  }
-		],
-		"clinicalStatus": "active",
-		"verificationStatus": "unconfirmed",
-		"type": "allergy",
-		"category": [
-		  "environment"
-		],
-		"code": {
-		  "coding": [
-		    {
-			  "code": "SN53100",
-			  "system": "http://read.info/readv2",
-			  "userSelected": true
-			},
-			{
-			  "code": "300916003",
-			  "system": "http://snomed.info/sct"
-			}
-		  ],
-		  "text": "Latex allergy"
-		},
-		"patient": {
+  		},
+  		"note": [
+  		  {
+  			"text": "Certainty = Likely, Severity = Moderate, Reaction Type = Allergy, User Notes = Some allergy notes"
+  		  }
+  		],
+  		"reaction": [
+  		  {
+  			"manifestation": [
+  			  {
+  				"coding": [
+  				  {
+  					"code": "1D14.00",
+  					"system": "http://read.info/readv2",
+  					"userSelected": true
+  				  },
+  				  {
+  					"code": "162415008",
+  					"system": "http://snomed.info/sct"
+  				  }
+  				],
+  				"text": "C/O: a rash"
+  			  }
+  			],
+  		    "severity": "moderate"
+  		  }
+  		]
+  	  }
+  	},
+    {
+  	  "resource": {
+  		"resourceType": "AllergyIntolerance",
+  		"id": "429-16968",
+  		"meta": {
+  		  "profile": ["https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"]
+  		},
+  		"identifier": [
+  		  {
+  			"system": "https://fhir.nhs.uk/Id/cross-care-setting-identifier",
+  			"value": "8ab7e43f-5f91-556d-ba1b-55923ebc4deb"
+  		  }
+  		],
+  		"clinicalStatus": "active",
+  		"verificationStatus": "unconfirmed",
+  		"type": "allergy",
+  		"category": [
+  		  "environment"
+  		],
+  		"code": {
+  		  "coding": [
+  		    {
+  			  "code": "SN53100",
+  			  "system": "http://read.info/readv2",
+  			  "userSelected": true
+  			},
+  			{
+  			  "code": "300916003",
+  			  "system": "http://snomed.info/sct"
+  			}
+  		  ],
+  		  "text": "Latex allergy"
+  		},
+  		"patient": {
 		  "reference": "Patient/9340157B-6973-4209-9B57-BF6C64F29E46"
-		},
-		"onsetDateTime": "2005-07-22",
-		"assertedDate": "2019-12-05T17:00:31.475+00:00",
-		"recorder": {
+  		},
+  		"onsetDateTime": "2005-07-22",
+  		"assertedDate": "2019-12-05T17:00:31.475+00:00",
+  		"recorder": {
 		  "reference": "Practitioner/80"
-		},
-		"note": [
-		  {
-			"text": "Certainty = Likely, Severity = Moderate, Reaction Type = Allergy, User Notes = Suspect latex allergy"
-		  }
-		],
-		"reaction": [
-		  {
-			"manifestation": [
-			  {
-				"coding": [
-				  {
-					"system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-					"code": "NI"
-				  }
-				]
-			  }
-			],
-			"severity": "moderate"
-		  }
-		]
-	  }
-	}, 
+  		},
+  		"note": [
+  		  {
+  			"text": "Certainty = Likely, Severity = Moderate, Reaction Type = Allergy, User Notes = Suspect latex allergy"
+  		  }
+  		],
+  		"reaction": [
+  		  {
+  			"manifestation": [
+  			  {
+  				"coding": [
+  				  {
+  					"system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+  					"code": "NI"
+  				  }
+  				]
+  			  }
+  			],
+  			"severity": "moderate"
+  		  }
+  		]
+  	  }
+  	},
     {
       "resource": {
         "resourceType": "List",
