@@ -8214,6 +8214,37 @@
           }
         ]
       }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Medication-1"
+          ]
+        },
+        "id": "a60b451-9821-42de-81f9-ba86dcea2c32",
+        "code": {
+          "coding": [
+            {
+                "extension": [
+                {
+                  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "extension": [
+                    {
+                      "url": "DescriptionID",
+                      "valueId": "56992301000001116"
+                    }
+                  ]
+                }
+              ],
+              "display": "Citalopram 20mg tablets",
+              "code": "321987003",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        }
+      }
     }
   ]
 }
