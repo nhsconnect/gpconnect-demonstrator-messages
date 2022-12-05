@@ -387,7 +387,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -4705,7 +4705,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -9642,7 +9642,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -9777,7 +9777,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -9879,7 +9879,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -9957,7 +9957,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -10693,7 +10693,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -10901,7 +10901,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -11142,7 +11142,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
@@ -12763,7 +12763,7 @@
       "clinicalStatus": "active",
       "category": [ {
         "coding": [ {
-          "system": "http://hl7.org/fhir/condition-category",
+          "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1",
           "code": "problem-list-item",
           "display": "Problem List Item"
         } ]
