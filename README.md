@@ -14,6 +14,7 @@ NB All these records refer to synthetic data constructed for test purposes
 |DiaryEntries_ConsumerData_<br/>v0_2.json|9465701262|Meyers Yannis| Rich Diary Entries | N | | | |
 |EMIS_Docs_consolidated_<br/>V2.json|9465701262|Meyers Yannis| Rich Document References  |  N  | | |
 |full_record.json|9690937286|SKELLY Horace| Demonstrator Patient 2 Migration record | Y 2 | 9690937286 | Skelly |
+|full_record_including_confidential_data.json|9690937286|SKELLY Horace| Demonstrator Patient 2 Migration record | Y 2 | 9690937286 | Skelly |
 |Hack_9465702013_Steinberg_MA<br/>_20210322.json|9465702013|Steinberg Andy| Oct 2021 Hack Demonstrator Patient | Y 27 | 9690937820 | Lynch |
 |Hack_9465702048_Wallimohamed_<br/>MA_StructuredDoseExampe_<br/>20211004.json|9465702048|Wallimohamed Trish| Oct 2021 Hack Demonstrator Patient | Y 25 | 9690938193 | Prout |
 |Hack_9465702250_Beaupaire_<br/>MA_StructuredDoseExample_<br/>20211004.json|9465702250|Beaurepaire Deirdre| Oct 2021 Hack Demonstrator Patient | Y 26 | 9690937464 | Mackay |
