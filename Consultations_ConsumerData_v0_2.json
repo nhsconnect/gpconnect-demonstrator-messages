@@ -1169,7 +1169,7 @@
                 },
                 "extension": [
                     {
-                        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ActualProblem-1",
                         "valueReference": {
                             "reference": "Observation/9CF0984E-2607-4480-A1D5-4E4B6FABDE67"
                         }
@@ -1399,7 +1399,7 @@
                 },
                 "extension": [
                     {
-                        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ActualProblem-1",
                         "valueReference": {
                             "reference": "Observation/606CD497-F790-432E-8A17-BB17EC855F70"
                         }
@@ -1609,7 +1609,7 @@
                 },
                 "extension": [
                     {
-                        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ActualProblem-1",
                         "valueReference": {
                             "reference": "Observation/0D810652-87C9-444C-ADD7-1A5D7F4C0120"
                         }
@@ -1751,7 +1751,7 @@
                 },
                 "extension": [
                     {
-                        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-ActualProblem-1",
                         "valueReference": {
                             "reference": "Observation/92A6695F-F648-4617-B6EB-75ABC934E589"
                         }
@@ -5321,6 +5321,9 @@
                         "reference": "MedicationRequest/8DB7FBB6-601E-4B5F-92C1-F10270079082"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "8db7fbb6-601e-4b5f-92c1-f10270079082"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -5333,11 +5336,6 @@
                     "reference": "Encounter/9C7BA667-C9C7-4FFA-9984-BBEC184C72B9"
                 },
                 "authoredOn": "2020-05-12T16:06:00+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -5511,6 +5509,9 @@
                         "value": "20AFBEBB130F43449DB6416FF1F855CC8DB7FBB6601E4B5F92C1F10270079082"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "8db7fbb6-601e-4b5f-92c1-f10270079082"
+                },
                 "status": "completed",
                 "intent": "plan",
                 "medicationReference": {
@@ -5520,11 +5521,6 @@
                     "reference": "Patient/20AFBEBB-130F-4344-9DB6-416FF1F855CC"
                 },
                 "authoredOn": "2021-06-25T16:18:05.403+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -7390,6 +7386,9 @@
                         "reference": "MedicationRequest/427F1601-D69D-41DA-8387-1D54F11BDC70"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "427f1601-d69d-41da-8387-1d54f11bdc70"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -7402,11 +7401,6 @@
                     "reference": "Encounter/9C7BA667-C9C7-4FFA-9984-BBEC184C72B9"
                 },
                 "authoredOn": "2020-05-12T16:06:00+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -7462,6 +7456,9 @@
                         "value": "20AFBEBB130F43449DB6416FF1F855CC427F1601D69D41DA83871D54F11BDC70"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "427f1601-d69d-41da-8387-1d54f11bdc70"
+                },
                 "status": "completed",
                 "intent": "plan",
                 "medicationReference": {
@@ -7471,11 +7468,6 @@
                     "reference": "Patient/20AFBEBB-130F-4344-9DB6-416FF1F855CC"
                 },
                 "authoredOn": "2021-06-28T11:33:52.787+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -7903,7 +7895,7 @@
                 "resourceType": "List",
                 "id": "C8744856-0B68-4765-8F2F-69C793E865A1-PG0-HD0",
                 "meta": {
-													   
+
                     "profile": [
                         "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
                     ]
@@ -12723,6 +12715,9 @@
                         "reference": "MedicationRequest/6811ADC6-9F55-4CDD-8BE0-02869A4614C3"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "6811adc6-9f55-4cdd-8be0-02869a4614c3"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -12735,14 +12730,6 @@
                     "reference": "Encounter/C8744856-0B68-4765-8F2F-69C793E865A1"
                 },
                 "authoredOn": "2005-03-16",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/3F44CC80-6CA8-45DD-A893-6F450A23A0DB"
-                    },
-                    "onBehalfOf": {
-                        "reference": "Organization/F4D020C6-EAFF-4528-83BA-E81A1CFD30DC"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -12803,6 +12790,9 @@
                         "reference": "MedicationRequest/EFCFE726-D084-4B6E-86B6-FCC8256485D0"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "efcfe726-d084-4b6e-86b6-fcc8256485d0"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -12815,14 +12805,6 @@
                     "reference": "Encounter/C8744856-0B68-4765-8F2F-69C793E865A1"
                 },
                 "authoredOn": "2005-03-16",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/3F44CC80-6CA8-45DD-A893-6F450A23A0DB"
-                    },
-                    "onBehalfOf": {
-                        "reference": "Organization/F4D020C6-EAFF-4528-83BA-E81A1CFD30DC"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -17633,6 +17615,9 @@
                         "reference": "MedicationRequest/4F6B193B-20A0-4EAD-8160-3BB9C0F05F15"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "4f6b193b-20a0-4ead-8160-3bb9c0f05f15"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -17645,11 +17630,6 @@
                     "reference": "Encounter/9C7BA667-C9C7-4FFA-9984-BBEC184C72B9"
                 },
                 "authoredOn": "2020-05-12T16:06:00+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -18691,6 +18671,9 @@
                         "reference": "MedicationRequest/29755FA0-FB9E-4711-ACFD-3944B9B2A2D4"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "29755fa0-fb9e-4711-acfd-3944b9b2a2d4"
+                },
                 "status": "completed",
                 "intent": "order",
                 "medicationReference": {
@@ -18703,11 +18686,6 @@
                     "reference": "Encounter/33264D8F-6A45-4378-96AA-E2605D10F140"
                 },
                 "authoredOn": "2020-06-23T13:36:00+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -19931,6 +19909,9 @@
                         "value": "E4AA89361BF14A4BAD332A119C2BD6F86811ADC69F554CDD8BE002869A4614C3"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "6811adc6-9f55-4cdd-8be0-02869a4614c3"
+                },
                 "status": "completed",
                 "intent": "plan",
                 "medicationReference": {
@@ -19940,14 +19921,6 @@
                     "reference": "Patient/20AFBEBB-130F-4344-9DB6-416FF1F855CC"
                 },
                 "authoredOn": "2021-01-12T13:18:55.157+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/3F44CC80-6CA8-45DD-A893-6F450A23A0DB"
-                    },
-                    "onBehalfOf": {
-                        "reference": "Organization/F4D020C6-EAFF-4528-83BA-E81A1CFD30DC"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -20030,6 +20003,9 @@
                         "value": "E4AA89361BF14A4BAD332A119C2BD6F8EFCFE726D0844B6E86B6FCC8256485D0"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "efcfe726-d084-4b6e-86b6-fcc8256485d0"
+                },
                 "status": "completed",
                 "intent": "plan",
                 "medicationReference": {
@@ -20039,14 +20015,6 @@
                     "reference": "Patient/20AFBEBB-130F-4344-9DB6-416FF1F855CC"
                 },
                 "authoredOn": "2021-01-12T13:18:55.157+00:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/3F44CC80-6CA8-45DD-A893-6F450A23A0DB"
-                    },
-                    "onBehalfOf": {
-                        "reference": "Organization/F4D020C6-EAFF-4528-83BA-E81A1CFD30DC"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -20128,6 +20096,9 @@
                         "value": "20AFBEBB130F43449DB6416FF1F855CC4F6B193B20A04EAD81603BB9C0F05F15"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "4f6b193b-20a0-4ead-8160-3bb9c0f05f15"
+                },
                 "status": "completed",
                 "intent": "plan",
                 "medicationReference": {
@@ -20137,11 +20108,6 @@
                     "reference": "Patient/20AFBEBB-130F-4344-9DB6-416FF1F855CC"
                 },
                 "authoredOn": "2021-06-28T11:23:05.953+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6AB948A5-2067-4A67-AD00-60EAF13E9CAA"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -20255,6 +20221,9 @@
                         "value": "20AFBEBB130F43449DB6416FF1F855CC29755FA0FB9E4711ACFD3944B9B2A2D4"
                     }
                 ],
+                "groupIdentifier": {
+                    "value": "29755fa0-fb9e-4711-acfd-3944b9b2a2d4"
+                },
                 "status": "completed",
                 "intent": "plan",
                 "medicationReference": {
@@ -20264,11 +20233,6 @@
                     "reference": "Patient/20AFBEBB-130F-4344-9DB6-416FF1F855CC"
                 },
                 "authoredOn": "2021-06-28T13:54:48.25+01:00",
-                "requester": {
-                    "agent": {
-                        "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
-                    }
-                },
                 "recorder": {
                     "reference": "Practitioner/2DB481A3-306A-4133-9491-1558161D6A2B"
                 },
@@ -20333,8 +20297,8 @@
                             "coding": [
                                 {
                                     "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
-                                    "code": "prescribed-by-another-organisation",
-                                    "display": "Prescribed by another organisation"
+                                    "code": "prescribed-by-previous-practice",
+                                    "display": "Prescribed by previous practice"
                                 }
                             ]
                         }
@@ -20391,8 +20355,8 @@
                             "coding": [
                                 {
                                     "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-PrescribingAgency-1",
-                                    "code": "prescribed-by-another-organisation",
-                                    "display": "Prescribed by another organisation"
+                                    "code": "prescribed-by-previous-practice",
+                                    "display": "Prescribed by previous practice"
                                 }
                             ]
                         }
