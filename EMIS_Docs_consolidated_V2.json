@@ -1271,52 +1271,6 @@
             }
         },
         {
-            "fullUrl": "https://gpcassurance-b86047.emis.thirdparty.nhs.uk/A82038/STU3/1/GPConnect/Documents/DocumentReference/32518562-6329-4339-B201-07EA8243E4F7",
-            "resource": {
-                "resourceType": "DocumentReference",
-                "id": "32518562-6329-4339-B201-07EA8243E4F7",
-                "meta": {
-                    "versionId": "4137698095513934434",
-                    "profile": [
-                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-DocumentReference-1"
-                    ]
-                },
-                "identifier": [
-                    {
-                        "system": "https://EMISWeb/A82038",
-                        "value": "144A1A2EB3B34A66B33B148A5B75959D3251856263294339B20107EA8243E4F7"
-                    }
-                ],
-                "status": "current",
-                "type": {
-                    "text": "Discharge report"
-                },
-                "subject": {
-                    "reference": "Patient/144A1A2E-B3B3-4A66-B33B-148A5B75959D"
-                },
-                "created": "2021-04-01T11:52:00+01:00",
-                "indexed": "2021-04-01T11:53:01.037+01:00",
-                "custodian": {
-                    "reference": "Organization/5E496953-065B-41F2-9577-BE8F2FBD0757"
-                },
-                "description": "Kettering File .Ket Discharge report (01-Apr-2021)",
-                "content": [
-                    {
-                        "attachment": {
-                            "contentType": "application/octet-stream",
-                            "url": "https://gpcassurance-b86047.emis.thirdparty.nhs.uk/A82038/STU3/1/GPConnect/Documents/Binary/144A1A2EB3B34A66B33B148A5B75959D3251856263294339B20107EA8243E4F7",
-                            "size": 6819
-                        }
-                    }
-                ],
-                "context": {
-                    "encounter": {
-                        "reference": "Encounter/3CBEBF4E-D1FC-417D-8E2E-4799A0E02E36"
-                    }
-                }
-            }
-        },
-        {
             "fullUrl": "https://gpcassurance-b86047.emis.thirdparty.nhs.uk/A82038/STU3/1/GPConnect/Documents/DocumentReference/C29731AE-D49C-435C-A24D-F6C105855974",
             "resource": {
                 "resourceType": "DocumentReference",
