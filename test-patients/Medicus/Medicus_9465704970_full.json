@@ -1,0 +1,1523 @@
+{
+    "resourceType": "Bundle",
+    "meta": {
+        "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/GPConnect-StructuredRecord-Bundle-1"
+        ]
+    },
+    "id": "c3a22432-30d5-4856-a5dd-59757dae46a0",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "86d33e5c-a6c1-11ec-b5af-0a58a9feac02",
+                "meta": {
+                    "versionId": "cdaccf33c26504077d37c1f176962764",
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-RegistrationDetails-1",
+                        "extension": [
+                            {
+                                "url": "registrationPeriod",
+                                "valuePeriod": {
+                                    "start": "2022-03-18"
+                                }
+                            },
+                            {
+                                "url": "registrationType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-RegistrationType-1",
+                                            "code": "R",
+                                            "display": "Regular"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "identifier": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-NHSNumberVerificationStatus-1",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1",
+                                            "code": "01",
+                                            "display": "Number present and verified"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "system": "https://fhir.nhs.uk/Id/nhs-number",
+                        "value": "9465704970"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Tower",
+                        "prefix": [
+                            "Mrs"
+                        ],
+                        "given": [
+                            "Katy"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+441454121202",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "+447777121202",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1985-09-09",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "2 Kerry Hill",
+                            "Low Moor"
+                        ],
+                        "city": "Leeds",
+                        "district": "West Yorkshire",
+                        "postalCode": "LS18 1AE",
+                        "country": "GBR"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/N82090"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Organization",
+                "id": "N82090",
+                "meta": {
+                    "versionId": "766c4dc4f98ade7d32e5c5fad3f62c10",
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Organization-1"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+                        "value": "N82090"
+                    }
+                ],
+                "active": true,
+                "name": "Dr MA Baird's Practice",
+                "address": [
+                    {
+                        "use": "work",
+                        "line": [
+                            "1 Main St"
+                        ],
+                        "city": "London",
+                        "postalCode": "W1A 1AA",
+                        "country": "GBR"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+442071231234",
+                        "use": "work"
+                    },
+                    {
+                        "system": "fax",
+                        "value": "+442071231235",
+                        "use": "work"
+                    },
+                    {
+                        "system": "email",
+                        "value": "gp.connect.test.site@medicus.health",
+                        "use": "work"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Problems",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Problems",
+                            "system": "http://snomed.info/sct",
+                            "code": "717711000000103"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "15935bd0-449d-11ed-b924-06799d888942",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "15935bd0-449d-11ed-b924-06799d888942"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-10-05T00:00:00+01:00",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "764146007",
+                            "display": "Penicillin",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "3646462011"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "7fffae6a-9bbf-11ec-9064-0ae647c12c72",
+                "meta": {
+                    "versionId": "5b8c31e8fbaaf0c1ab47ef42e1a36e45",
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Practitioner-1"
+                    ]
+                },
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": " Caroline Endley",
+                        "family": " Caroline Endley"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "82ab923b6d51b5c7d1fbadfbd6ba2e8d",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-PractitionerRole-1"
+                    ]
+                },
+                "practitioner": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "organization": {
+                    "reference": "Organization/N82090"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "2b29d7d0-449d-11ed-961a-06799d888942",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "2b29d7d0-449d-11ed-961a-06799d888942"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-10-05T00:00:00+01:00",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "91936005",
+                            "display": "Allergy to penicillin",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "1235715018"
+                                        },
+                                        {
+                                            "url": "descriptionDisplay",
+                                            "valueString": "Penicillin allergy"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "8a8903ac-ab8e-11ec-86bc-06852a231a36",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "8a8903ac-ab8e-11ec-86bc-06852a231a36"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "1999-12-31T00:00:00+00:00",
+                "onsetDateTime": "1999-12-31",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "300915004",
+                            "display": "Allergy to metal",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "3750441013"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ],
+                "note": [
+                    {
+                        "text": "012345678901234567890 1234567890"
+                    },
+                    {
+                        "text": "Certainty: Unlikely"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "8b77e824-b713-11ec-9051-0a47707f2138",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "8b77e824-b713-11ec-9051-0a47707f2138"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-04-08T00:00:00+01:00",
+                "onsetDateTime": "2021-02",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "292323003",
+                            "display": "Phenobarbitone adverse reaction",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "2476222014"
+                                        },
+                                        {
+                                            "url": "descriptionDisplay",
+                                            "valueString": "Adverse reaction to phenobarbital"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ],
+                "note": [
+                    {
+                        "text": "Certainty: Certain"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "8cf8c94a-ab90-11ec-9ab7-06852a231a36",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "8cf8c94a-ab90-11ec-9ab7-06852a231a36"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-03-24T00:00:00+00:00",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "293980000",
+                            "display": "Allergy to penbutolol",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "3748794010"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ],
+                "note": [
+                    {
+                        "text": "Lorem ipsum dolor sit amet. Quo iure molestiae in vero modi et expedita dolor ut consequatur exercitationem aut obcaecati doloribus. Sed quia nihil ea neque amet id adipisci voluptates eos quia voluptas et architecto suscipit et sequi blanditiis. Aut unde vitae et accusantium minima rem quia neque. Eos nulla laboriosam ut deleniti accusantium qui fugit libero.\n\nEt voluptatem voluptas sit labore consequatur aut galisum quod. Et similique consequatur in facilis minima est error sapiente est nulla laudantium vel exercitationem fugiat autem facere.\n\nId consequatur nihil 33 veniam voluptatem est consequatur inventore et dicta labore sed possimus error nam animi quia! Vel veniam placeat ut molestiae tempore qui obcaecati omnis id omnis deleniti aut quibusdam rerum qui nesciunt officiis vel iusto dolorem. Est voluptas quidem eum consequuntur nostrum qui nihil minus non obcaecati quas est sunt quisquam et fugit quibusdam et consequuntur commodi. Ut illum suscipit aut optio rerum sed saepe dolorem."
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "a3974644-a9d9-11ec-a242-0a58a9feac02",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "a3974644-a9d9-11ec-a242-0a58a9feac02"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-03-22T00:00:00+00:00",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "764146007",
+                            "display": "Penicillin",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "3646462011"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ],
+                "note": [
+                    {
+                        "text": "Certainty: Likely"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "422587007",
+                                        "display": "Nausea",
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                                "extension": [
+                                                    {
+                                                        "url": "descriptionId",
+                                                        "valueId": "2643930014"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "severity": "mild"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "afa2773a-ab8f-11ec-b55d-06852a231a36",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "afa2773a-ab8f-11ec-b55d-06852a231a36"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-03-24T00:00:00+00:00",
+                "onsetDateTime": "1980",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "201551000000109",
+                            "display": "Allergy to plasters",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "306731000000112"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ],
+                "note": [
+                    {
+                        "text": "Plasters cause me an issue, which may be very itchy and it sticks my broken finger together. Can't eat with it on my finger as the saucy food is absorbed in it tastes yukky."
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "ba337410-ab62-11ec-b2fe-0a58a9feac02",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "ba337410-ab62-11ec-b2fe-0a58a9feac02"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-03-24T00:00:00+00:00",
+                "onsetDateTime": "2020-02-29",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "542511000001103",
+                            "display": "Faverin 50mg tablets (Viatris UK Healthcare Ltd)",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "105635001000001115"
+                                        },
+                                        {
+                                            "url": "descriptionDisplay",
+                                            "valueString": "Faverin 50mg tablets (Mylan)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ],
+                "note": [
+                    {
+                        "text": "My allergy line 1\nMy allergy line 2"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "167841004",
+                                        "display": "Vomit odour offensive",
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                                "extension": [
+                                                    {
+                                                        "url": "descriptionId",
+                                                        "valueId": "260765012"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "62315008",
+                                        "display": "Diarrhoea",
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                                "extension": [
+                                                    {
+                                                        "url": "descriptionId",
+                                                        "valueId": "103576018"
+                                                    },
+                                                    {
+                                                        "url": "descriptionDisplay",
+                                                        "valueString": "Diarrhea"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "240887001",
+                                        "display": "Baker's itch",
+                                        "extension": [
+                                            {
+                                                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                                "extension": [
+                                                    {
+                                                        "url": "descriptionId",
+                                                        "valueId": "360800013"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "severity": "moderate"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "d3820284-4300-11ed-a932-0ac107097398",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "d3820284-4300-11ed-a932-0ac107097398"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-10-03T00:00:00+01:00",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1155942004",
+                            "display": "Allergy to metal and/or metal compound",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "4570858016"
+                                        },
+                                        {
+                                            "url": "descriptionDisplay",
+                                            "valueString": "Allergy to metal and metal compound"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "fb1fc706-ab64-11ec-9976-0a58a9feac02",
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "fb1fc706-ab64-11ec-9976-0a58a9feac02"
+                    }
+                ],
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                    ]
+                },
+                "verificationStatus": "unconfirmed",
+                "assertedDate": "2022-03-24T00:00:00+00:00",
+                "onsetDateTime": "2021-06-07",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "294505008",
+                            "display": "Allergy to amoxicillin",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "3749800014"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "clinicalStatus": "active",
+                "patient": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "recorder": {
+                    "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                },
+                "category": [
+                    "medication"
+                ],
+                "note": [
+                    {
+                        "text": "This is my special character string £$#~+*!,.`|%$&\"><[]()^\\\\//;:¬`"
+                    },
+                    {
+                        "text": "Certainty: Confirmed by Challenge Testing"
+                    }
+                ],
+                "reaction": [
+                    {
+                        "manifestation": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/NullFlavor",
+                                        "code": "NI",
+                                        "display": "NoInformation"
+                                    }
+                                ]
+                            }
+                        ],
+                        "severity": "severe"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Allergies and adverse reactions",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Allergies and adverse reactions",
+                            "system": "http://snomed.info/sct",
+                            "code": "886921000000105"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "entry": [
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/15935bd0-449d-11ed-b924-06799d888942"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/2b29d7d0-449d-11ed-961a-06799d888942"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/8a8903ac-ab8e-11ec-86bc-06852a231a36"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/8b77e824-b713-11ec-9051-0a47707f2138"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/8cf8c94a-ab90-11ec-9ab7-06852a231a36"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/a3974644-a9d9-11ec-a242-0a58a9feac02"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/afa2773a-ab8f-11ec-b55d-06852a231a36"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/ba337410-ab62-11ec-b2fe-0a58a9feac02"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/d3820284-4300-11ed-a932-0ac107097398"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "AllergyIntolerance/fb1fc706-ab64-11ec-9976-0a58a9feac02"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": "ended-allergies",
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "contained": [
+                    {
+                        "resourceType": "AllergyIntolerance",
+                        "id": "6db7e132-bfe6-11ec-930e-066adc8ff6b2",
+                        "identifier": [
+                            {
+                                "system": "https://medicus.health",
+                                "value": "6db7e132-bfe6-11ec-930e-066adc8ff6b2"
+                            }
+                        ],
+                        "meta": {
+                            "profile": [
+                                "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                            ]
+                        },
+                        "extension": [
+                            {
+                                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-AllergyIntoleranceEnd-1",
+                                "extension": [
+                                    {
+                                        "url": "endDate",
+                                        "valueDateTime": "2022-04-19T00:00:00+01:00"
+                                    },
+                                    {
+                                        "url": "reasonEnded",
+                                        "valueString": "No information available"
+                                    }
+                                ]
+                            }
+                        ],
+                        "verificationStatus": "unconfirmed",
+                        "assertedDate": "2022-04-19T00:00:00+01:00",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "232346004",
+                                    "display": "Allergy to cat dander",
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                            "extension": [
+                                                {
+                                                    "url": "descriptionId",
+                                                    "valueId": "348103016"
+                                                },
+                                                {
+                                                    "url": "descriptionDisplay",
+                                                    "valueString": "Cat allergy"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "clinicalStatus": "resolved",
+                        "patient": {
+                            "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                        },
+                        "recorder": {
+                            "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                        },
+                        "category": [
+                            "medication"
+                        ],
+                        "reaction": [
+                            {
+                                "manifestation": [
+                                    {
+                                        "coding": [
+                                            {
+                                                "system": "http://snomed.info/sct",
+                                                "code": "418290006",
+                                                "display": "Itching",
+                                                "extension": [
+                                                    {
+                                                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                                        "extension": [
+                                                            {
+                                                                "url": "descriptionId",
+                                                                "valueId": "2576576015"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "severity": "moderate"
+                            }
+                        ]
+                    },
+                    {
+                        "resourceType": "AllergyIntolerance",
+                        "id": "aed00d72-bfb7-11ec-8c7f-0655a274dba4",
+                        "identifier": [
+                            {
+                                "system": "https://medicus.health",
+                                "value": "aed00d72-bfb7-11ec-8c7f-0655a274dba4"
+                            }
+                        ],
+                        "meta": {
+                            "profile": [
+                                "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-AllergyIntolerance-1"
+                            ]
+                        },
+                        "extension": [
+                            {
+                                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-AllergyIntoleranceEnd-1",
+                                "extension": [
+                                    {
+                                        "url": "endDate",
+                                        "valueDateTime": "2022-04-19T00:00:00+01:00"
+                                    },
+                                    {
+                                        "url": "reasonEnded",
+                                        "valueString": "Symptoms have subsided, no bloating experienced in the pass few years."
+                                    }
+                                ]
+                            }
+                        ],
+                        "verificationStatus": "unconfirmed",
+                        "assertedDate": "2001-12-20T00:00:00+00:00",
+                        "onsetDateTime": "2000-03-28",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "9660901000001100",
+                                    "display": "Dulcolax",
+                                    "extension": [
+                                        {
+                                            "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                            "extension": [
+                                                {
+                                                    "url": "descriptionId",
+                                                    "valueId": "49081101000001116"
+                                                },
+                                                {
+                                                    "url": "descriptionDisplay",
+                                                    "valueString": "Dulco-Lax (bisacodyl)"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "clinicalStatus": "resolved",
+                        "patient": {
+                            "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                        },
+                        "recorder": {
+                            "reference": "Practitioner/7fffae6a-9bbf-11ec-9064-0ae647c12c72"
+                        },
+                        "category": [
+                            "medication"
+                        ],
+                        "note": [
+                            {
+                                "text": "This allergy is to be archived."
+                            },
+                            {
+                                "text": "Certainty: Likely"
+                            }
+                        ],
+                        "reaction": [
+                            {
+                                "manifestation": [
+                                    {
+                                        "coding": [
+                                            {
+                                                "system": "http://snomed.info/sct",
+                                                "code": "248490000",
+                                                "display": "Bloating symptom",
+                                                "extension": [
+                                                    {
+                                                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                                        "extension": [
+                                                            {
+                                                                "url": "descriptionId",
+                                                                "valueId": "370924017"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "severity": "mild"
+                            }
+                        ]
+                    }
+                ],
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Ended allergies",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Ended allergies",
+                            "system": "http://snomed.info/sct",
+                            "code": "1103671000000101"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "entry": [
+                    {
+                        "item": {
+                            "reference": "#6db7e132-bfe6-11ec-930e-066adc8ff6b2"
+                        }
+                    },
+                    {
+                        "item": {
+                            "reference": "#aed00d72-bfb7-11ec-8c7f-0655a274dba4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "List of consultations",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "List of consultations",
+                            "system": "http://snomed.info/sct",
+                            "code": "1149501000000101"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Immunisations",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Immunisations",
+                            "system": "http://snomed.info/sct",
+                            "code": "1102181000000102"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "018a2ce7-2755-7043-9754-461c0d8cefc2",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Observation-1"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "018a2ce7-2755-7043-9754-461c0d8cefc2"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "773011000000101",
+                            "display": "Implied consent for core Summary Care Record dataset upload",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "1726131000000119"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "effectiveDateTime": "2023-08-25",
+                "issued": "2023-08-25T14:34:21+01:00"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Uncategorised data",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Miscellaneous records",
+                            "system": "http://snomed.info/sct",
+                            "code": "826501000000100"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "entry": [
+                    {
+                        "item": {
+                            "reference": "Observation/018a2ce7-2755-7043-9754-461c0d8cefc2"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Investigations and results",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Investigations and results",
+                            "system": "http://snomed.info/sct",
+                            "code": "887191000000108"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Outbound referral",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Outbound referral",
+                            "system": "http://snomed.info/sct",
+                            "code": "792931000000107"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Patient recall administration",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Patient recall administration",
+                            "system": "http://snomed.info/sct",
+                            "code": "714311000000108"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Medications and medical devices",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Medications and medical devices",
+                            "system": "http://snomed.info/sct",
+                            "code": "933361000000108"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/86d33e5c-a6c1-11ec-b5af-0a58a9feac02"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
