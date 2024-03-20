@@ -473,6 +473,11 @@
             "item": {
               "reference": "Observation/CC916E8D-A6A5-478A-A2F0-515357B601E2"
             }
+          },
+          {
+            "item": {
+              "reference": "Observation/6ED5F30F-E933-4F10-823E-8E7382F71F01"
+            }
           }
         ]
       }
@@ -5820,6 +5825,56 @@
           }
         ],
         "gender": "unknown"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6ED5F30F-E933-4F10-823E-8E7382F71F01",
+        "meta": {
+          "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Observation-1"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://EMISWeb/A82038",
+            "value": "B7B2F33B2AFB40F78C1F15BF58A439976ED5F30FE9334F10823E8E7382F71F01"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "extension": [
+                {
+                  "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                  "extension": [
+                    {
+                      "url": "descriptionId",
+                      "valueId": "2328621000000112"
+                    }
+                  ]
+                }
+              ],
+              "system": "http://snomed.info/sct",
+              "code": "905561000000106",
+              "display": "Special patient note",
+              "userSelected": true
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/4DBBED7B-7A91-47DC-B99B-35CDFA970590"
+        },
+        "effectiveDateTime": "2024-03-08",
+        "issued": "2024-03-08T12:33:46.26+00:00",
+        "performer": [
+          {
+            "reference": "Practitioner/6D340A1B-BC15-4D4E-93CF-BBCB5B74DF73"
+          }
+        ],
+        "comment": "Descriptive text for the special patient note has been added."
       }
     },
     {
