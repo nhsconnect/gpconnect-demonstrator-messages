@@ -1,0 +1,587 @@
+{
+    "resourceType": "Bundle",
+    "meta": {
+        "profile": [
+            "https://fhir.nhs.uk/STU3/StructureDefinition/GPConnect-StructuredRecord-Bundle-1"
+        ]
+    },
+    "id": "94f9e5e4-d678-4f9e-90e0-79c3315691ea",
+    "type": "collection",
+    "entry": [
+        {
+            "resource": {
+                "resourceType": "Patient",
+                "id": "ece7a906-a5ce-11ec-b99c-0a32aa00b464",
+                "meta": {
+                    "versionId": "a3354a33cfdc8410d56c283ec0bb9937",
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1"
+                    ]
+                },
+                "extension": [
+                    {
+                        "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-RegistrationDetails-1",
+                        "extension": [
+                            {
+                                "url": "registrationPeriod",
+                                "valuePeriod": {
+                                    "start": "2022-03-17"
+                                }
+                            },
+                            {
+                                "url": "registrationType",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-RegistrationType-1",
+                                            "code": "R",
+                                            "display": "Regular"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "identifier": [
+                    {
+                        "extension": [
+                            {
+                                "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-NHSNumberVerificationStatus-1",
+                                "valueCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1",
+                                            "code": "01",
+                                            "display": "Number present and verified"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "system": "https://fhir.nhs.uk/Id/nhs-number",
+                        "value": "9465704954"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Parmar",
+                        "prefix": [
+                            "Mrs"
+                        ],
+                        "given": [
+                            "Sachsukh"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+441454121201",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "+447777121201",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1948-03-22",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "1 Kerry Hill",
+                            "Low Moor"
+                        ],
+                        "city": "Leeds",
+                        "district": "West Yorkshire",
+                        "postalCode": "LS18 1AE",
+                        "country": "GBR"
+                    }
+                ],
+                "managingOrganization": {
+                    "reference": "Organization/N82090"
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Organization",
+                "id": "N82090",
+                "meta": {
+                    "versionId": "766c4dc4f98ade7d32e5c5fad3f62c10",
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Organization-1"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+                        "value": "N82090"
+                    }
+                ],
+                "active": true,
+                "name": "Dr MA Baird's Practice",
+                "address": [
+                    {
+                        "use": "work",
+                        "line": [
+                            "1 Main St"
+                        ],
+                        "city": "London",
+                        "postalCode": "W1A 1AA",
+                        "country": "GBR"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+442071231234",
+                        "use": "work"
+                    },
+                    {
+                        "system": "fax",
+                        "value": "+442071231235",
+                        "use": "work"
+                    },
+                    {
+                        "system": "email",
+                        "value": "gp.connect.test.site@medicus.health",
+                        "use": "work"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Problems",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Problems",
+                            "system": "http://snomed.info/sct",
+                            "code": "717711000000103"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Allergies and adverse reactions",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Allergies and adverse reactions",
+                            "system": "http://snomed.info/sct",
+                            "code": "886921000000105"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "id": "ended-allergies",
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Ended allergies",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Ended allergies",
+                            "system": "http://snomed.info/sct",
+                            "code": "1103671000000101"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "List of consultations",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "List of consultations",
+                            "system": "http://snomed.info/sct",
+                            "code": "1149501000000101"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Immunisations",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Immunisations",
+                            "system": "http://snomed.info/sct",
+                            "code": "1102181000000102"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "Observation",
+                "id": "018a2ce7-2183-736c-9554-b66466efc565",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Observation-1"
+                    ]
+                },
+                "identifier": [
+                    {
+                        "system": "https://medicus.health",
+                        "value": "018a2ce7-2183-736c-9554-b66466efc565"
+                    }
+                ],
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "773011000000101",
+                            "display": "Implied consent for core Summary Care Record dataset upload",
+                            "extension": [
+                                {
+                                    "url": "https://fhir.nhs.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+                                    "extension": [
+                                        {
+                                            "url": "descriptionId",
+                                            "valueId": "1726131000000119"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "effectiveDateTime": "2023-08-25",
+                "issued": "2023-08-25T14:34:19+01:00"
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Uncategorised data",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Miscellaneous records",
+                            "system": "http://snomed.info/sct",
+                            "code": "826501000000100"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "entry": [
+                    {
+                        "item": {
+                            "reference": "Observation/018a2ce7-2183-736c-9554-b66466efc565"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Investigations and results",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Investigations and results",
+                            "system": "http://snomed.info/sct",
+                            "code": "887191000000108"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Outbound referral",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Outbound referral",
+                            "system": "http://snomed.info/sct",
+                            "code": "792931000000107"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Patient recall administration",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Patient recall administration",
+                            "system": "http://snomed.info/sct",
+                            "code": "714311000000108"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "resource": {
+                "resourceType": "List",
+                "meta": {
+                    "profile": [
+                        "https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-List-1"
+                    ]
+                },
+                "status": "current",
+                "mode": "snapshot",
+                "title": "Medications and medical devices",
+                "code": {
+                    "coding": [
+                        {
+                            "display": "Medications and medical devices",
+                            "system": "http://snomed.info/sct",
+                            "code": "933361000000108"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/ece7a906-a5ce-11ec-b99c-0a32aa00b464"
+                },
+                "note": [
+                    {
+                        "text": "Information not available."
+                    }
+                ],
+                "emptyReason": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
+                            "code": "no-content-recorded",
+                            "display": "No Content Recorded"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
