@@ -481,7 +481,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "take one daily"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -548,7 +561,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one daily"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -627,7 +653,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one daily"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -737,8 +776,21 @@
         ],
         "dosage": [
           {
-            "text": "take one daily - WARNING - Dosage has changed during the effective period. The latest change was made on 28 Jan 2020.",
-            "patientInstruction": "Script note"
+            "text": "Follow directions. WARNING - Dosage has changed during the effective period. The latest change was made on 28 Jan 2020.",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              },
+              {
+                "text": "WARNING - Dosage has changed during the effective period. The latest change was made on 28 Jan 2020."
+              }
+            ]
           }
         ]
       }
@@ -810,8 +862,20 @@
         ],
         "dosageInstruction": [
           {
-            "text": "take one daily",
-            "patientInstruction": "Script note"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -895,8 +959,20 @@
         ],
         "dosageInstruction": [
           {
-            "text": "take one daily",
-            "patientInstruction": "Script note"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -998,8 +1074,20 @@
         ],
         "dosage": [
           {
-            "text": "One To Be Taken Each Day",
-            "patientInstruction": "Script note"
+            "text": "1 capsule, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ]
       }
@@ -1071,8 +1159,20 @@
         ],
         "dosage": [
           {
-            "text": "One To Be Taken Each Day",
-            "patientInstruction": "Script note"
+            "text": "1 capsule, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ]
       }
@@ -1159,8 +1259,20 @@
         ],
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day",
-            "patientInstruction": "Script note"
+            "text": "1 capsule, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ],
         "dispenseRequest": {
@@ -1170,7 +1282,9 @@
           },
           "quantity": {
             "value": 28,
-            "unit": "capsule"
+            "unit": "capsule",
+            "system": "http://snomed.info/sct",
+            "code": "428641000"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -1243,8 +1357,20 @@
         ],
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day",
-            "patientInstruction": "Script note"
+            "text": "1 capsule, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ],
         "dispenseRequest": {
@@ -1254,7 +1380,9 @@
           },
           "quantity": {
             "value": 28,
-            "unit": "capsule"
+            "unit": "capsule",
+            "system": "http://snomed.info/sct",
+            "code": "428641000"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -1332,8 +1460,20 @@
         ],
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day",
-            "patientInstruction": "Script note"
+            "text": "1 capsule, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ],
         "dispenseRequest": {
@@ -1342,7 +1482,9 @@
           },
           "quantity": {
             "value": 14,
-            "unit": "capsule"
+            "unit": "capsule",
+            "system": "http://snomed.info/sct",
+            "code": "428641000"
           },
           "expectedSupplyDuration": {
             "value": 14,
@@ -1437,7 +1579,23 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "inhale 2 doses as needed"
+            "text": "Inhale 2 doses, as needed",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "740666001",
+                  "display": "Inhale"
+                }
+              ]
+            },
+            "asNeededBoolean": true,
+            "doseQuantity": {
+              "value": 2,
+              "unit": "dose",
+              "system": "http://snomed.info/sct",
+              "code": "408102007"
+            }
           }
         ]
       }
@@ -1504,7 +1662,23 @@
         },
         "dosageInstruction": [
           {
-            "text": "inhale 2 doses as needed"
+            "text": "Inhale 2 doses, as needed",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "740666001",
+                  "display": "Inhale"
+                }
+              ]
+            },
+            "asNeededBoolean": true,
+            "doseQuantity": {
+              "value": 2,
+              "unit": "dose",
+              "system": "http://snomed.info/sct",
+              "code": "408102007"
+            }
           }
         ],
         "dispenseRequest": {
@@ -1583,7 +1757,23 @@
         },
         "dosageInstruction": [
           {
-            "text": "inhale 2 doses as needed"
+            "text": "Inhale 2 doses, as needed",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "740666001",
+                  "display": "Inhale"
+                }
+              ]
+            },
+            "asNeededBoolean": true,
+            "doseQuantity": {
+              "value": 2,
+              "unit": "dose",
+              "system": "http://snomed.info/sct",
+              "code": "408102007"
+            }
           }
         ],
         "dispenseRequest": {
@@ -1663,7 +1853,23 @@
         },
         "dosageInstruction": [
           {
-            "text": "inhale 2 doses as needed"
+            "text": "Inhale 2 doses, as needed",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "740666001",
+                  "display": "Inhale"
+                }
+              ]
+            },
+            "asNeededBoolean": true,
+            "doseQuantity": {
+              "value": 2,
+              "unit": "dose",
+              "system": "http://snomed.info/sct",
+              "code": "408102007"
+            }
           }
         ],
         "dispenseRequest": {
@@ -1764,7 +1970,21 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "take one each morning"
+            "text": "1 tablet, daily, in the morning",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "MORN"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -1831,7 +2051,21 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one each morning"
+            "text": "1 tablet, daily, in the morning",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "MORN"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -1910,7 +2144,21 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one each morning"
+            "text": "1 tablet, daily, in the morning",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "MORN"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -1990,7 +2238,21 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one each morning"
+            "text": "1 tablet, daily, in the morning",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "MORN"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -2092,8 +2354,21 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "take one daily",
-            "patientInstruction": "Take at night"
+            "text": "1 tablet, daily, at night",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "NIGHT"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -2179,8 +2454,21 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one daily",
-            "patientInstruction": "Take at night"
+            "text": "1 tablet, daily, at night",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "NIGHT"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -2260,8 +2548,21 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one daily",
-            "patientInstruction": "Take at night"
+            "text": "1 tablet, daily, at night",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "NIGHT"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -2362,8 +2663,16 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Note for the script"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ]
       }
@@ -2434,8 +2743,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Note for the script"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -2514,8 +2831,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Note for the script"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -2595,8 +2920,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Note for the script"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -2676,8 +3009,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Note for the script"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -2757,8 +3098,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Note for the script"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -2838,8 +3187,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Note for the script"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -2919,8 +3276,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Note for the script"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -3021,7 +3386,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "take two daily"
+            "text": "2 tablets, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -3092,7 +3470,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take two daily"
+            "text": "2 tablets, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -3171,7 +3562,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take two daily"
+            "text": "2 tablets, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -3251,7 +3655,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take two daily"
+            "text": "2 tablets, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -3352,7 +3769,16 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "apply as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ]
       }
@@ -3423,7 +3849,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "apply as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -3502,7 +3937,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "apply as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -3582,7 +4026,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "apply as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -3662,7 +4115,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "apply as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -3742,7 +4204,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "apply as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -3822,7 +4293,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "apply as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -3902,7 +4382,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "apply as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -4008,7 +4497,21 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "use as directed - WARNING - Dosage has changed during the effective period. The latest change was made on 25 Feb 2020."
+            "text": "Follow directions. WARNING - Dosage has changed during the effective period. The latest change was made on 25 Feb 2020.",
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              },
+              {
+                "text": "WARNING - Dosage has changed during the effective period. The latest change was made on 25 Feb 2020."
+              }
+            ]
           }
         ]
       }
@@ -4079,7 +4582,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -4158,7 +4670,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "use as directed"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -4260,7 +4781,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "take two 4 times/day"
+            "text": "2 tablet, 4 times a day",
+            "timing": {
+              "repeat": {
+                "frequency": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -4311,7 +4845,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take two 4 times/day"
+            "text": "2 tablet, 4 times a day",
+            "timing": {
+              "repeat": {
+                "frequency": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -4388,7 +4935,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take two 4 times/day"
+            "text": "2 tablet, 4 times a day",
+            "timing": {
+              "repeat": {
+                "frequency": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -4491,7 +5051,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "Take 1 up to four times per day"
+            "text": "1 tablet, up to 4 times a day",
+            "timing": {
+              "repeat": {
+                "frequencyMax": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -4542,7 +5115,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "Take 1 up to four times per day"
+            "text": "1 tablet, up to 4 times a day",
+            "timing": {
+              "repeat": {
+                "frequencyMax": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -4551,7 +5137,10 @@
             "end": "2020-02-03"
           },
           "quantity": {
-            "value": 28
+            "value": 28,
+            "unit": "tablet",
+            "system": "http://snomed.info/sct",
+            "code": "428673006"
           },
           "expectedSupplyDuration": {
             "value": 6,
@@ -4643,8 +5232,16 @@
         ],
         "dosage": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Some notes for patient"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ]
       }
@@ -4700,8 +5297,16 @@
         ],
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Some notes for patient"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -4783,8 +5388,16 @@
         ],
         "dosageInstruction": [
           {
-            "text": "use as directed",
-            "patientInstruction": "Some notes for patient"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -4886,7 +5499,8 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "As required",
+            "text": "As required. Keep in fridge. Dispose of after 28 days",
+            "asNeededBoolean": true,
             "patientInstruction": "Keep in fridge. Dispose of after 28 days"
           }
         ]
@@ -4938,7 +5552,8 @@
         },
         "dosageInstruction": [
           {
-            "text": "As required",
+            "text": "As required. Keep in fridge. Dispose of after 28 days",
+            "asNeededBoolean": true,
             "patientInstruction": "Keep in fridge. Dispose of after 28 days"
           }
         ],
@@ -5016,7 +5631,8 @@
         },
         "dosageInstruction": [
           {
-            "text": "As required",
+            "text": "As required. Keep in fridge. Dispose of after 28 days",
+            "asNeededBoolean": true,
             "patientInstruction": "Keep in fridge. Dispose of after 28 days"
           }
         ],
@@ -5120,7 +5736,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "one drop twice daily"
+            "text": "1 drop, twice a day",
+            "timing": {
+              "repeat": {
+                "frequencyMax": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "drop",
+              "system": "http://snomed.info/sct",
+              "code": "10693611000001100"
+            }
           }
         ]
       }
@@ -5171,7 +5800,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "one drop twice daily"
+            "text": "1 drop, twice a day",
+            "timing": {
+              "repeat": {
+                "frequencyMax": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "drop",
+              "system": "http://snomed.info/sct",
+              "code": "10693611000001100"
+            }
           }
         ],
         "dispenseRequest": {
@@ -5248,7 +5890,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "one drop twice daily"
+            "text": "1 drop, twice a day",
+            "timing": {
+              "repeat": {
+                "frequencyMax": 4,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "drop",
+              "system": "http://snomed.info/sct",
+              "code": "10693611000001100"
+            }
           }
         ],
         "dispenseRequest": {
@@ -5348,8 +6003,25 @@
         ],
         "dosage": [
           {
-            "text": "One To Be Taken Each Morning",
-            "patientInstruction": "Take 30 mins before a meal or snack"
+            "text": "1 tablet, daily, in morning, 30 minutes before a meal",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN",
+                  "AC"
+                ],
+                "offset": 30
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -5418,8 +6090,25 @@
         ],
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Morning",
-            "patientInstruction": "Take 30 mins before a meal or snack"
+            "text": "1 tablet, daily, in morning, 30 minutes before a meal",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": [
+                  "MORN",
+                  "AC"
+                ],
+                "offset": 30
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -5517,7 +6206,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "2X5ML SPOON DAILY"
+            "text": "Two 5ml spoonful, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "5ml spoonful",
+              "system": "http://snomed.info/sct",
+              "code": "514941000000109"
+            }
           }
         ]
       }
@@ -5565,7 +6267,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "2X5ML SPOON DAILY"
+            "text": "Two 5ml spoonful, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "5ml spoonful",
+              "system": "http://snomed.info/sct",
+              "code": "514941000000109"
+            }
           }
         ],
         "dispenseRequest": {
@@ -5632,7 +6347,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "2X5ML SPOON DAILY"
+            "text": "Two 5ml spoonful, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 2,
+              "unit": "5ml spoonful",
+              "system": "http://snomed.info/sct",
+              "code": "514941000000109"
+            }
           }
         ],
         "dispenseRequest": {
@@ -5730,7 +6458,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "take one daily"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -5790,7 +6531,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one daily"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -5864,7 +6618,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "take one daily"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -5959,7 +6726,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "One To Be Taken Three Times A Day"
+            "text": "1 capsule, 3 times a day",
+            "timing": {
+              "repeat": {
+                "frequency": 3,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ]
       }
@@ -6010,7 +6790,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Three Times A Day"
+            "text": "1 capsule, 3 times a day",
+            "timing": {
+              "repeat": {
+                "frequency": 3,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ],
         "dispenseRequest": {
@@ -6117,7 +6910,20 @@
         ],
         "dosage": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -6188,7 +6994,20 @@
         ],
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -6198,7 +7017,9 @@
           },
           "quantity": {
             "value": 28,
-            "unit": "tablet"
+            "unit": "tablet",
+            "system": "http://snomed.info/sct",
+            "code": "428673006"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -6265,7 +7086,20 @@
         ],
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -6275,7 +7109,9 @@
           },
           "quantity": {
             "value": 28,
-            "unit": "tablet"
+            "unit": "tablet",
+            "system": "http://snomed.info/sct",
+            "code": "428673006"
           },
           "expectedSupplyDuration": {
             "value": 28,
@@ -6365,7 +7201,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 capsule, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ]
       }
@@ -6431,7 +7280,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 capsule, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ],
         "dispenseRequest": {
@@ -6508,7 +7370,20 @@
         ],
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 capsule, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "capsule",
+              "system": "http://snomed.info/sct",
+              "code": "428641000"
+            }
           }
         ],
         "dispenseRequest": {
@@ -6608,7 +7483,21 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "One To Be Taken Each Day After Food"
+            "text": "1 tablet, daily, after food",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "PC"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
@@ -6702,7 +7591,21 @@
         },
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day After Food"
+            "text": "1 tablet, daily, after food",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "PC"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -6777,7 +7680,21 @@
         },
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day After Food"
+            "text": "1 tablet, daily, after food",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d",
+                "when": "PC"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -6876,7 +7793,16 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "1"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ]
       }
@@ -6940,7 +7866,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "1"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -7011,7 +7946,16 @@
         },
         "dosageInstruction": [
           {
-            "text": "1"
+            "text": "Follow directions",
+            "additionalInstruction": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "421769005",
+                  "display": "Follow directions"
+                }
+              ]
+            }
           }
         ],
         "dispenseRequest": {
@@ -7110,7 +8054,23 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "Apply Each Day"
+            "text": "Apply, daily",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "417924000",
+                  "display": "Apply"
+                }
+              ]
+            },
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            }
           }
         ]
       }
@@ -7174,7 +8134,23 @@
         },
         "dosageInstruction": [
           {
-            "text": "Apply Each Day"
+            "text": "Apply, daily",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "417924000",
+                  "display": "Apply"
+                }
+              ]
+            },
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            }
           }
         ],
         "dispenseRequest": {
@@ -7245,7 +8221,23 @@
         },
         "dosageInstruction": [
           {
-            "text": "Apply Each Day"
+            "text": "Apply, daily",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "417924000",
+                  "display": "Apply"
+                }
+              ]
+            },
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            }
           }
         ],
         "dispenseRequest": {
@@ -7317,7 +8309,23 @@
         },
         "dosageInstruction": [
           {
-            "text": "Apply Each Day"
+            "text": "Apply, daily",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "417924000",
+                  "display": "Apply"
+                }
+              ]
+            },
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            }
           }
         ],
         "dispenseRequest": {
@@ -7389,7 +8397,23 @@
         },
         "dosageInstruction": [
           {
-            "text": "Apply Each Day"
+            "text": "Apply, daily",
+            "method": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "417924000",
+                  "display": "Apply"
+                }
+              ]
+            },
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            }
           }
         ],
         "dispenseRequest": {
@@ -8006,7 +9030,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -8080,7 +9117,20 @@
         },
         "dosageInstruction": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ],
         "dispenseRequest": {
@@ -8154,7 +9204,20 @@
         "taken": "unk",
         "dosage": [
           {
-            "text": "One To Be Taken Each Day"
+            "text": "1 tablet, daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "tablet",
+              "system": "http://snomed.info/sct",
+              "code": "428673006"
+            }
           }
         ]
       }
