@@ -2712,7 +2712,22 @@
         },
         "receivedTime": "2003-06-02T14:55:00+01:00",
         "collection": {
-          "collectedDateTime": "2003-06-02T00:00:00+01:00"
+          "collectedDateTime": "2003-06-02T00:00:00+01:00",
+          "extension": [
+            {
+                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/ValueSet/v2-0916",
+                            "code": "F",
+                            "display": "Patient was fasting prior to the procedure."
+                        }
+                    ],
+                    "text": "Patient was fasting prior to the procedure."
+                }
+            }
+          ]
         },
         "note": [
           {
@@ -2747,7 +2762,22 @@
         },
         "receivedTime": "2003-06-02T14:55:00+01:00",
         "collection": {
-          "collectedDateTime": "2003-06-02T00:00:00+01:00"
+          "collectedDateTime": "2003-06-02T00:00:00+01:00",
+          "extension": [
+            {
+                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/ValueSet/v2-0916",
+                            "code": "F",
+                            "display": "Patient was fasting prior to the procedure."
+                        }
+                    ],
+                    "text": "Patient was fasting prior to the procedure."
+                }
+            }
+          ]
         },
         "note": [
           {
@@ -2782,7 +2812,22 @@
         },
         "receivedTime": "2003-06-02T14:55:00+01:00",
         "collection": {
-          "collectedDateTime": "2003-06-02T00:00:00+01:00"
+          "collectedDateTime": "2003-06-02T00:00:00+01:00",
+          "extension": [
+            {
+                "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/ValueSet/v2-0916",
+                            "code": "F",
+                            "display": "Patient was fasting prior to the procedure."
+                        }
+                    ],
+                    "text": "Patient was fasting prior to the procedure."
+                }
+            }
+          ]
         }
       }
     },
