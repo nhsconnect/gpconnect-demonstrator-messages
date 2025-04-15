@@ -2664,15 +2664,17 @@
         "dosage": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -2744,15 +2746,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -2832,15 +2836,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -2921,15 +2927,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -3010,15 +3018,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -3099,15 +3109,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -3188,15 +3200,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -3277,15 +3291,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -3770,15 +3786,17 @@
         "dosage": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -3850,15 +3868,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -3938,15 +3958,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -4027,15 +4049,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -4116,15 +4140,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -4205,15 +4231,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -4294,15 +4322,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -4383,15 +4413,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -4583,15 +4615,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -4671,15 +4705,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -5233,15 +5269,17 @@
         "dosage": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -5298,15 +5336,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -5389,15 +5429,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -7794,15 +7836,17 @@
         "dosage": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -7867,15 +7911,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
@@ -7947,15 +7993,17 @@
         "dosageInstruction": [
           {
             "text": "Follow directions",
-            "additionalInstruction": {
-              "coding": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "421769005",
-                  "display": "Follow directions"
-                }
-              ]
-            }
+            "additionalInstruction": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "421769005",
+                    "display": "Follow directions"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "dispenseRequest": {
